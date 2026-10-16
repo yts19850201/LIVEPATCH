@@ -1,0 +1,298 @@
+{
+  "mutatedStyleIds": [
+    "S:9ef9749cccc58eef7d33b39d8c7f467ae29161cf,",
+    "S:b14718d9f1064de4dcc12b5966849ab508c76020,"
+  ],
+  "pageId": "4:2",
+  "rootId": "4:3",
+  "bounds": {
+    "width": 1920,
+    "height": 2092
+  },
+  "collections": [
+    {
+      "id": "VariableCollectionId:3:253",
+      "name": "LP Primitives",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "3:8"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:3:254",
+      "name": "LP Color",
+      "modes": [
+        {
+          "name": "Light",
+          "modeId": "3:9"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:3:255",
+      "name": "LP Metrics",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "3:10"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:3:256",
+      "name": "LP Typography",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "3:11"
+        }
+      ]
+    }
+  ],
+  "variables": 219,
+  "semantic": 139,
+  "aliasFailures": [],
+  "scopeFailures": [],
+  "syntaxFailures": [],
+  "textStyles": [
+    {
+      "id": "S:5801bc20018a9e055ba465e403c923bdf1f151b1,",
+      "name": "LP Display",
+      "size": 48,
+      "line": {
+        "unit": "PIXELS",
+        "value": 60
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:463"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:450"
+        }
+      }
+    },
+    {
+      "id": "S:0ea6fda29ba9566708c17df3e116037cbf3edfd6,",
+      "name": "LP H1",
+      "size": 32,
+      "line": {
+        "unit": "PIXELS",
+        "value": 42
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:464"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:451"
+        }
+      }
+    },
+    {
+      "id": "S:e5c175eb0d1c6fb6b232042e7822628ae8af5043,",
+      "name": "LP H2",
+      "size": 24,
+      "line": {
+        "unit": "PIXELS",
+        "value": 34
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:465"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:452"
+        }
+      }
+    },
+    {
+      "id": "S:46c6146862d66b87170ab44134626750540c7839,",
+      "name": "LP H3",
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:466"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:453"
+        }
+      }
+    },
+    {
+      "id": "S:a7f8b3e6e04406fddb9d0ecb52af2a9d90349a8b,",
+      "name": "LP H4",
+      "size": 18,
+      "line": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:467"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:454"
+        }
+      }
+    },
+    {
+      "id": "S:64a72b459b3c9a3b9f6be744419b5568529902ec,",
+      "name": "LP Body Large",
+      "size": 18,
+      "line": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:468"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:455"
+        }
+      }
+    },
+    {
+      "id": "S:3edc26439632b4245931c9d81332dc6e9ee7e29f,",
+      "name": "LP Body",
+      "size": 16,
+      "line": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:469"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:456"
+        }
+      }
+    },
+    {
+      "id": "S:048828b98b0ab8fcaa743fafebf6c955a3c37ee3,",
+      "name": "LP Body Small",
+      "size": 14,
+      "line": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:470"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:457"
+        }
+      }
+    },
+    {
+      "id": "S:a0f9d955632361b431513751d6809f553f038d8f,",
+      "name": "LP Caption",
+      "size": 13,
+      "line": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:471"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:458"
+        }
+      }
+    },
+    {
+      "id": "S:bbd1f0a00400f910d14c658dd06c9c12d5cb35c0,",
+      "name": "LP Label",
+      "size": 14,
+      "line": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "bindings": {
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:473"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:474"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3:472"
+        }
+      }
+    }
+  ],
+  "frames": 55,
+  "autoLayoutFrames": 55,
+  "textNodes": 78,
+  "missingStyles": [],
+  "slashNames": [],
+  "spills": [],
+  "components": 0
+}

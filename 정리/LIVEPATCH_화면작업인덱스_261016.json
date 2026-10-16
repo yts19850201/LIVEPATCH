@@ -1,0 +1,3068 @@
+{
+  "version": "5.7",
+  "date": "2026-10-16",
+  "screens": [
+    {
+      "id": "M01",
+      "title": "홈 랜딩",
+      "route": "/",
+      "effective_route": "/",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "hero_demo",
+        "hero_signup",
+        "hero_login",
+        "cookie_preferences"
+      ],
+      "primary_action": "hero_demo",
+      "actual_mockup": "mockups/mockups/M01.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M02",
+      "title": "라이브 샘플 체험",
+      "route": "/demo",
+      "effective_route": "/demo",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 5,
+      "actions": [
+        "run_preview",
+        "reset_demo"
+      ],
+      "primary_action": "run_preview",
+      "actual_mockup": "mockups/mockups/M02.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M03",
+      "title": "데모 결과·가입 유도",
+      "route": "/demo/result/:demoId",
+      "effective_route": "/demo",
+      "scope": "화면 내 통합 → M02",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "fields": 6,
+      "tbd_count": 2,
+      "actions": [
+        "signup_cta",
+        "retry_demo"
+      ],
+      "primary_action": "signup_cta",
+      "actual_mockup": "mockups/mockups/M03.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M04",
+      "title": "기능 전체 안내",
+      "route": "/features",
+      "effective_route": "/",
+      "scope": "화면 내 통합 → M01",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "start_demo"
+      ],
+      "primary_action": "start_demo",
+      "actual_mockup": "mockups/mockups/M04.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M05",
+      "title": "기능 상세",
+      "route": "/features/:slug",
+      "effective_route": "/features/:slug",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 3,
+      "actions": [
+        "start_feature"
+      ],
+      "primary_action": "start_feature",
+      "actual_mockup": "mockups/mockups/M05.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M06",
+      "title": "호환성·지원 범위",
+      "route": "/compatibility",
+      "effective_route": "/compatibility",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "diagnose_cta"
+      ],
+      "primary_action": "diagnose_cta",
+      "actual_mockup": "mockups/mockups/M06.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M07",
+      "title": "업종별 활용 목록",
+      "route": "/use-cases",
+      "effective_route": "/use-cases",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 2,
+      "actions": [
+        "industry_cta"
+      ],
+      "primary_action": null,
+      "actual_mockup": "mockups/mockups/M07.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M08",
+      "title": "업종별 활용 상세",
+      "route": "/use-cases/:industry",
+      "effective_route": "/use-cases/:industry",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "consult_cta"
+      ],
+      "primary_action": "consult_cta",
+      "actual_mockup": "mockups/mockups/M08.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M09",
+      "title": "사례·데모 갤러리",
+      "route": "/cases",
+      "effective_route": "/cases",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 3,
+      "actions": [],
+      "primary_action": null,
+      "actual_mockup": "mockups/mockups/M09.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M10",
+      "title": "사례 상세",
+      "route": "/cases/:slug",
+      "effective_route": "/cases/:slug",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 4,
+      "actions": [
+        "case_cta"
+      ],
+      "primary_action": "case_cta",
+      "actual_mockup": "mockups/mockups/M10.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M11",
+      "title": "요금제 비교",
+      "route": "/pricing",
+      "effective_route": "/pricing",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "select_plan"
+      ],
+      "primary_action": "select_plan",
+      "actual_mockup": "mockups/mockups/M11.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M12",
+      "title": "상품·플랜 상세",
+      "route": "/pricing/:planId",
+      "effective_route": "/pricing",
+      "scope": "화면 내 통합 → M11",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "checkout"
+      ],
+      "primary_action": "checkout",
+      "actual_mockup": "mockups/mockups/M12.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M13",
+      "title": "보안·데이터 보호 안내",
+      "route": "/security",
+      "effective_route": "/security",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "data_rights",
+        "security_contact"
+      ],
+      "primary_action": "security_contact",
+      "actual_mockup": "mockups/mockups/M13.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M14",
+      "title": "자주 묻는 질문",
+      "route": "/faq",
+      "effective_route": "/faq",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 3,
+      "actions": [
+        "contact_cta"
+      ],
+      "primary_action": "contact_cta",
+      "actual_mockup": "mockups/mockups/M14.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M15",
+      "title": "파트너 프로그램 소개",
+      "route": "/partners",
+      "effective_route": "/partners",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "partner_apply",
+        "agreement_preview"
+      ],
+      "primary_action": "partner_apply",
+      "actual_mockup": "mockups/mockups/M15.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M16",
+      "title": "파트너 신청",
+      "route": "/partners/apply",
+      "effective_route": "/partners/apply",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 10,
+      "tbd_count": 3,
+      "actions": [
+        "submit"
+      ],
+      "primary_action": "submit",
+      "actual_mockup": "mockups/mockups/M16.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M17",
+      "title": "문의 접수",
+      "route": "/contact",
+      "effective_route": "/",
+      "scope": "화면 내 통합 → M01",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "send"
+      ],
+      "primary_action": "send",
+      "actual_mockup": "mockups/mockups/M17.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M18",
+      "title": "공지사항 목록",
+      "route": "/notices",
+      "effective_route": "/notices",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 2,
+      "actions": [
+        "notice_pager"
+      ],
+      "primary_action": null,
+      "actual_mockup": "mockups/mockups/M18.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M19",
+      "title": "공지사항 상세",
+      "route": "/notices/:noticeId",
+      "effective_route": "/notices/:noticeId",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 4,
+      "actions": [],
+      "primary_action": null,
+      "actual_mockup": "mockups/mockups/M19.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M20",
+      "title": "이용약관",
+      "route": "/legal/terms",
+      "effective_route": "/legal/terms",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "print"
+      ],
+      "primary_action": "print",
+      "actual_mockup": "mockups/mockups/M20.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M21",
+      "title": "개인정보 처리방침",
+      "route": "/legal/privacy",
+      "effective_route": "/legal/privacy",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "request_rights"
+      ],
+      "primary_action": null,
+      "actual_mockup": "mockups/mockups/M21.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M22",
+      "title": "환불·해지 정책",
+      "route": "/legal/refund",
+      "effective_route": "/legal/refund",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "contact_cta"
+      ],
+      "primary_action": "contact_cta",
+      "actual_mockup": "mockups/mockups/M22.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M23",
+      "title": "쿠키·추적 설정",
+      "route": "/privacy/preferences",
+      "effective_route": "/privacy/preferences",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "save_preferences"
+      ],
+      "primary_action": "save_preferences",
+      "actual_mockup": "mockups/mockups/M23.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M24",
+      "title": "로그인",
+      "route": "/login",
+      "effective_route": "/login",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 0,
+      "actions": [
+        "login",
+        "social_kakao",
+        "social_google",
+        "forgot_link",
+        "signup_link"
+      ],
+      "primary_action": "login",
+      "actual_mockup": "mockups/mockups/M24.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M25",
+      "title": "회원가입",
+      "route": "/signup",
+      "effective_route": "/signup",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 12,
+      "tbd_count": 4,
+      "actions": [
+        "signup",
+        "social_signup",
+        "login_link"
+      ],
+      "primary_action": "signup",
+      "actual_mockup": "mockups/mockups/M25.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M26",
+      "title": "이메일 인증 상태",
+      "route": "/verify-email",
+      "effective_route": "/verify-email",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "resend_email",
+        "change_email",
+        "go_login"
+      ],
+      "primary_action": "resend_email",
+      "actual_mockup": "mockups/mockups/M26.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M27",
+      "title": "비밀번호 재설정 신청",
+      "route": "/forgot-password",
+      "effective_route": "/forgot-password",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 3,
+      "tbd_count": 0,
+      "actions": [
+        "send_reset",
+        "back_login"
+      ],
+      "primary_action": "send_reset",
+      "actual_mockup": "mockups/mockups/M27.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M28",
+      "title": "새 비밀번호 설정",
+      "route": "/reset-password",
+      "effective_route": "/reset-password",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "reset_submit",
+        "request_again"
+      ],
+      "primary_action": "reset_submit",
+      "actual_mockup": "mockups/mockups/M28.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M29",
+      "title": "인증 연동 결과",
+      "route": "/auth/result",
+      "effective_route": "/auth/result",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "retry_auth",
+        "return_to"
+      ],
+      "primary_action": "retry_auth",
+      "actual_mockup": "mockups/mockups/M29.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M30",
+      "title": "결제 주문 확인",
+      "route": "/checkout",
+      "effective_route": "/checkout",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 13,
+      "tbd_count": 7,
+      "actions": [
+        "pay"
+      ],
+      "primary_action": "pay",
+      "actual_mockup": "mockups/mockups/M30.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M31",
+      "title": "결제 결과·확인 중",
+      "route": "/checkout/result",
+      "effective_route": "/checkout/result",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 0,
+      "actions": [
+        "retry_check",
+        "go_console"
+      ],
+      "primary_action": "retry_check",
+      "actual_mockup": "mockups/mockups/M31.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M32",
+      "title": "접근할 수 없는 링크(404)",
+      "route": "/404",
+      "effective_route": "/404",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 1,
+      "actions": [
+        "home_link",
+        "search_help",
+        "support"
+      ],
+      "primary_action": "home_link",
+      "actual_mockup": "mockups/mockups/M32.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M33",
+      "title": "일시적 서버 오류(500)",
+      "route": "/error",
+      "effective_route": "/error",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 0,
+      "actions": [
+        "retry",
+        "home_link",
+        "status_link"
+      ],
+      "primary_action": "retry",
+      "actual_mockup": "mockups/mockups/M33.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M34",
+      "title": "점검·이용 제한 공지",
+      "route": "/maintenance",
+      "effective_route": "/maintenance",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "retry"
+      ],
+      "primary_action": "retry",
+      "actual_mockup": "mockups/mockups/M34.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M35",
+      "title": "팀 초대 수락",
+      "route": "/invite/:token",
+      "effective_route": "/invite/:token",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "accept",
+        "decline",
+        "switch_account"
+      ],
+      "primary_action": "accept",
+      "actual_mockup": "mockups/mockups/M35.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M36",
+      "title": "가이드·리소스 허브",
+      "route": "/guides",
+      "effective_route": "/guides",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "cta_demo"
+      ],
+      "primary_action": "cta_demo",
+      "actual_mockup": "mockups/mockups/M36.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "M37",
+      "title": "가이드 상세",
+      "route": "/guides/:slug",
+      "effective_route": "/guides/:slug",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 3,
+      "actions": [
+        "cta_signup"
+      ],
+      "primary_action": "cta_signup",
+      "actual_mockup": "mockups/mockups/M37.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C01",
+      "title": "콘솔 홈·대시보드",
+      "route": "/app",
+      "effective_route": "/app",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 3,
+      "actions": [
+        "new_site",
+        "launch_studio"
+      ],
+      "primary_action": "launch_studio",
+      "actual_mockup": "mockups/mockups/C01.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C02",
+      "title": "처음 시작 온보딩",
+      "route": "/app/onboarding",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 9,
+      "tbd_count": 4,
+      "actions": [
+        "continue",
+        "skip_site",
+        "delegate_setup"
+      ],
+      "primary_action": "continue",
+      "actual_mockup": "mockups/mockups/C02.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C03",
+      "title": "내 사이트 목록",
+      "route": "/app/sites",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 6,
+      "tbd_count": 2,
+      "actions": [
+        "add_site"
+      ],
+      "primary_action": "add_site",
+      "actual_mockup": "mockups/mockups/C03.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C04",
+      "title": "사이트 등록",
+      "route": "/app/sites/new",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "create_site"
+      ],
+      "primary_action": "create_site",
+      "actual_mockup": "mockups/mockups/C04.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C05",
+      "title": "사이트 소유권 증명",
+      "route": "/app/sites/:siteId/verify",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 7,
+      "tbd_count": 5,
+      "actions": [
+        "verify_now"
+      ],
+      "primary_action": "verify_now",
+      "actual_mockup": "mockups/mockups/C05.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C06",
+      "title": "연결 방식 선택",
+      "route": "/app/sites/:siteId/connect",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 8,
+      "tbd_count": 2,
+      "actions": [
+        "continue",
+        "delegate_setup_invite"
+      ],
+      "primary_action": "continue",
+      "actual_mockup": "mockups/mockups/C06.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C07",
+      "title": "연결 인증·설정",
+      "route": "/app/sites/:siteId/connect/setup",
+      "effective_route": "/app/sites/:siteId/connect/setup",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 13,
+      "tbd_count": 7,
+      "actions": [
+        "test_connection",
+        "save_connection"
+      ],
+      "primary_action": "test_connection",
+      "actual_mockup": "mockups/mockups/C07.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C08",
+      "title": "연결 진단 결과",
+      "route": "/app/sites/:siteId/diagnostics",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 10,
+      "tbd_count": 4,
+      "actions": [
+        "rerun",
+        "continue_test"
+      ],
+      "primary_action": "continue_test",
+      "actual_mockup": "mockups/mockups/C08.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C09",
+      "title": "테스트 수정·복구 확인",
+      "route": "/app/sites/:siteId/test-patch",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "test_execute",
+        "complete_setup"
+      ],
+      "primary_action": "complete_setup",
+      "actual_mockup": "mockups/mockups/C09.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C10",
+      "title": "사이트 개요",
+      "route": "/app/sites/:siteId",
+      "effective_route": "/app",
+      "scope": "화면 내 통합 → C01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "fields": 9,
+      "tbd_count": 3,
+      "actions": [
+        "edit_site",
+        "settings"
+      ],
+      "primary_action": "edit_site",
+      "actual_mockup": "mockups/mockups/C10.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C11",
+      "title": "사이트 페이지 탐색기",
+      "route": "/app/sites/:siteId/pages",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "open_selected",
+        "rescan"
+      ],
+      "primary_action": "open_selected",
+      "actual_mockup": "mockups/mockups/C11.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C12",
+      "title": "사이트 설정·연결 관리",
+      "route": "/app/sites/:siteId/settings",
+      "effective_route": "/app/sites/:siteId/connect/setup",
+      "scope": "화면 내 통합 → C07",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "fields": 9,
+      "tbd_count": 5,
+      "actions": [
+        "retest",
+        "disconnect"
+      ],
+      "primary_action": "retest",
+      "actual_mockup": "mockups/mockups/C12.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C13",
+      "title": "Visual Patch Studio 편집",
+      "route": "/app/sites/:siteId/studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 20,
+      "tbd_count": 5,
+      "actions": [
+        "voice_start",
+        "create_preview",
+        "compare",
+        "validate",
+        "request_approval",
+        "deploy",
+        "rollback"
+      ],
+      "primary_action": "voice_start",
+      "actual_mockup": "mockups/mockups/C13.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C14",
+      "title": "작업 목록",
+      "route": "/app/jobs",
+      "effective_route": "/app/jobs/:jobId",
+      "scope": "화면 내 통합 → C15",
+      "release_current": "EMBEDDED",
+      "host_screen": "C15",
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "job_detail",
+        "new_job"
+      ],
+      "primary_action": "new_job",
+      "actual_mockup": "mockups/mockups/C14.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C15",
+      "title": "작업 상세·증빙",
+      "route": "/app/jobs/:jobId",
+      "effective_route": "/app/jobs/:jobId",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 11,
+      "tbd_count": 3,
+      "actions": [
+        "request_approval",
+        "support_ticket"
+      ],
+      "primary_action": "request_approval",
+      "actual_mockup": "mockups/mockups/C15.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C16",
+      "title": "승인 대기함",
+      "route": "/app/approvals",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "review_action",
+        "bulk_approve"
+      ],
+      "primary_action": "review_action",
+      "actual_mockup": "mockups/mockups/C16.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C17",
+      "title": "승인 상세·결재",
+      "route": "/app/approvals/:jobId",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 10,
+      "tbd_count": 4,
+      "actions": [
+        "approve",
+        "reject"
+      ],
+      "primary_action": "approve",
+      "actual_mockup": "mockups/mockups/C17.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C18",
+      "title": "배포 이력 목록",
+      "route": "/app/deployments",
+      "effective_route": "/app/deployments/:deploymentId",
+      "scope": "화면 내 통합 → C19",
+      "release_current": "EMBEDDED",
+      "host_screen": "C19",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "deployment_detail"
+      ],
+      "primary_action": "deployment_detail",
+      "actual_mockup": "mockups/mockups/C18.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C19",
+      "title": "배포 상세·복원",
+      "route": "/app/deployments/:deploymentId",
+      "effective_route": "/app/deployments/:deploymentId",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 11,
+      "tbd_count": 5,
+      "actions": [
+        "request_rollback",
+        "support"
+      ],
+      "primary_action": "request_rollback",
+      "actual_mockup": "mockups/mockups/C19.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C20",
+      "title": "크레딧 잔액 개요",
+      "route": "/app/credits",
+      "effective_route": "/app/credits",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 0,
+      "actions": [
+        "purchase_credits",
+        "history"
+      ],
+      "primary_action": "purchase_credits",
+      "actual_mockup": "mockups/mockups/C20.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C21",
+      "title": "크레딧 거래 원장",
+      "route": "/app/credits/history",
+      "effective_route": "/app/credits",
+      "scope": "화면 내 통합 → C20",
+      "release_current": "EMBEDDED",
+      "host_screen": "C20",
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "export_history"
+      ],
+      "primary_action": "export_history",
+      "actual_mockup": "mockups/mockups/C21.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C22",
+      "title": "크레딧 추가 구매",
+      "route": "/app/credits/purchase",
+      "effective_route": "/app/credits/purchase",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "checkout"
+      ],
+      "primary_action": "checkout",
+      "actual_mockup": "mockups/mockups/C22.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C23",
+      "title": "구독·계약 현황",
+      "route": "/app/billing",
+      "effective_route": "/app/billing",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 4,
+      "actions": [
+        "change_plan",
+        "cancel_plan"
+      ],
+      "primary_action": "change_plan",
+      "actual_mockup": "mockups/mockups/C23.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C24",
+      "title": "플랜 변경",
+      "route": "/app/billing/change-plan",
+      "effective_route": "/app/billing/change-plan",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 4,
+      "actions": [
+        "confirm_change"
+      ],
+      "primary_action": "confirm_change",
+      "actual_mockup": "mockups/mockups/C24.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C25",
+      "title": "결제수단 관리",
+      "route": "/app/billing/payment-methods",
+      "effective_route": "/app/billing/payment-methods",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "add_card",
+        "remove_card"
+      ],
+      "primary_action": "add_card",
+      "actual_mockup": "mockups/mockups/C25.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C26",
+      "title": "청구·영수증·증빙",
+      "route": "/app/billing/invoices",
+      "effective_route": "/app/billing/invoices",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 0,
+      "actions": [
+        "download",
+        "support_invoice"
+      ],
+      "primary_action": "download",
+      "actual_mockup": "mockups/mockups/C26.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C27",
+      "title": "구독 해지·정지",
+      "route": "/app/billing/cancel",
+      "effective_route": "/app/billing/cancel",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 10,
+      "tbd_count": 5,
+      "actions": [
+        "downgrade_option",
+        "cancel_submit",
+        "keep_subscription"
+      ],
+      "primary_action": "cancel_submit",
+      "actual_mockup": "mockups/mockups/C27.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C28",
+      "title": "팀원·초대 목록",
+      "route": "/app/team",
+      "effective_route": "/app/team",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "invite_member",
+        "remove_member"
+      ],
+      "primary_action": "invite_member",
+      "actual_mockup": "mockups/mockups/C28.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C29",
+      "title": "팀원 초대·권한 설정",
+      "route": "/app/team/invite",
+      "effective_route": "/app/team/invite",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "send_invite"
+      ],
+      "primary_action": "send_invite",
+      "actual_mockup": "mockups/mockups/C29.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C30",
+      "title": "알림 센터",
+      "route": "/app/notifications",
+      "effective_route": "/app/notifications",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 0,
+      "actions": [
+        "mark_read",
+        "target_link",
+        "preferences"
+      ],
+      "primary_action": "mark_read",
+      "actual_mockup": "mockups/mockups/C30.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C31",
+      "title": "1:1 문의 목록",
+      "route": "/app/support",
+      "effective_route": "/app/support/:ticketId",
+      "scope": "화면 내 통합 → C33",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "fields": 4,
+      "tbd_count": 1,
+      "actions": [
+        "new_ticket"
+      ],
+      "primary_action": "new_ticket",
+      "actual_mockup": "mockups/mockups/C31.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C32",
+      "title": "새 문의 작성",
+      "route": "/app/support/new",
+      "effective_route": "/app/support/:ticketId",
+      "scope": "화면 내 통합 → C33",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "fields": 9,
+      "tbd_count": 4,
+      "actions": [
+        "send_ticket"
+      ],
+      "primary_action": "send_ticket",
+      "actual_mockup": "mockups/mockups/C32.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C33",
+      "title": "문의 상세·대화",
+      "route": "/app/support/:ticketId",
+      "effective_route": "/app/support/:ticketId",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 1,
+      "actions": [
+        "send_reply",
+        "reopen_ticket",
+        "related_job"
+      ],
+      "primary_action": "send_reply",
+      "actual_mockup": "mockups/mockups/C33.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C34",
+      "title": "전문가 작업 요청",
+      "route": "/app/expert-tickets/new",
+      "effective_route": "/app/expert-tickets/new",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 10,
+      "tbd_count": 5,
+      "actions": [
+        "submit"
+      ],
+      "primary_action": "submit",
+      "actual_mockup": "mockups/mockups/C34.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C35",
+      "title": "전문가 진행 상세",
+      "route": "/app/expert-tickets/:ticketId",
+      "effective_route": "/app/expert-tickets/:ticketId",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "accept_result",
+        "reopen"
+      ],
+      "primary_action": "accept_result",
+      "actual_mockup": "mockups/mockups/C35.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C36",
+      "title": "개인 프로필·보안",
+      "route": "/app/settings/profile",
+      "effective_route": "/app/settings/profile",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "change_password",
+        "save_profile"
+      ],
+      "primary_action": "change_password",
+      "actual_mockup": "mockups/mockups/C36.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C37",
+      "title": "조직 정보·사업자 설정",
+      "route": "/app/settings/organization",
+      "effective_route": "/app/billing",
+      "scope": "화면 내 통합 → C23",
+      "release_current": "EMBEDDED",
+      "host_screen": "C23",
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "save_organization"
+      ],
+      "primary_action": "save_organization",
+      "actual_mockup": "mockups/mockups/C37.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C38",
+      "title": "알림 수신 설정",
+      "route": "/app/settings/notifications",
+      "effective_route": "/app/settings/notifications",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 1,
+      "actions": [
+        "save_prefs"
+      ],
+      "primary_action": "save_prefs",
+      "actual_mockup": "mockups/mockups/C38.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C39",
+      "title": "연동·키 관리",
+      "route": "/app/settings/integrations",
+      "effective_route": "/app/settings/integrations",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 2,
+      "actions": [
+        "new_connector",
+        "test_integration",
+        "revoke_integration"
+      ],
+      "primary_action": "new_connector",
+      "actual_mockup": "mockups/mockups/C39.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C40",
+      "title": "데이터 보존·삭제 요청",
+      "route": "/app/settings/data",
+      "effective_route": "/app/settings/data",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 1,
+      "actions": [
+        "export_request",
+        "submit_delete"
+      ],
+      "primary_action": "submit_delete",
+      "actual_mockup": "mockups/mockups/C40.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C41",
+      "title": "모바일 웹 마이크·QR 페어링",
+      "route": "/app/mic/:sessionId",
+      "effective_route": "/app/mic/:sessionId",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 3,
+      "actions": [
+        "push_to_talk",
+        "send_command",
+        "end_pairing"
+      ],
+      "primary_action": "push_to_talk",
+      "actual_mockup": "mockups/mockups/C41.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C42",
+      "title": "고객용 서비스 상태·작업 제한",
+      "route": "/app/service-status",
+      "effective_route": "/app/service-status",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "refresh_status",
+        "support_link"
+      ],
+      "primary_action": "refresh_status",
+      "actual_mockup": "mockups/mockups/C42.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C43",
+      "title": "파트너 고객사 관리",
+      "route": "/app/partner/clients",
+      "effective_route": "/app/partner/clients",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "open_client",
+        "invite_client"
+      ],
+      "primary_action": "open_client",
+      "actual_mockup": "mockups/mockups/C43.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "C44",
+      "title": "파트너 수수료·정산 내역",
+      "route": "/app/partner/payouts",
+      "effective_route": "/app/partner/payouts",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "dispute"
+      ],
+      "primary_action": "dispute",
+      "actual_mockup": "mockups/mockups/C44.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A01",
+      "title": "관리자 로그인",
+      "route": "/admin/login",
+      "effective_route": "/admin/login",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 1,
+      "actions": [
+        "login"
+      ],
+      "primary_action": "login",
+      "actual_mockup": "mockups/mockups/A01.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A02",
+      "title": "MFA 재인증",
+      "route": "/admin/mfa",
+      "effective_route": "/admin/mfa",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "security_key",
+        "verify",
+        "logout"
+      ],
+      "primary_action": "security_key",
+      "actual_mockup": "mockups/mockups/A02.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A03",
+      "title": "운영 통합 대시보드",
+      "route": "/admin",
+      "effective_route": "/admin",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 2,
+      "actions": [],
+      "primary_action": null,
+      "actual_mockup": "mockups/mockups/A03.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A04",
+      "title": "운영 알림·할 일",
+      "route": "/admin/notifications",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 6,
+      "tbd_count": 2,
+      "actions": [
+        "ack_alert",
+        "open_target"
+      ],
+      "primary_action": "ack_alert",
+      "actual_mockup": "mockups/mockups/A04.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A05",
+      "title": "회원 조회 목록",
+      "route": "/admin/accounts",
+      "effective_route": "/admin/accounts/:userId",
+      "scope": "화면 내 통합 → A06",
+      "release_current": "EMBEDDED",
+      "host_screen": "A06",
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "open_account"
+      ],
+      "primary_action": "open_account",
+      "actual_mockup": "mockups/mockups/A05.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A06",
+      "title": "회원 상세·계정 조치",
+      "route": "/admin/accounts/:userId",
+      "effective_route": "/admin/accounts/:userId",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 3,
+      "actions": [
+        "confirm_action"
+      ],
+      "primary_action": "confirm_action",
+      "actual_mockup": "mockups/mockups/A06.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A07",
+      "title": "조직 목록",
+      "route": "/admin/organizations",
+      "effective_route": "/admin/organizations",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "open_org"
+      ],
+      "primary_action": "open_org",
+      "actual_mockup": "mockups/mockups/A07.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A08",
+      "title": "조직 상세",
+      "route": "/admin/organizations/:orgId",
+      "effective_route": "/admin/organizations/:orgId",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "open_billing"
+      ],
+      "primary_action": null,
+      "actual_mockup": "mockups/mockups/A08.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A09",
+      "title": "사이트·커넥터 목록",
+      "route": "/admin/sites",
+      "effective_route": "/admin/sites/:siteId",
+      "scope": "화면 내 통합 → A10",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "fields": 6,
+      "tbd_count": 2,
+      "actions": [
+        "open_site"
+      ],
+      "primary_action": "open_site",
+      "actual_mockup": "mockups/mockups/A09.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A10",
+      "title": "사이트 상세·연결 진단",
+      "route": "/admin/sites/:siteId",
+      "effective_route": "/admin/sites/:siteId",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "disable_connector"
+      ],
+      "primary_action": "disable_connector",
+      "actual_mockup": "mockups/mockups/A10.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A11",
+      "title": "사이트 진단 이력 상세",
+      "route": "/admin/sites/:siteId/diagnostics",
+      "effective_route": "/admin/sites/:siteId",
+      "scope": "화면 내 통합 → A10",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "fields": 8,
+      "tbd_count": 5,
+      "actions": [
+        "rerun_probe"
+      ],
+      "primary_action": "rerun_probe",
+      "actual_mockup": "mockups/mockups/A11.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A12",
+      "title": "패치 작업 목록",
+      "route": "/admin/jobs",
+      "effective_route": "/admin/jobs/:jobId",
+      "scope": "화면 내 통합 → A13",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "inspect_job"
+      ],
+      "primary_action": "inspect_job",
+      "actual_mockup": "mockups/mockups/A12.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A13",
+      "title": "패치 작업 상세·원인 조사",
+      "route": "/admin/jobs/:jobId",
+      "effective_route": "/admin/jobs/:jobId",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 10,
+      "tbd_count": 3,
+      "actions": [
+        "credit_transaction",
+        "open_incident"
+      ],
+      "primary_action": "open_incident",
+      "actual_mockup": "mockups/mockups/A13.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A14",
+      "title": "배포 이력 목록",
+      "route": "/admin/deployments",
+      "effective_route": "/admin/jobs/:jobId",
+      "scope": "화면 내 통합 → A13",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "open_deploy"
+      ],
+      "primary_action": "open_deploy",
+      "actual_mockup": "mockups/mockups/A14.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A15",
+      "title": "배포 상세·복원 통제",
+      "route": "/admin/deployments/:deploymentId",
+      "effective_route": "/admin/jobs/:jobId",
+      "scope": "화면 내 통합 → A13",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "fields": 10,
+      "tbd_count": 7,
+      "actions": [
+        "rollback_request"
+      ],
+      "primary_action": "rollback_request",
+      "actual_mockup": "mockups/mockups/A15.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A16",
+      "title": "배포 일시중지·해제 승인",
+      "route": "/admin/deployment-controls",
+      "effective_route": "/admin/sites/:siteId",
+      "scope": "화면 내 통합 → A10",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "submit_request"
+      ],
+      "primary_action": "submit_request",
+      "actual_mockup": "mockups/mockups/A16.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A17",
+      "title": "구독 계약 목록",
+      "route": "/admin/billing/subscriptions",
+      "effective_route": "/admin/billing/transactions",
+      "scope": "화면 내 통합 → A18",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "open_contract"
+      ],
+      "primary_action": "open_contract",
+      "actual_mockup": "mockups/mockups/A17.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A18",
+      "title": "거래·정산 대사",
+      "route": "/admin/billing/transactions",
+      "effective_route": "/admin/billing/transactions",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 1,
+      "actions": [
+        "inspect_discrepancy"
+      ],
+      "primary_action": "inspect_discrepancy",
+      "actual_mockup": "mockups/mockups/A18.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A19",
+      "title": "환불 요청·승인",
+      "route": "/admin/billing/refunds",
+      "effective_route": "/admin/billing/refunds",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "open_review"
+      ],
+      "primary_action": "open_review",
+      "actual_mockup": "mockups/mockups/A19.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A20",
+      "title": "청구서·세금 증빙 조회",
+      "route": "/admin/billing/invoices",
+      "effective_route": "/admin/billing/transactions",
+      "scope": "화면 내 통합 → A18",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "download_document"
+      ],
+      "primary_action": "download_document",
+      "actual_mockup": "mockups/mockups/A20.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A21",
+      "title": "크레딧 원장 조회",
+      "route": "/admin/credits",
+      "effective_route": "/admin/credits",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 3,
+      "actions": [
+        "open_adjustment"
+      ],
+      "primary_action": "open_adjustment",
+      "actual_mockup": "mockups/mockups/A21.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A22",
+      "title": "크레딧 수동 조정 승인",
+      "route": "/admin/credits/adjustments",
+      "effective_route": "/admin/credits",
+      "scope": "화면 내 통합 → A21",
+      "release_current": "EMBEDDED",
+      "host_screen": "A21",
+      "fields": 9,
+      "tbd_count": 5,
+      "actions": [
+        "request_adjustment"
+      ],
+      "primary_action": "request_adjustment",
+      "actual_mockup": "mockups/mockups/A22.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A23",
+      "title": "고객 문의 큐",
+      "route": "/admin/tickets",
+      "effective_route": "/admin/tickets/:ticketId",
+      "scope": "화면 내 통합 → A24",
+      "release_current": "EMBEDDED",
+      "host_screen": "A24",
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "open_ticket"
+      ],
+      "primary_action": "open_ticket",
+      "actual_mockup": "mockups/mockups/A23.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A24",
+      "title": "문의 상세·답변 작업대",
+      "route": "/admin/tickets/:ticketId",
+      "effective_route": "/admin/tickets/:ticketId",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 12,
+      "tbd_count": 4,
+      "actions": [
+        "linked_job",
+        "send_reply",
+        "save_internal",
+        "close_ticket"
+      ],
+      "primary_action": "send_reply",
+      "actual_mockup": "mockups/mockups/A24.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A25",
+      "title": "전문가 작업 큐",
+      "route": "/admin/expert-tickets",
+      "effective_route": "/admin/expert-tickets",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "assign"
+      ],
+      "primary_action": "assign",
+      "actual_mockup": "mockups/mockups/A25.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A26",
+      "title": "전문가 작업 상세·타이머",
+      "route": "/admin/expert-tickets/:ticketId",
+      "effective_route": "/admin/expert-tickets/:ticketId",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 10,
+      "tbd_count": 3,
+      "actions": [
+        "submit_review"
+      ],
+      "primary_action": "submit_review",
+      "actual_mockup": "mockups/mockups/A26.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A27",
+      "title": "전문가 가용시간·배정 캘린더",
+      "route": "/admin/expert-capacity",
+      "effective_route": "/admin/expert-capacity",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 3,
+      "actions": [
+        "reschedule"
+      ],
+      "primary_action": "reschedule",
+      "actual_mockup": "mockups/mockups/A27.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A28",
+      "title": "장애·사고 목록",
+      "route": "/admin/incidents",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 6,
+      "tbd_count": 3,
+      "actions": [
+        "new_incident"
+      ],
+      "primary_action": "new_incident",
+      "actual_mockup": "mockups/mockups/A28.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A29",
+      "title": "사고 상세·대응 타임라인",
+      "route": "/admin/incidents/:incidentId",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 11,
+      "tbd_count": 4,
+      "actions": [
+        "pause_deploy",
+        "close_incident"
+      ],
+      "primary_action": "pause_deploy",
+      "actual_mockup": "mockups/mockups/A29.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A30",
+      "title": "감사로그 탐색",
+      "route": "/admin/audit",
+      "effective_route": "/admin/audit",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 3,
+      "actions": [
+        "request_export"
+      ],
+      "primary_action": "request_export",
+      "actual_mockup": "mockups/mockups/A30.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A31",
+      "title": "감사 증거 내보내기",
+      "route": "/admin/audit/exports",
+      "effective_route": "/admin/audit/exports",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 5,
+      "actions": [
+        "request_export"
+      ],
+      "primary_action": "request_export",
+      "actual_mockup": "mockups/mockups/A31.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A32",
+      "title": "시스템 상태 관제",
+      "route": "/admin/system",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 7,
+      "tbd_count": 0,
+      "actions": [
+        "refresh"
+      ],
+      "primary_action": "refresh",
+      "actual_mockup": "mockups/mockups/A32.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A33",
+      "title": "작업 큐·워커 상태",
+      "route": "/admin/system/workers",
+      "effective_route": "/admin/system/workers",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 1,
+      "actions": [
+        "pause_queue",
+        "retry_job"
+      ],
+      "primary_action": "pause_queue",
+      "actual_mockup": "mockups/mockups/A33.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A34",
+      "title": "AI 모델·서킷브레이커 설정",
+      "route": "/admin/system/models",
+      "effective_route": "/admin/system/models",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 5,
+      "actions": [
+        "dry_run",
+        "request_change"
+      ],
+      "primary_action": "dry_run",
+      "actual_mockup": "mockups/mockups/A34.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A35",
+      "title": "운영 콘텐츠 목록",
+      "route": "/admin/content",
+      "effective_route": "/admin/content",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "new_content",
+        "open_content"
+      ],
+      "primary_action": "new_content",
+      "actual_mockup": "mockups/mockups/A35.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A36",
+      "title": "콘텐츠 편집·미리보기",
+      "route": "/admin/content/:contentId",
+      "effective_route": "/admin/content/:contentId",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 11,
+      "tbd_count": 4,
+      "actions": [
+        "preview",
+        "request_review",
+        "publish"
+      ],
+      "primary_action": "request_review",
+      "actual_mockup": "mockups/mockups/A36.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A37",
+      "title": "직원 계정 목록",
+      "route": "/admin/staff",
+      "effective_route": "/admin/staff",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "invite_staff",
+        "open_staff"
+      ],
+      "primary_action": "invite_staff",
+      "actual_mockup": "mockups/mockups/A37.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A38",
+      "title": "직원 초대·역할·세션 상세",
+      "route": "/admin/staff/:staffId",
+      "effective_route": "/admin/staff/:staffId",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 10,
+      "tbd_count": 5,
+      "actions": [
+        "save_staff",
+        "revoke_sessions"
+      ],
+      "primary_action": "save_staff",
+      "actual_mockup": "mockups/mockups/A38.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A39",
+      "title": "권한 정책·접근 매트릭스",
+      "route": "/admin/settings/permissions",
+      "effective_route": "/admin/settings/permissions",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "change_request"
+      ],
+      "primary_action": "change_request",
+      "actual_mockup": "mockups/mockups/A39.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A40",
+      "title": "내 관리자 프로필·세션",
+      "route": "/admin/settings/profile",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "signout_other",
+        "password_change",
+        "save_profile"
+      ],
+      "primary_action": "password_change",
+      "actual_mockup": "mockups/mockups/A40.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A41",
+      "title": "관리자 접근 거절(403)",
+      "route": "/admin/forbidden",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 4,
+      "tbd_count": 2,
+      "actions": [
+        "back_dashboard",
+        "request_access"
+      ],
+      "primary_action": "back_dashboard",
+      "actual_mockup": "mockups/mockups/A41.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A42",
+      "title": "운영 관제 점검·오류",
+      "route": "/admin/error",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "retry",
+        "logout",
+        "incident_link"
+      ],
+      "primary_action": "retry",
+      "actual_mockup": "mockups/mockups/A42.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A43",
+      "title": "파트너·에이전시 관리",
+      "route": "/admin/partners",
+      "effective_route": "/admin/partners",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 2,
+      "actions": [
+        "approve_partner",
+        "reject_partner"
+      ],
+      "primary_action": "approve_partner",
+      "actual_mockup": "mockups/mockups/A43.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A44",
+      "title": "파트너 수수료 정산",
+      "route": "/admin/partners/payouts",
+      "effective_route": "/admin/partners/payouts",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "confirm_payout",
+        "export"
+      ],
+      "primary_action": "confirm_payout",
+      "actual_mockup": "mockups/mockups/A44.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A45",
+      "title": "요금제·가격 버전·쿠폰",
+      "route": "/admin/billing/plans",
+      "effective_route": "/admin/billing/transactions",
+      "scope": "화면 내 통합 → A18",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "fields": 7,
+      "tbd_count": 0,
+      "actions": [
+        "publish_version"
+      ],
+      "primary_action": "publish_version",
+      "actual_mockup": "mockups/mockups/A45.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A46",
+      "title": "단위경제·제품 KPI",
+      "route": "/admin/analytics",
+      "effective_route": "/admin",
+      "scope": "화면 내 통합 → A03",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "fields": 7,
+      "tbd_count": 0,
+      "actions": [
+        "export_csv"
+      ],
+      "primary_action": "export_csv",
+      "actual_mockup": "mockups/mockups/A46.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "A47",
+      "title": "호환성 매트릭스·어댑터 버전",
+      "route": "/admin/compatibility",
+      "effective_route": "/admin/sites/:siteId",
+      "scope": "화면 내 통합 → A10",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "save_grade"
+      ],
+      "primary_action": "save_grade",
+      "actual_mockup": "mockups/mockups/A47.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O01",
+      "title": "전 플랫폼 알림·토스트·상태 경고",
+      "route": "공통",
+      "effective_route": "공통",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "retry",
+        "dismiss"
+      ],
+      "primary_action": "retry",
+      "actual_mockup": "mockups/mockups/O01.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O02",
+      "title": "모바일 내비게이션 Drawer",
+      "route": "공식/고객/관리자",
+      "effective_route": "공식/고객/관리자",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 2,
+      "actions": [
+        "close",
+        "logout"
+      ],
+      "primary_action": "close",
+      "actual_mockup": "mockups/mockups/O02.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O03",
+      "title": "쿠키/개인정보 동의 패널",
+      "route": "공식",
+      "effective_route": "공식",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "reject",
+        "save"
+      ],
+      "primary_action": "reject",
+      "actual_mockup": "mockups/mockups/O03.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O04",
+      "title": "데모 온보딩 코치마크",
+      "route": "공식 데모",
+      "effective_route": "/demo",
+      "scope": "화면 내 통합 → M02",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "fields": 4,
+      "tbd_count": 2,
+      "actions": [
+        "next",
+        "skip"
+      ],
+      "primary_action": "next",
+      "actual_mockup": "mockups/mockups/O04.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O05",
+      "title": "요금제 비교 팝오버",
+      "route": "공식/고객",
+      "effective_route": "/pricing",
+      "scope": "화면 내 통합 → M11",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "close"
+      ],
+      "primary_action": "close",
+      "actual_mockup": "mockups/mockups/O05.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O06",
+      "title": "결제 처리 대기/오류 Dialog",
+      "route": "공식/고객",
+      "effective_route": "공식/고객",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "check_again",
+        "support"
+      ],
+      "primary_action": "check_again",
+      "actual_mockup": "mockups/mockups/O06.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O07",
+      "title": "조직·사이트 전환기",
+      "route": "고객/관리자",
+      "effective_route": "고객/관리자",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 4,
+      "actions": [
+        "switch"
+      ],
+      "primary_action": "switch",
+      "actual_mockup": "mockups/mockups/O07.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O08",
+      "title": "접근 제한·권한 안내",
+      "route": "고객/관리자",
+      "effective_route": "고객/관리자",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 1,
+      "actions": [
+        "request_access",
+        "close"
+      ],
+      "primary_action": "request_access",
+      "actual_mockup": "mockups/mockups/O08.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O09",
+      "title": "Studio 상단 글로벌 바 ST-01",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "exit_studio"
+      ],
+      "primary_action": "exit_studio",
+      "actual_mockup": "mockups/mockups/O09.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O10",
+      "title": "Studio 요소 선택 경계 ST-02",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "select_parent",
+        "clear_selection"
+      ],
+      "primary_action": "select_parent",
+      "actual_mockup": "mockups/mockups/O10.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O11",
+      "title": "Ghost Mini Dock ST-03",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "voice_button",
+        "send_instruction",
+        "open_history"
+      ],
+      "primary_action": "voice_button",
+      "actual_mockup": "mockups/mockups/O11.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O12",
+      "title": "명령 입력/의도 확인 ST-04",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 13,
+      "tbd_count": 6,
+      "actions": [
+        "preview_request",
+        "reset_draft"
+      ],
+      "primary_action": "preview_request",
+      "actual_mockup": "mockups/mockups/O12.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O13",
+      "title": "요소 계층 Breadcrumb ST-05",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 5,
+      "tbd_count": 2,
+      "actions": [
+        "parent_select",
+        "child_select"
+      ],
+      "primary_action": "parent_select",
+      "actual_mockup": "mockups/mockups/O13.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O14",
+      "title": "원본 매핑 근거/모호성 ST-06",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 1,
+      "actions": [
+        "rerun_mapping",
+        "expert_escalation",
+        "proceed"
+      ],
+      "primary_action": "expert_escalation",
+      "actual_mockup": "mockups/mockups/O14.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O15",
+      "title": "전후 비교 패널 ST-07",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 8,
+      "tbd_count": 0,
+      "actions": [
+        "back_to_edit"
+      ],
+      "primary_action": "back_to_edit",
+      "actual_mockup": "mockups/mockups/O15.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O16",
+      "title": "검증 결과 Drawer ST-08",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 1,
+      "actions": [
+        "rerun_validation",
+        "request_approval"
+      ],
+      "primary_action": "request_approval",
+      "actual_mockup": "mockups/mockups/O16.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O17",
+      "title": "실제 운영 배포 승인 Dialog ST-09",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 12,
+      "tbd_count": 7,
+      "actions": [
+        "final_deploy",
+        "cancel"
+      ],
+      "primary_action": "final_deploy",
+      "actual_mockup": "mockups/mockups/O17.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O18",
+      "title": "복원·롤백 패널 ST-10",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "confirm_rollback",
+        "cancel"
+      ],
+      "primary_action": "confirm_rollback",
+      "actual_mockup": "mockups/mockups/O18.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O19",
+      "title": "이미지 교체/대체텍스트 ST-11",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 9,
+      "tbd_count": 3,
+      "actions": [
+        "preview_asset",
+        "cancel"
+      ],
+      "primary_action": "preview_asset",
+      "actual_mockup": "mockups/mockups/O19.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O20",
+      "title": "작업 진행 타임라인 ST-12",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 3,
+      "actions": [
+        "retry_if_safe",
+        "cancel_if_safe",
+        "go_job"
+      ],
+      "primary_action": "retry_if_safe",
+      "actual_mockup": "mockups/mockups/O20.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O21",
+      "title": "사이트 연결 에러·재진단 모달",
+      "route": "고객 콘솔",
+      "effective_route": "고객 콘솔",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 3,
+      "actions": [
+        "retry",
+        "change_mode"
+      ],
+      "primary_action": "change_mode",
+      "actual_mockup": "mockups/mockups/O21.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O22",
+      "title": "크레딧 HOLD·환급 확인",
+      "route": "고객 콘솔",
+      "effective_route": "고객 콘솔",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 0,
+      "actions": [
+        "open_history"
+      ],
+      "primary_action": "open_history",
+      "actual_mockup": "mockups/mockups/O22.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O23",
+      "title": "지원요청 Trace·화면 첨부 확인",
+      "route": "고객 콘솔",
+      "effective_route": "고객 콘솔",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 1,
+      "actions": [
+        "redaction",
+        "attach"
+      ],
+      "primary_action": "redaction",
+      "actual_mockup": "mockups/mockups/O23.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O24",
+      "title": "관리자 전역 통합 검색",
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 5,
+      "tbd_count": 1,
+      "actions": [
+        "open_result",
+        "close"
+      ],
+      "primary_action": "open_result",
+      "actual_mockup": "mockups/mockups/O24.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O25",
+      "title": "고위험 조작 재확인 Dialog",
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 6,
+      "actions": [
+        "approve",
+        "cancel"
+      ],
+      "primary_action": "approve",
+      "actual_mockup": "mockups/mockups/O25.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O26",
+      "title": "환불 심사·승인 Sheet",
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "scope": "유료 출시 추가",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 2,
+      "actions": [
+        "submit_refund",
+        "cancel"
+      ],
+      "primary_action": "submit_refund",
+      "actual_mockup": "mockups/mockups/O26.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O27",
+      "title": "권한 승격·세션회수 Dialog",
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "confirm",
+        "cancel"
+      ],
+      "primary_action": "confirm",
+      "actual_mockup": "mockups/mockups/O27.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O28",
+      "title": "P0 사고 배너·긴급 동작",
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 6,
+      "tbd_count": 3,
+      "actions": [
+        "ack",
+        "open_incident"
+      ],
+      "primary_action": "open_incident",
+      "actual_mockup": "mockups/mockups/O28.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O29",
+      "title": "고객 발송 vs 내부 메모 편집기",
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 7,
+      "tbd_count": 2,
+      "actions": [
+        "preview",
+        "send_customer",
+        "save_internal"
+      ],
+      "primary_action": "send_customer",
+      "actual_mockup": "mockups/mockups/O29.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O30",
+      "title": "감사자료 추출·다운로드 승인",
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 8,
+      "tbd_count": 4,
+      "actions": [
+        "export",
+        "cancel"
+      ],
+      "primary_action": "export",
+      "actual_mockup": "mockups/mockups/O30.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O31",
+      "title": "동시 편집 Presence·잠금 안내",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 3,
+      "tbd_count": 0,
+      "actions": [
+        "request_handover"
+      ],
+      "primary_action": "request_handover",
+      "actual_mockup": "mockups/mockups/O31.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O32",
+      "title": "운영 반영 직후 결과 확인·복원 요청 토스트",
+      "route": "고객 Studio·콘솔",
+      "effective_route": "공통",
+      "scope": "화면 내 통합 → O01",
+      "release_current": "EMBEDDED",
+      "host_screen": "O01",
+      "fields": 4,
+      "tbd_count": 0,
+      "actions": [
+        "open_live",
+        "request_rollback"
+      ],
+      "primary_action": "open_live",
+      "actual_mockup": "mockups/mockups/O32.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O33",
+      "title": "Studio 키보드 단축키·접근성 도움말",
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "scope": "베타·MVP 공통",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "fields": 3,
+      "tbd_count": 1,
+      "actions": [
+        "remap"
+      ],
+      "primary_action": "remap",
+      "actual_mockup": "mockups/mockups/O33.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O34",
+      "title": "K1 레이어 진입 · 번호로 고르기",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 3,
+      "tbd_count": 1,
+      "actions": [
+        "mic_main"
+      ],
+      "primary_action": "mic_main",
+      "actual_mockup": "mockups/mockups/O34.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O35",
+      "title": "K2 요소 선택 · 맞춤 제안 칩",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 4,
+      "tbd_count": 1,
+      "actions": [
+        "speak",
+        "type_fallback"
+      ],
+      "primary_action": "speak",
+      "actual_mockup": "mockups/mockups/O35.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O36",
+      "title": "K3 듣는 중 · 실시간 자막",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "scope": "화면 내 통합 → O11",
+      "release_current": "EMBEDDED",
+      "host_screen": "O11",
+      "fields": 3,
+      "tbd_count": 1,
+      "actions": [
+        "stop"
+      ],
+      "primary_action": "stop",
+      "actual_mockup": "mockups/mockups/O36.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O37",
+      "title": "K4 확인 카드 · 예/다시 말하기",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "scope": "화면 내 통합 → O11",
+      "release_current": "EMBEDDED",
+      "host_screen": "O11",
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "confirm_yes",
+        "retry_voice"
+      ],
+      "primary_action": "confirm_yes",
+      "actual_mockup": "mockups/mockups/O37.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O38",
+      "title": "K5 미리보기 · 사이트 위에서 바로 확인",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "/app/sites/:siteId/studio",
+      "scope": "화면 내 통합 → C13",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "fields": 5,
+      "tbd_count": 0,
+      "actions": [
+        "publish",
+        "toggle_before",
+        "discard"
+      ],
+      "primary_action": "publish",
+      "actual_mockup": "mockups/mockups/O38.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O39",
+      "title": "K6 원탭 반영 · 길게 눌러 확인",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "scope": "화면 내 통합 → O17",
+      "release_current": "EMBEDDED",
+      "host_screen": "O17",
+      "fields": 4,
+      "tbd_count": 1,
+      "actions": [
+        "hold_publish",
+        "cancel"
+      ],
+      "primary_action": "hold_publish",
+      "actual_mockup": "mockups/mockups/O39.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O40",
+      "title": "K7 반영 완료 · 말로 되돌리기",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "scope": "화면 내 통합 → O18",
+      "release_current": "EMBEDDED",
+      "host_screen": "O18",
+      "fields": 3,
+      "tbd_count": 0,
+      "actions": [
+        "view_site",
+        "undo"
+      ],
+      "primary_action": "view_site",
+      "actual_mockup": "mockups/mockups/O40.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O41",
+      "title": "K8 이미지 교체 · 휴대폰으로 찍어서",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 1,
+      "actions": [
+        "qr_upload"
+      ],
+      "primary_action": "qr_upload",
+      "actual_mockup": "mockups/mockups/O41.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O42",
+      "title": "K9 변경 묶음 · 한 번에 반영",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 3,
+      "tbd_count": 0,
+      "actions": [
+        "publish_all"
+      ],
+      "primary_action": "publish_all",
+      "actual_mockup": "mockups/mockups/O42.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O43",
+      "title": "K10 AI가 먼저 제안 · 지난 정보 정리",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 0,
+      "actions": [
+        "accept",
+        "later",
+        "mute"
+      ],
+      "primary_action": "accept",
+      "actual_mockup": "mockups/mockups/O43.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O44",
+      "title": "K11 자동 처리 불가 · 전문가에게 맡기기",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 4,
+      "tbd_count": 2,
+      "actions": [
+        "order_expert"
+      ],
+      "primary_action": "order_expert",
+      "actual_mockup": "mockups/mockups/O44.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    },
+    {
+      "id": "O45",
+      "title": "K12 모바일 레이어 · 휴대폰에서 바로",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "scope": "후속",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "fields": 3,
+      "tbd_count": 1,
+      "actions": [
+        "m_mic",
+        "m_publish"
+      ],
+      "primary_action": "m_mic",
+      "actual_mockup": "mockups/mockups/O45.png",
+      "snapshot_version": "5.6-r2 참고 이미지. v5.7 정책·현재 범위는 계약이 우선."
+    }
+  ]
+}

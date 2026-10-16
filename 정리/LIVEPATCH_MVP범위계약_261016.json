@@ -1,0 +1,2367 @@
+{
+  "version": "5.7",
+  "date": "2026-10-16",
+  "figma": {
+    "file_key": "VwuyN75CQK9Kn0ZyIVmF4S",
+    "node_id": "0:1",
+    "page_name": "LIVEPATH_ver1.0",
+    "access": "metadata_read_confirmed",
+    "mutation": false
+  },
+  "counts": {
+    "pages": 128,
+    "overlays": 45,
+    "fields": 1174,
+    "marketing_pages": 37,
+    "customer_pages": 44,
+    "admin_pages": 47,
+    "marketing_fields": 223,
+    "customer_fields": 351,
+    "admin_fields": 338,
+    "overlay_fields": 262,
+    "release_v56": {
+      "MVP-α": 109,
+      "조건부": 45,
+      "MVP-β": 16,
+      "LATER": 3
+    },
+    "release_v56_by_platform": {
+      "M": {
+        "MVP-α": 20,
+        "조건부": 11,
+        "MVP-β": 4,
+        "LATER": 2
+      },
+      "C": {
+        "MVP-α": 24,
+        "조건부": 18,
+        "LATER": 1,
+        "MVP-β": 1
+      },
+      "A": {
+        "MVP-α": 26,
+        "조건부": 16,
+        "MVP-β": 5
+      },
+      "O": {
+        "MVP-α": 39,
+        "MVP-β": 6
+      }
+    },
+    "release_current": {
+      "PILOT_REQUIRED": 53,
+      "EMBEDDED": 58,
+      "POST_MVP": 52,
+      "PAID_REQUIRED": 10
+    },
+    "example_status_current": {
+      "N/A": 297,
+      "TBD": 383,
+      "API_SCHEMA_REF": 148,
+      "SPEC": 115,
+      "AUTO": 231
+    },
+    "launch_independent_pages": 44,
+    "launch_overlay_components": 19
+  },
+  "policy": {
+    "status": "디자인·구현 기준선. 상용 공개는 release_gates 통과 후.",
+    "connector": "Mode A GitHub. 검증된 정적 HTML/CSS 템플릿과 배포 파이프라인 1종. 소스 매핑 HIGH만 운영 반영.",
+    "site_limit": 1,
+    "customer_role": "ORG_OWNER 1인; 관리자 계정/권한은 별도",
+    "operations": [
+      "텍스트",
+      "기존 이미지 교체",
+      "허용 목록 기반 색·글자 크기·여백"
+    ],
+    "scope": "선택한 단일 요소. 컴포넌트 전체·페이지 전체·일괄 배포 제외.",
+    "voice": "데스크톱 음성 우선. 대상 Chrome/Edge 환경은 테스트 통과 후 공개 지원. STT 공급사·개인정보·숫자 인식 검증은 출시 차단 게이트.",
+    "mobile": "공식 웹·계정·작업/청구 조회·문의 지원. 모바일 Studio·QR 페어링·촬영 업로드는 후속.",
+    "credits": {
+      "estimate": "텍스트 1C, 이미지 2C, 허용 스타일 2C는 작업 기준값. 가격 버전과 서버 견적에 바인딩. 실제 원가 검토 후 상용 노출.",
+      "hold": "미리보기 요청 시 예상 사용량 예약. 미리보기 성공만으로 차감하지 않는다.",
+      "commit": "운영 배포와 사후 확인이 VERIFIED가 되면 견적 이하로 1회 확정.",
+      "release": "배포 전 취소·생성 실패·24시간 초안 만료, 배포 실패 후 원본 유지 또는 자동 복원 확인 시 예약 해제.",
+      "unknown": "결과 불명 시 예약 유지·상태 대사. 재배포/재차감 금지. 운영 담당자가 처리하며 만료 배치도 해제하지 않음.",
+      "rollback": "MVP 복원 추가 차감 없음. 정상 반영 후 고객 변심 복원은 원래 작업 차감 유지. 서비스 장애 환급은 사유·원장 기록 후 처리.",
+      "preview_limit": "조직당 하루 생성 시도 최대 10회, 동시 생성 1개. 실패 시도도 호출 한도에 포함. 크레딧 차감과 구분.",
+      "draft_expiry_hours": 24
+    },
+    "approval": "도메인·변경·최대 비용 확인 → 1초 길게 누르기 또는 동등한 접근성 확인 → 패스키 재인증 → 서버 권한·sourceHash·검증·approvalDigest 확인. 음성만으로 배포하지 않음.",
+    "rollback": "기본 복원 후보는 마지막 성공 배포 1건. 보존 기간 내·원본 해시/후속 의존성·스냅샷 유효성 통과 시 요청. 복원 배포 및 사후 확인 뒤 완료.",
+    "plan": "유료 MVP는 단일 Economy 상품. 월 9,900원·100C는 기존 가격 가설을 인계값으로 유지하며 원가·PG·정책 게이트 통과 후만 판매. 무료 체험은 샘플 데모, 실사이트 무제한 무료 없음.",
+    "tracking": "MVP는 비필수 광고·분석 SDK 미탑재. 서비스 운영 이벤트의 최소수집·보존·고지는 개인정보 검토 게이트에서 확인.",
+    "release_gates": [
+      "지원 템플릿의 생성·검증·배포·복원 E2E",
+      "권한·재인증·동시 변경·멱등성·UNKNOWN 대사",
+      "STT 공급사·개인정보·접근성·한국어 숫자 사용성",
+      "출시 화면 TBD 및 OpenAPI·오류 계약 해소",
+      "PG 실제 결제·중복 webhook·취소·해지·원장 대사",
+      "가격·보존·약관·개인정보·환불 정책 승인",
+      "원가·운영 담당·모니터링·복구 모의훈련"
+    ]
+  },
+  "screens": [
+    {
+      "id": "M01",
+      "title": "홈 랜딩",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/",
+      "effective_route": "/",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "trusted_capabilities",
+        "faq_teaser"
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "라이브 샘플 체험",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/demo",
+      "effective_route": "/demo",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "sample_site",
+        "selected_element",
+        "instruction",
+        "suggestions",
+        "demo_notice"
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "데모 결과·가입 유도",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "route": "/demo/result/:demoId",
+      "effective_route": "/demo",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "preview_before",
+        "preview_after"
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "기능 전체 안내",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "route": "/features",
+      "effective_route": "/",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "steps",
+        "feature_filter"
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "기능 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/features/:slug",
+      "effective_route": "/features/:slug",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "feature_name",
+        "feature_status",
+        "before_after"
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "호환성·지원 범위",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/compatibility",
+      "effective_route": "/compatibility",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "framework_search"
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "업종별 활용 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/use-cases",
+      "effective_route": "/use-cases",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "industry_filter",
+        "limitations"
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "업종별 활용 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/use-cases/:industry",
+      "effective_route": "/use-cases/:industry",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "industry_title",
+        "approval_scope"
+      ]
+    },
+    {
+      "id": "M09",
+      "title": "사례·데모 갤러리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/cases",
+      "effective_route": "/cases",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "category",
+        "case_types",
+        "case_search"
+      ]
+    },
+    {
+      "id": "M10",
+      "title": "사례 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/cases/:slug",
+      "effective_route": "/cases/:slug",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "case_title",
+        "case_source",
+        "before_after",
+        "tech_stack"
+      ]
+    },
+    {
+      "id": "M11",
+      "title": "요금제 비교",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/pricing",
+      "effective_route": "/pricing",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "site_limit",
+        "expert_quota",
+        "refund_notice"
+      ]
+    },
+    {
+      "id": "M12",
+      "title": "상품·플랜 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "route": "/pricing/:planId",
+      "effective_route": "/pricing",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "plan_name",
+        "site_count"
+      ]
+    },
+    {
+      "id": "M13",
+      "title": "보안·데이터 보호 안내",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/security",
+      "effective_route": "/security",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "security_sections"
+      ]
+    },
+    {
+      "id": "M14",
+      "title": "자주 묻는 질문",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/faq",
+      "effective_route": "/faq",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "faq_search",
+        "faq_category",
+        "faq_items"
+      ]
+    },
+    {
+      "id": "M15",
+      "title": "파트너 프로그램 소개",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/partners",
+      "effective_route": "/partners",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "M16",
+      "title": "파트너 신청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/partners/apply",
+      "effective_route": "/partners/apply",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "company_name",
+        "contact_name",
+        "additional_info"
+      ]
+    },
+    {
+      "id": "M17",
+      "title": "문의 접수",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "route": "/contact",
+      "effective_route": "/",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "full_name",
+        "subject",
+        "content"
+      ]
+    },
+    {
+      "id": "M18",
+      "title": "공지사항 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/notices",
+      "effective_route": "/notices",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "notice_type",
+        "search"
+      ]
+    },
+    {
+      "id": "M19",
+      "title": "공지사항 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/notices/:noticeId",
+      "effective_route": "/notices/:noticeId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "notice_title",
+        "notice_date",
+        "notice_body",
+        "prev_next"
+      ]
+    },
+    {
+      "id": "M20",
+      "title": "이용약관",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/legal/terms",
+      "effective_route": "/legal/terms",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "table_contents",
+        "policy_body"
+      ]
+    },
+    {
+      "id": "M21",
+      "title": "개인정보 처리방침",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/legal/privacy",
+      "effective_route": "/legal/privacy",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "M22",
+      "title": "환불·해지 정책",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/legal/refund",
+      "effective_route": "/legal/refund",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "cancellation_effect",
+        "policy_version"
+      ]
+    },
+    {
+      "id": "M23",
+      "title": "쿠키·추적 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/privacy/preferences",
+      "effective_route": "/privacy/preferences",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "essential_cookies",
+        "cookie_details"
+      ]
+    },
+    {
+      "id": "M24",
+      "title": "로그인",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/login",
+      "effective_route": "/login",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "M25",
+      "title": "회원가입",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/signup",
+      "effective_route": "/signup",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "password_visibility",
+        "display_name",
+        "age_14_confirm",
+        "partner_referral_code"
+      ]
+    },
+    {
+      "id": "M26",
+      "title": "이메일 인증 상태",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/verify-email",
+      "effective_route": "/verify-email",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "verified_email"
+      ]
+    },
+    {
+      "id": "M27",
+      "title": "비밀번호 재설정 신청",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/forgot-password",
+      "effective_route": "/forgot-password",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "M28",
+      "title": "새 비밀번호 설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/reset-password",
+      "effective_route": "/reset-password",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "M29",
+      "title": "인증 연동 결과",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/auth/result",
+      "effective_route": "/auth/result",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "provider",
+        "account"
+      ]
+    },
+    {
+      "id": "M30",
+      "title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/checkout",
+      "effective_route": "/checkout",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "chosen_plan",
+        "billing_cycle",
+        "site_count",
+        "coupon_code",
+        "business_reg_no",
+        "auto_renew",
+        "withdrawal_notice"
+      ]
+    },
+    {
+      "id": "M31",
+      "title": "결제 결과·확인 중",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/checkout/result",
+      "effective_route": "/checkout/result",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "M32",
+      "title": "접근할 수 없는 링크(404)",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/404",
+      "effective_route": "/404",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "missing_path"
+      ]
+    },
+    {
+      "id": "M33",
+      "title": "일시적 서버 오류(500)",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/error",
+      "effective_route": "/error",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "M34",
+      "title": "점검·이용 제한 공지",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/maintenance",
+      "effective_route": "/maintenance",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "M35",
+      "title": "팀 초대 수락",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/invite/:token",
+      "effective_route": "/invite/:token",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "org_name",
+        "inviter"
+      ]
+    },
+    {
+      "id": "M36",
+      "title": "가이드·리소스 허브",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/guides",
+      "effective_route": "/guides",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "guide_search"
+      ]
+    },
+    {
+      "id": "M37",
+      "title": "가이드 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/guides/:slug",
+      "effective_route": "/guides/:slug",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "summary",
+        "toc",
+        "limitations"
+      ]
+    },
+    {
+      "id": "C01",
+      "title": "콘솔 홈·대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app",
+      "effective_route": "/app",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "current_org",
+        "active_site",
+        "alerts"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "처음 시작 온보딩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/onboarding",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "step_progress",
+        "profile_name",
+        "organization_name",
+        "user_role"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "내 사이트 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/sites",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_search",
+        "site_quota"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "사이트 등록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/sites/new",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "display_name"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "사이트 소유권 증명",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/sites/:siteId/verify",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_domain",
+        "proof_value",
+        "proof_instructions",
+        "token_expiry",
+        "last_error"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "연결 방식 선택",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/sites/:siteId/connect",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_id",
+        "support_level"
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/sites/:siteId/connect/setup",
+      "effective_route": "/app/sites/:siteId/connect/setup",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "account_scope",
+        "repository",
+        "branch",
+        "root_path",
+        "host",
+        "username",
+        "permission_scope"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "연결 진단 결과",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/sites/:siteId/diagnostics",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_platform",
+        "auth_status",
+        "render_grade",
+        "deploy_capability"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "테스트 수정·복구 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/sites/:siteId/test-patch",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "target_page",
+        "test_element",
+        "sample_instruction",
+        "restore_check"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "사이트 개요",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "route": "/app/sites/:siteId",
+      "effective_route": "/app",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_identity",
+        "support_mode",
+        "editing_rights"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "사이트 페이지 탐색기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "/app/sites/:siteId/pages",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "page_search",
+        "page_url",
+        "page_title",
+        "robots_note"
+      ]
+    },
+    {
+      "id": "C12",
+      "title": "사이트 설정·연결 관리",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "route": "/app/sites/:siteId/settings",
+      "effective_route": "/app/sites/:siteId/connect/setup",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_name",
+        "site_url",
+        "connector_status",
+        "connector_scope",
+        "webhook_status"
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "Visual Patch Studio 편집",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/sites/:siteId/studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "site_context",
+        "presence_indicator",
+        "page_path",
+        "target_descriptor",
+        "instruction_text"
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "작업 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C15",
+      "route": "/app/jobs",
+      "effective_route": "/app/jobs/:jobId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "job_search",
+        "site_filter"
+      ]
+    },
+    {
+      "id": "C15",
+      "title": "작업 상세·증빙",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/jobs/:jobId",
+      "effective_route": "/app/jobs/:jobId",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "target_site",
+        "instruction",
+        "target_element"
+      ]
+    },
+    {
+      "id": "C16",
+      "title": "승인 대기함",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "/app/approvals",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_filter"
+      ]
+    },
+    {
+      "id": "C17",
+      "title": "승인 상세·결재",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "/app/approvals/:jobId",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "target_environment",
+        "source_hash",
+        "risk_notice",
+        "approval_comment"
+      ]
+    },
+    {
+      "id": "C18",
+      "title": "배포 이력 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C19",
+      "route": "/app/deployments",
+      "effective_route": "/app/deployments/:deploymentId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_filter"
+      ]
+    },
+    {
+      "id": "C19",
+      "title": "배포 상세·복원",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/deployments/:deploymentId",
+      "effective_route": "/app/deployments/:deploymentId",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "original_hash",
+        "deployed_hash",
+        "status",
+        "rollback_target",
+        "rollback_reason"
+      ]
+    },
+    {
+      "id": "C20",
+      "title": "크레딧 잔액 개요",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/credits",
+      "effective_route": "/app/credits",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "C21",
+      "title": "크레딧 거래 원장",
+      "release_current": "EMBEDDED",
+      "host_screen": "C20",
+      "route": "/app/credits/history",
+      "effective_route": "/app/credits",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "job_id"
+      ]
+    },
+    {
+      "id": "C22",
+      "title": "크레딧 추가 구매",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/credits/purchase",
+      "effective_route": "/app/credits/purchase",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "package_choice",
+        "expiry_notice"
+      ]
+    },
+    {
+      "id": "C23",
+      "title": "구독·계약 현황",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/app/billing",
+      "effective_route": "/app/billing",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "current_plan",
+        "billing_period",
+        "connected_sites",
+        "payment_method"
+      ]
+    },
+    {
+      "id": "C24",
+      "title": "플랜 변경",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/billing/change-plan",
+      "effective_route": "/app/billing/change-plan",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "current_plan",
+        "new_plan",
+        "effective_date",
+        "site_limit_warning"
+      ]
+    },
+    {
+      "id": "C25",
+      "title": "결제수단 관리",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/app/billing/payment-methods",
+      "effective_route": "/app/billing/payment-methods",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "default_method",
+        "billing_notice"
+      ]
+    },
+    {
+      "id": "C26",
+      "title": "청구·영수증·증빙",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/app/billing/invoices",
+      "effective_route": "/app/billing/invoices",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "C27",
+      "title": "구독 해지·정지",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/app/billing/cancel",
+      "effective_route": "/app/billing/cancel",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "current_plan",
+        "cancel_effect",
+        "site_access_effect",
+        "credit_expiration",
+        "cancel_reason"
+      ]
+    },
+    {
+      "id": "C28",
+      "title": "팀원·초대 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/team",
+      "effective_route": "/app/team",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "C29",
+      "title": "팀원 초대·권한 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/team/invite",
+      "effective_route": "/app/team/invite",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_scope",
+        "message"
+      ]
+    },
+    {
+      "id": "C30",
+      "title": "알림 센터",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/notifications",
+      "effective_route": "/app/notifications",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "C31",
+      "title": "1:1 문의 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "route": "/app/support",
+      "effective_route": "/app/support/:ticketId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "ticket_search"
+      ]
+    },
+    {
+      "id": "C32",
+      "title": "새 문의 작성",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "route": "/app/support/new",
+      "effective_route": "/app/support/:ticketId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_id",
+        "job_id",
+        "subject",
+        "body"
+      ]
+    },
+    {
+      "id": "C33",
+      "title": "문의 상세·대화",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/support/:ticketId",
+      "effective_route": "/app/support/:ticketId",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "reply_text"
+      ]
+    },
+    {
+      "id": "C34",
+      "title": "전문가 작업 요청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/expert-tickets/new",
+      "effective_route": "/app/expert-tickets/new",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_id",
+        "subject",
+        "description",
+        "desired_outcome",
+        "included_hours"
+      ]
+    },
+    {
+      "id": "C35",
+      "title": "전문가 진행 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/expert-tickets/:ticketId",
+      "effective_route": "/app/expert-tickets/:ticketId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "assignee",
+        "time_budget",
+        "customer_comment"
+      ]
+    },
+    {
+      "id": "C36",
+      "title": "개인 프로필·보안",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/settings/profile",
+      "effective_route": "/app/settings/profile",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "display_name",
+        "email",
+        "language"
+      ]
+    },
+    {
+      "id": "C37",
+      "title": "조직 정보·사업자 설정",
+      "release_current": "EMBEDDED",
+      "host_screen": "C23",
+      "route": "/app/settings/organization",
+      "effective_route": "/app/billing",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "organization_name",
+        "business_number",
+        "representative",
+        "business_address"
+      ]
+    },
+    {
+      "id": "C38",
+      "title": "알림 수신 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/settings/notifications",
+      "effective_route": "/app/settings/notifications",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "email_security"
+      ]
+    },
+    {
+      "id": "C39",
+      "title": "연동·키 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/settings/integrations",
+      "effective_route": "/app/settings/integrations",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "key_label",
+        "scopes"
+      ]
+    },
+    {
+      "id": "C40",
+      "title": "데이터 보존·삭제 요청",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/settings/data",
+      "effective_route": "/app/settings/data",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "delete_reason"
+      ]
+    },
+    {
+      "id": "C41",
+      "title": "모바일 웹 마이크·QR 페어링",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/mic/:sessionId",
+      "effective_route": "/app/mic/:sessionId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "paired_session",
+        "mic_permission",
+        "transcription"
+      ]
+    },
+    {
+      "id": "C42",
+      "title": "고객용 서비스 상태·작업 제한",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/app/service-status",
+      "effective_route": "/app/service-status",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "work_restrictions"
+      ]
+    },
+    {
+      "id": "C43",
+      "title": "파트너 고객사 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/partner/clients",
+      "effective_route": "/app/partner/clients",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "client_search"
+      ]
+    },
+    {
+      "id": "C44",
+      "title": "파트너 수수료·정산 내역",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/app/partner/payouts",
+      "effective_route": "/app/partner/payouts",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "tax_invoice"
+      ]
+    },
+    {
+      "id": "A01",
+      "title": "관리자 로그인",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/login",
+      "effective_route": "/admin/login",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "device_notice"
+      ]
+    },
+    {
+      "id": "A02",
+      "title": "MFA 재인증",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/mfa",
+      "effective_route": "/admin/mfa",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "challenge_type"
+      ]
+    },
+    {
+      "id": "A03",
+      "title": "운영 통합 대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin",
+      "effective_route": "/admin",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "tenant_scope",
+        "quick_links"
+      ]
+    },
+    {
+      "id": "A04",
+      "title": "운영 알림·할 일",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/notifications",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "severity_filter",
+        "assignment_filter"
+      ]
+    },
+    {
+      "id": "A05",
+      "title": "회원 조회 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A06",
+      "route": "/admin/accounts",
+      "effective_route": "/admin/accounts/:userId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "email_search"
+      ]
+    },
+    {
+      "id": "A06",
+      "title": "회원 상세·계정 조치",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/accounts/:userId",
+      "effective_route": "/admin/accounts/:userId",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "email_masked",
+        "account_state",
+        "action_reason"
+      ]
+    },
+    {
+      "id": "A07",
+      "title": "조직 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/organizations",
+      "effective_route": "/admin/organizations",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "org_search"
+      ]
+    },
+    {
+      "id": "A08",
+      "title": "조직 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/organizations/:orgId",
+      "effective_route": "/admin/organizations/:orgId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "org_name",
+        "owner",
+        "account_issues"
+      ]
+    },
+    {
+      "id": "A09",
+      "title": "사이트·커넥터 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "route": "/admin/sites",
+      "effective_route": "/admin/sites/:siteId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "site_search",
+        "tenant_filter"
+      ]
+    },
+    {
+      "id": "A10",
+      "title": "사이트 상세·연결 진단",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/sites/:siteId",
+      "effective_route": "/admin/sites/:siteId",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "domain",
+        "verified_owner",
+        "connector_type",
+        "scope_summary"
+      ]
+    },
+    {
+      "id": "A11",
+      "title": "사이트 진단 이력 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "route": "/admin/sites/:siteId/diagnostics",
+      "effective_route": "/admin/sites/:siteId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "network_probe",
+        "permission_probe",
+        "render_probe",
+        "deploy_probe",
+        "diagnostic_log"
+      ]
+    },
+    {
+      "id": "A12",
+      "title": "패치 작업 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "route": "/admin/jobs",
+      "effective_route": "/admin/jobs/:jobId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "job_search"
+      ]
+    },
+    {
+      "id": "A13",
+      "title": "패치 작업 상세·원인 조사",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/jobs/:jobId",
+      "effective_route": "/admin/jobs/:jobId",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "tenant_site",
+        "instruction_masked",
+        "retry_allowed"
+      ]
+    },
+    {
+      "id": "A14",
+      "title": "배포 이력 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "route": "/admin/deployments",
+      "effective_route": "/admin/jobs/:jobId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "deploy_search"
+      ]
+    },
+    {
+      "id": "A15",
+      "title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "route": "/admin/deployments/:deploymentId",
+      "effective_route": "/admin/jobs/:jobId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "environment",
+        "target_site",
+        "before_after_hash",
+        "approver",
+        "deploy_status",
+        "dependency_notice",
+        "rollback_reason"
+      ]
+    },
+    {
+      "id": "A16",
+      "title": "배포 일시중지·해제 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "route": "/admin/deployment-controls",
+      "effective_route": "/admin/sites/:siteId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "reason",
+        "incident_id",
+        "current_state",
+        "second_approver"
+      ]
+    },
+    {
+      "id": "A17",
+      "title": "구독 계약 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "route": "/admin/billing/subscriptions",
+      "effective_route": "/admin/billing/transactions",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "organization_search"
+      ]
+    },
+    {
+      "id": "A18",
+      "title": "거래·정산 대사",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/billing/transactions",
+      "effective_route": "/admin/billing/transactions",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "transaction_search"
+      ]
+    },
+    {
+      "id": "A19",
+      "title": "환불 요청·승인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/billing/refunds",
+      "effective_route": "/admin/billing/refunds",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "refund_search",
+        "refund_reason",
+        "refund_approver"
+      ]
+    },
+    {
+      "id": "A20",
+      "title": "청구서·세금 증빙 조회",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "route": "/admin/billing/invoices",
+      "effective_route": "/admin/billing/transactions",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "organization"
+      ]
+    },
+    {
+      "id": "A21",
+      "title": "크레딧 원장 조회",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/credits",
+      "effective_route": "/admin/credits",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "ledger_search",
+        "organization",
+        "reconcile_status"
+      ]
+    },
+    {
+      "id": "A22",
+      "title": "크레딧 수동 조정 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A21",
+      "route": "/admin/credits/adjustments",
+      "effective_route": "/admin/credits",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "organization",
+        "current_balance",
+        "reference_job",
+        "adjustment_reason",
+        "second_approver"
+      ]
+    },
+    {
+      "id": "A23",
+      "title": "고객 문의 큐",
+      "release_current": "EMBEDDED",
+      "host_screen": "A24",
+      "route": "/admin/tickets",
+      "effective_route": "/admin/tickets/:ticketId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "ticket_search",
+        "assignee"
+      ]
+    },
+    {
+      "id": "A24",
+      "title": "문의 상세·답변 작업대",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/tickets/:ticketId",
+      "effective_route": "/admin/tickets/:ticketId",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "customer_identity",
+        "reply_text",
+        "assignee",
+        "priority"
+      ]
+    },
+    {
+      "id": "A25",
+      "title": "전문가 작업 큐",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/expert-tickets",
+      "effective_route": "/admin/expert-tickets",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "A26",
+      "title": "전문가 작업 상세·타이머",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/expert-tickets/:ticketId",
+      "effective_route": "/admin/expert-tickets/:ticketId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "customer_scope",
+        "request_details",
+        "customer_report"
+      ]
+    },
+    {
+      "id": "A27",
+      "title": "전문가 가용시간·배정 캘린더",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/expert-capacity",
+      "effective_route": "/admin/expert-capacity",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "expert_filter",
+        "calendar",
+        "capacity_warning"
+      ]
+    },
+    {
+      "id": "A28",
+      "title": "장애·사고 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/incidents",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "incident_search",
+        "severity",
+        "owner"
+      ]
+    },
+    {
+      "id": "A29",
+      "title": "사고 상세·대응 타임라인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/incidents/:incidentId",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "severity",
+        "description",
+        "incident_owner",
+        "mitigation"
+      ]
+    },
+    {
+      "id": "A30",
+      "title": "감사로그 탐색",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "/admin/audit",
+      "effective_route": "/admin/audit",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "actor_search",
+        "resource_id",
+        "event_detail"
+      ]
+    },
+    {
+      "id": "A31",
+      "title": "감사 증거 내보내기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/audit/exports",
+      "effective_route": "/admin/audit/exports",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "scopes",
+        "purpose",
+        "sensitivity",
+        "requested_by",
+        "second_approval"
+      ]
+    },
+    {
+      "id": "A32",
+      "title": "시스템 상태 관제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/system",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "A33",
+      "title": "작업 큐·워커 상태",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/system/workers",
+      "effective_route": "/admin/system/workers",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "queue_name"
+      ]
+    },
+    {
+      "id": "A34",
+      "title": "AI 모델·서킷브레이커 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/system/models",
+      "effective_route": "/admin/system/models",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "model_provider",
+        "model_name",
+        "current_route",
+        "fallback_model",
+        "change_reason"
+      ]
+    },
+    {
+      "id": "A35",
+      "title": "운영 콘텐츠 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/content",
+      "effective_route": "/admin/content",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "content_search"
+      ]
+    },
+    {
+      "id": "A36",
+      "title": "콘텐츠 편집·미리보기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/content/:contentId",
+      "effective_route": "/admin/content/:contentId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "title",
+        "slug",
+        "body",
+        "seo_description"
+      ]
+    },
+    {
+      "id": "A37",
+      "title": "직원 계정 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/staff",
+      "effective_route": "/admin/staff",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "staff_search"
+      ]
+    },
+    {
+      "id": "A38",
+      "title": "직원 초대·역할·세션 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/staff/:staffId",
+      "effective_route": "/admin/staff/:staffId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "staff_name",
+        "roles",
+        "scope",
+        "mfa_status",
+        "change_reason"
+      ]
+    },
+    {
+      "id": "A39",
+      "title": "권한 정책·접근 매트릭스",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/settings/permissions",
+      "effective_route": "/admin/settings/permissions",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "role",
+        "policy_version"
+      ]
+    },
+    {
+      "id": "A40",
+      "title": "내 관리자 프로필·세션",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/settings/profile",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "staff_name",
+        "admin_email"
+      ]
+    },
+    {
+      "id": "A41",
+      "title": "관리자 접근 거절(403)",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/forbidden",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "requested_resource",
+        "required_role"
+      ]
+    },
+    {
+      "id": "A42",
+      "title": "운영 관제 점검·오류",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/error",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "service_status"
+      ]
+    },
+    {
+      "id": "A43",
+      "title": "파트너·에이전시 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/partners",
+      "effective_route": "/admin/partners",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "commission_rate",
+        "decision_reason"
+      ]
+    },
+    {
+      "id": "A44",
+      "title": "파트너 수수료 정산",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "/admin/partners/payouts",
+      "effective_route": "/admin/partners/payouts",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "hold_reason"
+      ]
+    },
+    {
+      "id": "A45",
+      "title": "요금제·가격 버전·쿠폰",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "route": "/admin/billing/plans",
+      "effective_route": "/admin/billing/transactions",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "A46",
+      "title": "단위경제·제품 KPI",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "route": "/admin/analytics",
+      "effective_route": "/admin",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "A47",
+      "title": "호환성 매트릭스·어댑터 버전",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "route": "/admin/compatibility",
+      "effective_route": "/admin/sites/:siteId",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "evidence_url"
+      ]
+    },
+    {
+      "id": "O01",
+      "title": "전 플랫폼 알림·토스트·상태 경고",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "공통",
+      "effective_route": "공통",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "message"
+      ]
+    },
+    {
+      "id": "O02",
+      "title": "모바일 내비게이션 Drawer",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "공식/고객/관리자",
+      "effective_route": "공식/고객/관리자",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "active_menu",
+        "menu_items"
+      ]
+    },
+    {
+      "id": "O03",
+      "title": "쿠키/개인정보 동의 패널",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "공식",
+      "effective_route": "공식",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "necessary"
+      ]
+    },
+    {
+      "id": "O04",
+      "title": "데모 온보딩 코치마크",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "route": "공식 데모",
+      "effective_route": "/demo",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "step",
+        "coach_text"
+      ]
+    },
+    {
+      "id": "O05",
+      "title": "요금제 비교 팝오버",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "route": "공식/고객",
+      "effective_route": "/pricing",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "current_plan",
+        "proposed_plan"
+      ]
+    },
+    {
+      "id": "O06",
+      "title": "결제 처리 대기/오류 Dialog",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "공식/고객",
+      "effective_route": "공식/고객",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "processing_status"
+      ]
+    },
+    {
+      "id": "O07",
+      "title": "조직·사이트 전환기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "고객/관리자",
+      "effective_route": "고객/관리자",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "organization",
+        "site",
+        "role",
+        "unsaved_notice"
+      ]
+    },
+    {
+      "id": "O08",
+      "title": "접근 제한·권한 안내",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객/관리자",
+      "effective_route": "고객/관리자",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "required_action"
+      ]
+    },
+    {
+      "id": "O09",
+      "title": "Studio 상단 글로벌 바 ST-01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "studio_site",
+        "page_selector",
+        "source_preview",
+        "connection_indicator"
+      ]
+    },
+    {
+      "id": "O10",
+      "title": "Studio 요소 선택 경계 ST-02",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "hovered_node"
+      ]
+    },
+    {
+      "id": "O11",
+      "title": "Ghost Mini Dock ST-03",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "dock_location",
+        "target_pill",
+        "command_draft"
+      ]
+    },
+    {
+      "id": "O12",
+      "title": "명령 입력/의도 확인 ST-04",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "selected_target",
+        "source_text",
+        "instruction",
+        "new_text",
+        "style_value",
+        "impact_summary"
+      ]
+    },
+    {
+      "id": "O13",
+      "title": "요소 계층 Breadcrumb ST-05",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "hierarchy_path",
+        "current_element"
+      ]
+    },
+    {
+      "id": "O14",
+      "title": "원본 매핑 근거/모호성 ST-06",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "selected_candidate"
+      ]
+    },
+    {
+      "id": "O15",
+      "title": "전후 비교 패널 ST-07",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O16",
+      "title": "검증 결과 Drawer ST-08",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "postcheck_state"
+      ]
+    },
+    {
+      "id": "O17",
+      "title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "target_domain",
+        "target_environment",
+        "original_hash",
+        "approval_by",
+        "self_approval_notice",
+        "validation_passed",
+        "rollback_possible"
+      ]
+    },
+    {
+      "id": "O18",
+      "title": "복원·롤백 패널 ST-10",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "rollback_version",
+        "reason",
+        "rollback_ready"
+      ]
+    },
+    {
+      "id": "O19",
+      "title": "이미지 교체/대체텍스트 ST-11",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "dimensions",
+        "alt_text",
+        "metadata_notice"
+      ]
+    },
+    {
+      "id": "O20",
+      "title": "작업 진행 타임라인 ST-12",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "stepper",
+        "progress_status",
+        "message"
+      ]
+    },
+    {
+      "id": "O21",
+      "title": "사이트 연결 에러·재진단 모달",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 콘솔",
+      "effective_route": "고객 콘솔",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "error_code",
+        "error_reason",
+        "repair_steps"
+      ]
+    },
+    {
+      "id": "O22",
+      "title": "크레딧 HOLD·환급 확인",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 콘솔",
+      "effective_route": "고객 콘솔",
+      "legacy_route_exposed": true,
+      "tbd_fields": []
+    },
+    {
+      "id": "O23",
+      "title": "지원요청 Trace·화면 첨부 확인",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 콘솔",
+      "effective_route": "고객 콘솔",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "included_data"
+      ]
+    },
+    {
+      "id": "O24",
+      "title": "관리자 전역 통합 검색",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "query"
+      ]
+    },
+    {
+      "id": "O25",
+      "title": "고위험 조작 재확인 Dialog",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "target",
+        "action",
+        "impact",
+        "reason",
+        "verification_phrase",
+        "reauth"
+      ]
+    },
+    {
+      "id": "O26",
+      "title": "환불 심사·승인 Sheet",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "original_payment",
+        "reason"
+      ]
+    },
+    {
+      "id": "O27",
+      "title": "권한 승격·세션회수 Dialog",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "staff",
+        "role_before",
+        "role_after",
+        "reason"
+      ]
+    },
+    {
+      "id": "O28",
+      "title": "P0 사고 배너·긴급 동작",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "incident_id",
+        "affected_scope",
+        "deploy_lock"
+      ]
+    },
+    {
+      "id": "O29",
+      "title": "고객 발송 vs 내부 메모 편집기",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "recipient",
+        "message"
+      ]
+    },
+    {
+      "id": "O30",
+      "title": "감사자료 추출·다운로드 승인",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "관리자 콘솔",
+      "effective_route": "관리자 콘솔",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "export_scope",
+        "purpose",
+        "sensitive_data",
+        "approver"
+      ]
+    },
+    {
+      "id": "O31",
+      "title": "동시 편집 Presence·잠금 안내",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O32",
+      "title": "운영 반영 직후 결과 확인·복원 요청 토스트",
+      "release_current": "EMBEDDED",
+      "host_screen": "O01",
+      "route": "고객 Studio·콘솔",
+      "effective_route": "공통",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O33",
+      "title": "Studio 키보드 단축키·접근성 도움말",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "route": "고객 Studio",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": true,
+      "tbd_fields": [
+        "disable_shortcuts"
+      ]
+    },
+    {
+      "id": "O34",
+      "title": "K1 레이어 진입 · 번호로 고르기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "tap_hint"
+      ]
+    },
+    {
+      "id": "O35",
+      "title": "K2 요소 선택 · 맞춤 제안 칩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "selected_element"
+      ]
+    },
+    {
+      "id": "O36",
+      "title": "K3 듣는 중 · 실시간 자막",
+      "release_current": "EMBEDDED",
+      "host_screen": "O11",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "live_caption"
+      ]
+    },
+    {
+      "id": "O37",
+      "title": "K4 확인 카드 · 예/다시 말하기",
+      "release_current": "EMBEDDED",
+      "host_screen": "O11",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O38",
+      "title": "K5 미리보기 · 사이트 위에서 바로 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "/app/sites/:siteId/studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O39",
+      "title": "K6 원탭 반영 · 길게 눌러 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "O17",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "target_site"
+      ]
+    },
+    {
+      "id": "O40",
+      "title": "K7 반영 완료 · 말로 되돌리기",
+      "release_current": "EMBEDDED",
+      "host_screen": "O18",
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O41",
+      "title": "K8 이미지 교체 · 휴대폰으로 찍어서",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "alt_suggestion"
+      ]
+    },
+    {
+      "id": "O42",
+      "title": "K9 변경 묶음 · 한 번에 반영",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O43",
+      "title": "K10 AI가 먼저 제안 · 지난 정보 정리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "legacy_route_exposed": false,
+      "tbd_fields": []
+    },
+    {
+      "id": "O44",
+      "title": "K11 자동 처리 불가 · 전문가에게 맡기기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "fail_reason",
+        "credit_refund"
+      ]
+    },
+    {
+      "id": "O45",
+      "title": "K12 모바일 레이어 · 휴대폰에서 바로",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "route": "고객 Studio · 키보드리스",
+      "effective_route": "고객 Studio · 키보드리스",
+      "legacy_route_exposed": false,
+      "tbd_fields": [
+        "m_numbers"
+      ]
+    }
+  ]
+}

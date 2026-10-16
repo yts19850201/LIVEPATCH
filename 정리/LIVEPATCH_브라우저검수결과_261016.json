@@ -1,0 +1,17 @@
+{
+  "master": {
+    "title": "LIVEPATCH v5.7 출시 MVP와 통합 명세",
+    "chapter27": true,
+    "missingAnchors": [],
+    "brokenImages": 0
+  },
+  "mvpFilter": 63,
+  "embeddedFilter": 58,
+  "laterFilter": 52,
+  "mockup": {
+    "templates": 173,
+    "title": "C13 · Visual Patch Studio 편집",
+    "cta": "말로 바꾸기"
+  },
+  "errors": []
+}

@@ -1,0 +1,43 @@
+{
+  "unresolvedVariables": [],
+  "outsideUnchanged": true,
+  "actual": {
+    "primary": "#2563eb",
+    "studioBar": "3.5rem",
+    "container": {
+      "fontSize": "16px",
+      "lineHeight": "26px",
+      "fontWeight": "400",
+      "color": "rgb(59, 64, 72)",
+      "width": "1440px"
+    },
+    "h1": {
+      "fontSize": "32px",
+      "lineHeight": "42px",
+      "fontWeight": "700",
+      "color": "rgb(17, 19, 23)",
+      "width": "1440px"
+    },
+    "h2": {
+      "fontSize": "24px",
+      "lineHeight": "34px",
+      "fontWeight": "600",
+      "color": "rgb(17, 19, 23)",
+      "width": "1440px"
+    },
+    "caption": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "fontWeight": "400",
+      "color": "rgb(59, 64, 72)",
+      "width": "1440px"
+    },
+    "muted": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "fontWeight": "600",
+      "color": "rgb(85, 92, 102)",
+      "width": "1440px"
+    }
+  }
+}

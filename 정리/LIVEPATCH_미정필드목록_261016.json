@@ -1,0 +1,3842 @@
+{
+  "version": "5.7",
+  "count": 383,
+  "by_scope": {
+    "PILOT_REQUIRED": 119,
+    "EMBEDDED": 127,
+    "POST_MVP": 112,
+    "PAID_REQUIRED": 25
+  },
+  "fields": [
+    {
+      "screen_id": "M01",
+      "screen_title": "홈 랜딩",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "trusted_capabilities",
+      "label": "현재 지원 범위",
+      "rule": "지원 등급 연결",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M01",
+      "screen_title": "홈 랜딩",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "faq_teaser",
+      "label": "자주 묻는 질문",
+      "rule": "상위 3건",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M02",
+      "screen_title": "라이브 샘플 체험",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "sample_site",
+      "label": "체험할 샘플 사이트",
+      "rule": "화이트리스트 3개 샘플",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M02",
+      "screen_title": "라이브 샘플 체험",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "selected_element",
+      "label": "현재 선택한 영역",
+      "rule": "미선택일 때 안내",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M02",
+      "screen_title": "라이브 샘플 체험",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "instruction",
+      "label": "변경 명령",
+      "rule": "최소 2자·최대 1000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M02",
+      "screen_title": "라이브 샘플 체험",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "suggestions",
+      "label": "예시 명령",
+      "rule": "선택 시 입력칸 자동 입력",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M02",
+      "screen_title": "라이브 샘플 체험",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "demo_notice",
+      "label": "체험용 안내",
+      "rule": "운영 사이트 미변경",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M03",
+      "screen_title": "데모 결과·가입 유도",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "key": "preview_before",
+      "label": "수정 전 화면",
+      "rule": "안전 샘플",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M03",
+      "screen_title": "데모 결과·가입 유도",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "key": "preview_after",
+      "label": "수정 후 화면",
+      "rule": "안전 샘플",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M04",
+      "screen_title": "기능 전체 안내",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "key": "steps",
+      "label": "서비스 이용 5단계",
+      "rule": "선택·지시·검증·승인·적용",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M04",
+      "screen_title": "기능 전체 안내",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "key": "feature_filter",
+      "label": "기능 유형",
+      "rule": "텍스트·이미지·스타일",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M05",
+      "screen_title": "기능 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "feature_name",
+      "label": "기능명",
+      "rule": "slug 매핑",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M05",
+      "screen_title": "기능 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "feature_status",
+      "label": "출시·실험·미지원",
+      "rule": "정확한 공개 상태",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M05",
+      "screen_title": "기능 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "before_after",
+      "label": "적용 예시",
+      "rule": "합성 사례 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M06",
+      "screen_title": "호환성·지원 범위",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "framework_search",
+      "label": "솔루션·프레임워크 검색",
+      "rule": "최대 100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M07",
+      "screen_title": "업종별 활용 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "industry_filter",
+      "label": "업종",
+      "rule": "병원·학원·쇼핑몰·기업·에이전시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M07",
+      "screen_title": "업종별 활용 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "limitations",
+      "label": "실제 적용 시 주의사항",
+      "rule": "고객 승인 필요",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M08",
+      "screen_title": "업종별 활용 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "industry_title",
+      "label": "업종명",
+      "rule": "유효 업종만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M08",
+      "screen_title": "업종별 활용 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "approval_scope",
+      "label": "고객 검수 책임",
+      "rule": "법률 준수 자동 보증 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M09",
+      "screen_title": "사례·데모 갤러리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "category",
+      "label": "업종·기술 유형",
+      "rule": "전체 포함",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M09",
+      "screen_title": "사례·데모 갤러리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "case_types",
+      "label": "데모/실제 구분",
+      "rule": "구분 유지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M09",
+      "screen_title": "사례·데모 갤러리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "case_search",
+      "label": "사례 검색",
+      "rule": "최대 100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M10",
+      "screen_title": "사례 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "case_title",
+      "label": "사례 제목",
+      "rule": "공개 승인",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M10",
+      "screen_title": "사례 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "case_source",
+      "label": "실제 사례/합성 데모",
+      "rule": "오인 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M10",
+      "screen_title": "사례 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "before_after",
+      "label": "수정 전후 캡처",
+      "rule": "접근성 대체텍스트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M10",
+      "screen_title": "사례 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "tech_stack",
+      "label": "사이트 기술 환경",
+      "rule": "고객 허락 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M11",
+      "screen_title": "요금제 비교",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "site_limit",
+      "label": "사이트 연결 수",
+      "rule": "플랜마다 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M11",
+      "screen_title": "요금제 비교",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "expert_quota",
+      "label": "전문가 포함시간",
+      "rule": "정책 확인",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M11",
+      "screen_title": "요금제 비교",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "refund_notice",
+      "label": "해지·환불 요약",
+      "rule": "정책 링크",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M12",
+      "screen_title": "상품·플랜 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "key": "plan_name",
+      "label": "플랜 이름",
+      "rule": "유효 플랜",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M12",
+      "screen_title": "상품·플랜 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "key": "site_count",
+      "label": "연결 가능 사이트",
+      "rule": "확정 상품값",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M13",
+      "screen_title": "보안·데이터 보호 안내",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "security_sections",
+      "label": "보안 운영 정책",
+      "rule": "사이트 권한·기밀·배포·삭제",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M14",
+      "screen_title": "자주 묻는 질문",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "faq_search",
+      "label": "궁금한 내용 검색",
+      "rule": "최대 100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M14",
+      "screen_title": "자주 묻는 질문",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "faq_category",
+      "label": "질문 카테고리",
+      "rule": "연결·수정·결제·보안",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M14",
+      "screen_title": "자주 묻는 질문",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "faq_items",
+      "label": "질문과 답변",
+      "rule": "각 항목 고유 anchor",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M16",
+      "screen_title": "파트너 신청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "company_name",
+      "label": "회사·사업체명",
+      "rule": "2~100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M16",
+      "screen_title": "파트너 신청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "contact_name",
+      "label": "담당자명",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M16",
+      "screen_title": "파트너 신청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "additional_info",
+      "label": "희망 협력 내용",
+      "rule": "최대 2000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M17",
+      "screen_title": "문의 접수",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "key": "full_name",
+      "label": "성함/담당자명",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M17",
+      "screen_title": "문의 접수",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "key": "subject",
+      "label": "문의 제목",
+      "rule": "5~120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M17",
+      "screen_title": "문의 접수",
+      "release_current": "EMBEDDED",
+      "host_screen": "M01",
+      "key": "content",
+      "label": "문의 내용",
+      "rule": "10~5000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M18",
+      "screen_title": "공지사항 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "notice_type",
+      "label": "공지 분류",
+      "rule": "전체·서비스·장애·정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M18",
+      "screen_title": "공지사항 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "search",
+      "label": "공지 검색",
+      "rule": "최대 100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M19",
+      "screen_title": "공지사항 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "notice_title",
+      "label": "공지 제목",
+      "rule": "게시 공개",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M19",
+      "screen_title": "공지사항 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "notice_date",
+      "label": "게시·수정 시각",
+      "rule": "KST 표기",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M19",
+      "screen_title": "공지사항 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "notice_body",
+      "label": "공지 본문",
+      "rule": "정화된 HTML",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M19",
+      "screen_title": "공지사항 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "prev_next",
+      "label": "이전·다음 글",
+      "rule": "공개 글만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M20",
+      "screen_title": "이용약관",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "table_contents",
+      "label": "약관 목차",
+      "rule": "앵커",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M20",
+      "screen_title": "이용약관",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "policy_body",
+      "label": "약관 본문",
+      "rule": "법무 승인 원문",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M22",
+      "screen_title": "환불·해지 정책",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "cancellation_effect",
+      "label": "해지 적용 시점",
+      "rule": "상품 구분",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M22",
+      "screen_title": "환불·해지 정책",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "policy_version",
+      "label": "정책 버전·시행일",
+      "rule": "문서 버전",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M23",
+      "screen_title": "쿠키·추적 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "essential_cookies",
+      "label": "필수 항목",
+      "rule": "사용 거절 불가 사유",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M23",
+      "screen_title": "쿠키·추적 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "cookie_details",
+      "label": "항목·보존기간",
+      "rule": "동의 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M25",
+      "screen_title": "회원가입",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "password_visibility",
+      "label": "비밀번호 표시",
+      "rule": "입력 내용만 전환",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M25",
+      "screen_title": "회원가입",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "display_name",
+      "label": "이름/표시명",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M25",
+      "screen_title": "회원가입",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "age_14_confirm",
+      "label": "만 14세 이상입니다",
+      "rule": "개인정보보호법 법정대리인 동의 회피용 연령 확인·법무 검토",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M25",
+      "screen_title": "회원가입",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "partner_referral_code",
+      "label": "파트너 추천 코드",
+      "rule": "?ref 자동 입력·수정 가능·형식 검증",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M26",
+      "screen_title": "이메일 인증 상태",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "verified_email",
+      "label": "인증 대상 이메일",
+      "rule": "마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M29",
+      "screen_title": "인증 연동 결과",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "provider",
+      "label": "연동 서비스",
+      "rule": "승인된 OAuth provider만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M29",
+      "screen_title": "인증 연동 결과",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "account",
+      "label": "연결 계정",
+      "rule": "마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M30",
+      "screen_title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "chosen_plan",
+      "label": "선택 플랜",
+      "rule": "서버 가격 스냅샷",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M30",
+      "screen_title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "billing_cycle",
+      "label": "결제주기",
+      "rule": "월/연",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M30",
+      "screen_title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "site_count",
+      "label": "연결 사이트 수",
+      "rule": "상품 정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M30",
+      "screen_title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "coupon_code",
+      "label": "프로모션 코드",
+      "rule": "발급 정책이 있을 때만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M30",
+      "screen_title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "business_reg_no",
+      "label": "사업자등록번호",
+      "rule": "10자리 숫자·체크섬·세금계산서 선택 시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M30",
+      "screen_title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "auto_renew",
+      "label": "자동갱신 안내",
+      "rule": "다음 결제일",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M30",
+      "screen_title": "결제 주문 확인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "withdrawal_notice",
+      "label": "청약철회·환불 안내",
+      "rule": "전자상거래법 고지·정책 버전",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M32",
+      "screen_title": "접근할 수 없는 링크(404)",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "missing_path",
+      "label": "요청한 주소",
+      "rule": "민감 쿼리 제거",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M35",
+      "screen_title": "팀 초대 수락",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "org_name",
+      "label": "초대한 조직",
+      "rule": "서버 초대 레코드",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M35",
+      "screen_title": "팀 초대 수락",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "inviter",
+      "label": "초대한 사람",
+      "rule": "이름·이메일 일부 마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M36",
+      "screen_title": "가이드·리소스 허브",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "guide_search",
+      "label": "가이드 검색",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M37",
+      "screen_title": "가이드 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "summary",
+      "label": "핵심 답변 요약",
+      "rule": "2~3문장",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M37",
+      "screen_title": "가이드 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "toc",
+      "label": "목차",
+      "rule": "H2 기준 자동 생성",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "M37",
+      "screen_title": "가이드 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "limitations",
+      "label": "지원 범위·제약",
+      "rule": "호환성 페이지 링크",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C01",
+      "screen_title": "콘솔 홈·대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "current_org",
+      "label": "현재 조직",
+      "rule": "권한 있는 조직만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C01",
+      "screen_title": "콘솔 홈·대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "active_site",
+      "label": "현재 사이트",
+      "rule": "승인된 사이트만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C01",
+      "screen_title": "콘솔 홈·대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "alerts",
+      "label": "장애·만료 알림",
+      "rule": "중요도",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C02",
+      "screen_title": "처음 시작 온보딩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "step_progress",
+      "label": "시작 안내 단계",
+      "rule": "계정→사이트→증명→연결→테스트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C02",
+      "screen_title": "처음 시작 온보딩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "profile_name",
+      "label": "표시 이름",
+      "rule": "가입 시 입력값 자동 표시·수정 가능",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C02",
+      "screen_title": "처음 시작 온보딩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "organization_name",
+      "label": "조직 이름",
+      "rule": "2~100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C02",
+      "screen_title": "처음 시작 온보딩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "user_role",
+      "label": "내 역할",
+      "rule": "최초 Owner",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C03",
+      "screen_title": "내 사이트 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "site_search",
+      "label": "사이트명·도메인 검색",
+      "rule": "최대 100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C03",
+      "screen_title": "내 사이트 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "site_quota",
+      "label": "연결 사이트 이용량",
+      "rule": "사용/한도",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C04",
+      "screen_title": "사이트 등록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "display_name",
+      "label": "사이트 표시 이름",
+      "rule": "2~80자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C05",
+      "screen_title": "사이트 소유권 증명",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "site_domain",
+      "label": "소유 확인할 도메인",
+      "rule": "정규화된 hostname",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C05",
+      "screen_title": "사이트 소유권 증명",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "proof_value",
+      "label": "검증용 토큰",
+      "rule": "일회용·만료시간",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C05",
+      "screen_title": "사이트 소유권 증명",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "proof_instructions",
+      "label": "방법별 설치 안내",
+      "rule": "복사 제공",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C05",
+      "screen_title": "사이트 소유권 증명",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "token_expiry",
+      "label": "인증 토큰 만료",
+      "rule": "서버 기준",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C05",
+      "screen_title": "사이트 소유권 증명",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "last_error",
+      "label": "검증 실패 사유",
+      "rule": "DNS TTL/권한/만료 안내",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C06",
+      "screen_title": "연결 방식 선택",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "site_id",
+      "label": "연결할 사이트",
+      "rule": "소유권 검증된 사이트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C06",
+      "screen_title": "연결 방식 선택",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "support_level",
+      "label": "진단된 지원 등급",
+      "rule": "미검증 시 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C07",
+      "screen_title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "account_scope",
+      "label": "연결 계정·조직",
+      "rule": "허용된 OAuth 계정",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C07",
+      "screen_title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "repository",
+      "label": "리포지터리",
+      "rule": "Git인 경우 필수",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C07",
+      "screen_title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "branch",
+      "label": "대상 브랜치",
+      "rule": "보호 브랜치 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C07",
+      "screen_title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "root_path",
+      "label": "소스 경로",
+      "rule": "상대경로만·경로탈출 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C07",
+      "screen_title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "host",
+      "label": "SFTP 호스트",
+      "rule": "SFTP인 경우 필수",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C07",
+      "screen_title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "username",
+      "label": "접속 사용자",
+      "rule": "SFTP인 경우 필수",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C07",
+      "screen_title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "permission_scope",
+      "label": "요청 권한 목록",
+      "rule": "최소 권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C08",
+      "screen_title": "연결 진단 결과",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "site_platform",
+      "label": "탐지 기술 환경",
+      "rule": "탐지 근거",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C08",
+      "screen_title": "연결 진단 결과",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "auth_status",
+      "label": "인증·권한 검사",
+      "rule": "최소 권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C08",
+      "screen_title": "연결 진단 결과",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "render_grade",
+      "label": "브라우저 렌더 호환성",
+      "rule": "차단 사유",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C08",
+      "screen_title": "연결 진단 결과",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "deploy_capability",
+      "label": "배포·롤백 가능 여부",
+      "rule": "확인된 기능만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C09",
+      "screen_title": "테스트 수정·복구 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "target_page",
+      "label": "테스트할 페이지",
+      "rule": "허용된 공개 페이지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C09",
+      "screen_title": "테스트 수정·복구 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "test_element",
+      "label": "테스트 요소",
+      "rule": "복구 가능한 테스트 타깃",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C09",
+      "screen_title": "테스트 수정·복구 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "sample_instruction",
+      "label": "시험 명령",
+      "rule": "테스트 범위만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C09",
+      "screen_title": "테스트 수정·복구 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "restore_check",
+      "label": "복원 가능 검증",
+      "rule": "복원 성공 전 활성화 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C10",
+      "screen_title": "사이트 개요",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "site_identity",
+      "label": "사이트명·도메인",
+      "rule": "조직 소유",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C10",
+      "screen_title": "사이트 개요",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "support_mode",
+      "label": "연결 모드·등급",
+      "rule": "실측 기준",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C10",
+      "screen_title": "사이트 개요",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "key": "editing_rights",
+      "label": "내 편집/승인 권한",
+      "rule": "RBAC",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C11",
+      "screen_title": "사이트 페이지 탐색기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "page_search",
+      "label": "페이지 URL·제목 검색",
+      "rule": "최대 150자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C11",
+      "screen_title": "사이트 페이지 탐색기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "page_url",
+      "label": "선택 페이지 주소",
+      "rule": "검증 호스트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C11",
+      "screen_title": "사이트 페이지 탐색기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "page_title",
+      "label": "선택 페이지 제목",
+      "rule": "민감정보 가림",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C11",
+      "screen_title": "사이트 페이지 탐색기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "robots_note",
+      "label": "수집 제한 안내",
+      "rule": "고객 권한/정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C12",
+      "screen_title": "사이트 설정·연결 관리",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "key": "site_name",
+      "label": "사이트 이름",
+      "rule": "2~80자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C12",
+      "screen_title": "사이트 설정·연결 관리",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "key": "site_url",
+      "label": "등록 도메인",
+      "rule": "변경 시 재검증",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C12",
+      "screen_title": "사이트 설정·연결 관리",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "key": "connector_status",
+      "label": "연동 상태",
+      "rule": "연결 유효성",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C12",
+      "screen_title": "사이트 설정·연결 관리",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "key": "connector_scope",
+      "label": "연동 권한 범위",
+      "rule": "과다 권한 경고",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C12",
+      "screen_title": "사이트 설정·연결 관리",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "key": "webhook_status",
+      "label": "변경 알림 연동",
+      "rule": "보안 정보 마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C13",
+      "screen_title": "Visual Patch Studio 편집",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "site_context",
+      "label": "사이트·조직·환경",
+      "rule": "운영/스테이징 구분",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C13",
+      "screen_title": "Visual Patch Studio 편집",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "presence_indicator",
+      "label": "동시 편집자",
+      "rule": "O31 연결",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C13",
+      "screen_title": "Visual Patch Studio 편집",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "page_path",
+      "label": "편집 페이지 경로",
+      "rule": "동일 소유 도메인 내",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C13",
+      "screen_title": "Visual Patch Studio 편집",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "target_descriptor",
+      "label": "선택 요소 요약",
+      "rule": "미선택 상태",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C13",
+      "screen_title": "Visual Patch Studio 편집",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "instruction_text",
+      "label": "수정 명령",
+      "rule": "2~3000자·민감정보 주의",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C14",
+      "screen_title": "작업 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C15",
+      "key": "job_search",
+      "label": "작업 번호·사이트 검색",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C14",
+      "screen_title": "작업 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C15",
+      "key": "site_filter",
+      "label": "사이트 선택",
+      "rule": "권한 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C15",
+      "screen_title": "작업 상세·증빙",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "target_site",
+      "label": "사이트·페이지",
+      "rule": "소유권 검사",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C15",
+      "screen_title": "작업 상세·증빙",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "instruction",
+      "label": "사용자 명령 원문",
+      "rule": "민감 내용 마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C15",
+      "screen_title": "작업 상세·증빙",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "target_element",
+      "label": "수정 대상",
+      "rule": "동일 텍스트 구분",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C16",
+      "screen_title": "승인 대기함",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "site_filter",
+      "label": "사이트",
+      "rule": "승인 권한만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C17",
+      "screen_title": "승인 상세·결재",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "target_environment",
+      "label": "배포 환경",
+      "rule": "운영/스테이징",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C17",
+      "screen_title": "승인 상세·결재",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "source_hash",
+      "label": "원본 버전 해시",
+      "rule": "변경 감지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C17",
+      "screen_title": "승인 상세·결재",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "risk_notice",
+      "label": "예상 영향 범위",
+      "rule": "원본 변경 가능",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C17",
+      "screen_title": "승인 상세·결재",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "approval_comment",
+      "label": "검토 의견",
+      "rule": "1~1000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C18",
+      "screen_title": "배포 이력 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C19",
+      "key": "site_filter",
+      "label": "사이트",
+      "rule": "권한 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C19",
+      "screen_title": "배포 상세·복원",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "original_hash",
+      "label": "배포 전 원본 버전",
+      "rule": "해시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C19",
+      "screen_title": "배포 상세·복원",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "deployed_hash",
+      "label": "배포 후 버전",
+      "rule": "해시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C19",
+      "screen_title": "배포 상세·복원",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "status",
+      "label": "운영 상태",
+      "rule": "서버 확인 결과",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C19",
+      "screen_title": "배포 상세·복원",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "rollback_target",
+      "label": "복구할 버전",
+      "rule": "허용 snapshot",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C19",
+      "screen_title": "배포 상세·복원",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "rollback_reason",
+      "label": "복구 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C21",
+      "screen_title": "크레딧 거래 원장",
+      "release_current": "EMBEDDED",
+      "host_screen": "C20",
+      "key": "job_id",
+      "label": "작업 ID",
+      "rule": "입력 검증",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C22",
+      "screen_title": "크레딧 추가 구매",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "package_choice",
+      "label": "크레딧 상품",
+      "rule": "서버 상품 SKU",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C22",
+      "screen_title": "크레딧 추가 구매",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "expiry_notice",
+      "label": "사용·만료 조건",
+      "rule": "상품정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C23",
+      "screen_title": "구독·계약 현황",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "current_plan",
+      "label": "현재 플랜",
+      "rule": "서버 권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C23",
+      "screen_title": "구독·계약 현황",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "billing_period",
+      "label": "결제 주기",
+      "rule": "월/연",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C23",
+      "screen_title": "구독·계약 현황",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "connected_sites",
+      "label": "사용 중 사이트 수",
+      "rule": "사용/한도",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C23",
+      "screen_title": "구독·계약 현황",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "payment_method",
+      "label": "결제수단 마지막 4자리",
+      "rule": "전체 카드번호 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C24",
+      "screen_title": "플랜 변경",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "current_plan",
+      "label": "현재 플랜",
+      "rule": "서버값",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C24",
+      "screen_title": "플랜 변경",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "new_plan",
+      "label": "변경할 플랜",
+      "rule": "유효 상품",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C24",
+      "screen_title": "플랜 변경",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "effective_date",
+      "label": "변경 효력 시작일",
+      "rule": "서버 견적",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C24",
+      "screen_title": "플랜 변경",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "site_limit_warning",
+      "label": "사이트 수 초과 영향",
+      "rule": "손실 안내",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C25",
+      "screen_title": "결제수단 관리",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "default_method",
+      "label": "기본 결제수단",
+      "rule": "토큰 참조",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C25",
+      "screen_title": "결제수단 관리",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "billing_notice",
+      "label": "다음 청구 적용 시점",
+      "rule": "실제 정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C27",
+      "screen_title": "구독 해지·정지",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "current_plan",
+      "label": "해지 대상 구독",
+      "rule": "현재 조직",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C27",
+      "screen_title": "구독 해지·정지",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "cancel_effect",
+      "label": "해지 적용 시점",
+      "rule": "상품 정책 선택지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C27",
+      "screen_title": "구독 해지·정지",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "site_access_effect",
+      "label": "사이트 접근 영향",
+      "rule": "읽기전용 여부",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C27",
+      "screen_title": "구독 해지·정지",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "credit_expiration",
+      "label": "남은 크레딧 처리",
+      "rule": "환불 분리",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C27",
+      "screen_title": "구독 해지·정지",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "cancel_reason",
+      "label": "해지 사유",
+      "rule": "개선 참고용",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C29",
+      "screen_title": "팀원 초대·권한 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "site_scope",
+      "label": "접근 사이트",
+      "rule": "조직 사이트만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C29",
+      "screen_title": "팀원 초대·권한 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "message",
+      "label": "초대 메시지",
+      "rule": "최대 500자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C31",
+      "screen_title": "1:1 문의 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "key": "ticket_search",
+      "label": "문의번호·제목 검색",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C32",
+      "screen_title": "새 문의 작성",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "key": "site_id",
+      "label": "관련 사이트",
+      "rule": "현재 조직 소유",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C32",
+      "screen_title": "새 문의 작성",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "key": "job_id",
+      "label": "관련 작업 번호",
+      "rule": "조직 작업만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C32",
+      "screen_title": "새 문의 작성",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "key": "subject",
+      "label": "문의 제목",
+      "rule": "5~120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C32",
+      "screen_title": "새 문의 작성",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "key": "body",
+      "label": "문의 내용",
+      "rule": "10~5000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C33",
+      "screen_title": "문의 상세·대화",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "reply_text",
+      "label": "답변 작성",
+      "rule": "2~5000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C34",
+      "screen_title": "전문가 작업 요청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "site_id",
+      "label": "대상 사이트",
+      "rule": "조직 사이트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C34",
+      "screen_title": "전문가 작업 요청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "subject",
+      "label": "작업 제목",
+      "rule": "5~120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C34",
+      "screen_title": "전문가 작업 요청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "description",
+      "label": "변경 요청 상세",
+      "rule": "20~5000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C34",
+      "screen_title": "전문가 작업 요청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "desired_outcome",
+      "label": "원하는 완료 결과",
+      "rule": "10~1000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C34",
+      "screen_title": "전문가 작업 요청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "included_hours",
+      "label": "잔여 포함 시간",
+      "rule": "실제 계약",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C35",
+      "screen_title": "전문가 진행 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "assignee",
+      "label": "담당 전문가/팀",
+      "rule": "개인정보 정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C35",
+      "screen_title": "전문가 진행 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "time_budget",
+      "label": "예정/소모 시간",
+      "rule": "계약 기준",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C35",
+      "screen_title": "전문가 진행 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "customer_comment",
+      "label": "추가 요청 내용",
+      "rule": "0~2000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C36",
+      "screen_title": "개인 프로필·보안",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "display_name",
+      "label": "표시 이름",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C36",
+      "screen_title": "개인 프로필·보안",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "email",
+      "label": "로그인 이메일",
+      "rule": "변경 절차 분리",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C36",
+      "screen_title": "개인 프로필·보안",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "language",
+      "label": "언어",
+      "rule": "한국어 우선",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C37",
+      "screen_title": "조직 정보·사업자 설정",
+      "release_current": "EMBEDDED",
+      "host_screen": "C23",
+      "key": "organization_name",
+      "label": "조직명",
+      "rule": "2~100자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C37",
+      "screen_title": "조직 정보·사업자 설정",
+      "release_current": "EMBEDDED",
+      "host_screen": "C23",
+      "key": "business_number",
+      "label": "사업자등록번호",
+      "rule": "형식·검증 정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C37",
+      "screen_title": "조직 정보·사업자 설정",
+      "release_current": "EMBEDDED",
+      "host_screen": "C23",
+      "key": "representative",
+      "label": "대표자명",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C37",
+      "screen_title": "조직 정보·사업자 설정",
+      "release_current": "EMBEDDED",
+      "host_screen": "C23",
+      "key": "business_address",
+      "label": "사업장 주소",
+      "rule": "주소 입력 정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C38",
+      "screen_title": "알림 수신 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "email_security",
+      "label": "보안 안내",
+      "rule": "필수 알림 중단 불가",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C39",
+      "screen_title": "연동·키 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "key_label",
+      "label": "키 별칭",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C39",
+      "screen_title": "연동·키 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "scopes",
+      "label": "연결 범위",
+      "rule": "권한·과금 설명",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C40",
+      "screen_title": "데이터 보존·삭제 요청",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "delete_reason",
+      "label": "삭제 요청 사유",
+      "rule": "최대 1000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C41",
+      "screen_title": "모바일 웹 마이크·QR 페어링",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "paired_session",
+      "label": "연결할 PC Studio",
+      "rule": "일회용 세션 ID",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C41",
+      "screen_title": "모바일 웹 마이크·QR 페어링",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "mic_permission",
+      "label": "마이크 권한",
+      "rule": "브라우저 API",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C41",
+      "screen_title": "모바일 웹 마이크·QR 페어링",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "transcription",
+      "label": "인식된 문장",
+      "rule": "전송 전 편집",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C42",
+      "screen_title": "고객용 서비스 상태·작업 제한",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "work_restrictions",
+      "label": "현재 제한사항",
+      "rule": "정지 배포·읽기전용",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C43",
+      "screen_title": "파트너 고객사 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "client_search",
+      "label": "고객사 검색",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "C44",
+      "screen_title": "파트너 수수료·정산 내역",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "tax_invoice",
+      "label": "세금계산서 상태",
+      "rule": "사업자 파트너",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A01",
+      "screen_title": "관리자 로그인",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "device_notice",
+      "label": "인가된 기기 안내",
+      "rule": "MFA 필요",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A02",
+      "screen_title": "MFA 재인증",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "challenge_type",
+      "label": "재인증 방식",
+      "rule": "TOTP/WebAuthn 정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A03",
+      "screen_title": "운영 통합 대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "tenant_scope",
+      "label": "조직 범위",
+      "rule": "관리 권한만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A03",
+      "screen_title": "운영 통합 대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "quick_links",
+      "label": "사고·작업·문의로",
+      "rule": "역할별",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A04",
+      "screen_title": "운영 알림·할 일",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "severity_filter",
+      "label": "심각도",
+      "rule": "P0~P3",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A04",
+      "screen_title": "운영 알림·할 일",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "assignment_filter",
+      "label": "담당자",
+      "rule": "권한 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A05",
+      "screen_title": "회원 조회 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A06",
+      "key": "email_search",
+      "label": "이메일·회원 ID 검색",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A06",
+      "screen_title": "회원 상세·계정 조치",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "email_masked",
+      "label": "이메일",
+      "rule": "기본 마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A06",
+      "screen_title": "회원 상세·계정 조치",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "account_state",
+      "label": "계정 상태",
+      "rule": "이유 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A06",
+      "screen_title": "회원 상세·계정 조치",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "action_reason",
+      "label": "조치 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A07",
+      "screen_title": "조직 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "org_search",
+      "label": "조직명·ID 검색",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A08",
+      "screen_title": "조직 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "org_name",
+      "label": "조직명",
+      "rule": "민감정보 정책",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A08",
+      "screen_title": "조직 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "owner",
+      "label": "조직 소유자",
+      "rule": "마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A08",
+      "screen_title": "조직 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "account_issues",
+      "label": "정합성 경고",
+      "rule": "원장/권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A09",
+      "screen_title": "사이트·커넥터 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "site_search",
+      "label": "도메인·사이트ID",
+      "rule": "최대 160자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A09",
+      "screen_title": "사이트·커넥터 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "tenant_filter",
+      "label": "조직",
+      "rule": "보호 검색",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A10",
+      "screen_title": "사이트 상세·연결 진단",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "domain",
+      "label": "사이트 도메인",
+      "rule": "승인 호스트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A10",
+      "screen_title": "사이트 상세·연결 진단",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "verified_owner",
+      "label": "소유권 확인 상태",
+      "rule": "검증방식",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A10",
+      "screen_title": "사이트 상세·연결 진단",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "connector_type",
+      "label": "연결 방식",
+      "rule": "A/B/C",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A10",
+      "screen_title": "사이트 상세·연결 진단",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "scope_summary",
+      "label": "커넥터 권한",
+      "rule": "비밀 노출 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A11",
+      "screen_title": "사이트 진단 이력 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "network_probe",
+      "label": "접속 검사",
+      "rule": "응답상태",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A11",
+      "screen_title": "사이트 진단 이력 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "permission_probe",
+      "label": "권한 검사",
+      "rule": "민감값 마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A11",
+      "screen_title": "사이트 진단 이력 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "render_probe",
+      "label": "렌더 검사",
+      "rule": "재현 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A11",
+      "screen_title": "사이트 진단 이력 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "deploy_probe",
+      "label": "배포 검증",
+      "rule": "테스트만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A11",
+      "screen_title": "사이트 진단 이력 상세",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "diagnostic_log",
+      "label": "안전한 로그",
+      "rule": "보안 필터",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A12",
+      "screen_title": "패치 작업 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "job_search",
+      "label": "작업ID·TraceID 검색",
+      "rule": "유효 형태",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A13",
+      "screen_title": "패치 작업 상세·원인 조사",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "tenant_site",
+      "label": "조직·사이트",
+      "rule": "접근 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A13",
+      "screen_title": "패치 작업 상세·원인 조사",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "instruction_masked",
+      "label": "요청 명령",
+      "rule": "필요부분만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A13",
+      "screen_title": "패치 작업 상세·원인 조사",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "retry_allowed",
+      "label": "재시도 허용 여부",
+      "rule": "멱등",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A14",
+      "screen_title": "배포 이력 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "deploy_search",
+      "label": "배포ID·사이트 검색",
+      "rule": "유효",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A15",
+      "screen_title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "environment",
+      "label": "실제 환경",
+      "rule": "운영 강조",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A15",
+      "screen_title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "target_site",
+      "label": "사이트·조직",
+      "rule": "보호",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A15",
+      "screen_title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "before_after_hash",
+      "label": "전·후 원본 해시",
+      "rule": "충돌 판단",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A15",
+      "screen_title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "approver",
+      "label": "배포 승인자",
+      "rule": "감사",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A15",
+      "screen_title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "deploy_status",
+      "label": "배포 상태",
+      "rule": "확인중 분리",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A15",
+      "screen_title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "dependency_notice",
+      "label": "후속 배포 의존",
+      "rule": "충돌 사유",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A15",
+      "screen_title": "배포 상세·복원 통제",
+      "release_current": "EMBEDDED",
+      "host_screen": "A13",
+      "key": "rollback_reason",
+      "label": "복구 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A16",
+      "screen_title": "배포 일시중지·해제 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "reason",
+      "label": "조치 사유",
+      "rule": "최소 20자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A16",
+      "screen_title": "배포 일시중지·해제 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "incident_id",
+      "label": "관련 사고ID",
+      "rule": "P0 연결",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A16",
+      "screen_title": "배포 일시중지·해제 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "current_state",
+      "label": "현재 통제 상태",
+      "rule": "서버값",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A16",
+      "screen_title": "배포 일시중지·해제 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "second_approver",
+      "label": "2차 승인자",
+      "rule": "본인 중복 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A17",
+      "screen_title": "구독 계약 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "key": "organization_search",
+      "label": "조직·계약ID 검색",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A18",
+      "screen_title": "거래·정산 대사",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "transaction_search",
+      "label": "주문/PG 거래ID",
+      "rule": "유효 ID",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A19",
+      "screen_title": "환불 요청·승인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "refund_search",
+      "label": "환불/주문 번호",
+      "rule": "유효",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A19",
+      "screen_title": "환불 요청·승인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "refund_reason",
+      "label": "심사 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A19",
+      "screen_title": "환불 요청·승인",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "refund_approver",
+      "label": "심사·승인자",
+      "rule": "역할 분리",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A20",
+      "screen_title": "청구서·세금 증빙 조회",
+      "release_current": "EMBEDDED",
+      "host_screen": "A18",
+      "key": "organization",
+      "label": "발행 조직",
+      "rule": "권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A21",
+      "screen_title": "크레딧 원장 조회",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "ledger_search",
+      "label": "원장 거래ID·작업ID",
+      "rule": "유효",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A21",
+      "screen_title": "크레딧 원장 조회",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "organization",
+      "label": "조직 검색",
+      "rule": "권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A21",
+      "screen_title": "크레딧 원장 조회",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "reconcile_status",
+      "label": "정합성 검사",
+      "rule": "실제 검사",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A22",
+      "screen_title": "크레딧 수동 조정 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A21",
+      "key": "organization",
+      "label": "조정 대상 조직",
+      "rule": "정확한 ID 확인",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A22",
+      "screen_title": "크레딧 수동 조정 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A21",
+      "key": "current_balance",
+      "label": "현재 잔액",
+      "rule": "원장 기준",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A22",
+      "screen_title": "크레딧 수동 조정 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A21",
+      "key": "reference_job",
+      "label": "참조 작업·문의ID",
+      "rule": "조직 소유",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A22",
+      "screen_title": "크레딧 수동 조정 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A21",
+      "key": "adjustment_reason",
+      "label": "조정 이유",
+      "rule": "최소 20자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A22",
+      "screen_title": "크레딧 수동 조정 승인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A21",
+      "key": "second_approver",
+      "label": "2차 승인자",
+      "rule": "본인 금지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A23",
+      "screen_title": "고객 문의 큐",
+      "release_current": "EMBEDDED",
+      "host_screen": "A24",
+      "key": "ticket_search",
+      "label": "문의번호·고객 검색",
+      "rule": "권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A23",
+      "screen_title": "고객 문의 큐",
+      "release_current": "EMBEDDED",
+      "host_screen": "A24",
+      "key": "assignee",
+      "label": "담당자",
+      "rule": "팀원 목록",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A24",
+      "screen_title": "문의 상세·답변 작업대",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "customer_identity",
+      "label": "고객·조직",
+      "rule": "확인",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A24",
+      "screen_title": "문의 상세·답변 작업대",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "reply_text",
+      "label": "작성 내용",
+      "rule": "2~5000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A24",
+      "screen_title": "문의 상세·답변 작업대",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "assignee",
+      "label": "담당자 변경",
+      "rule": "권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A24",
+      "screen_title": "문의 상세·답변 작업대",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "priority",
+      "label": "긴급도 변경",
+      "rule": "감사기록",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A26",
+      "screen_title": "전문가 작업 상세·타이머",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "customer_scope",
+      "label": "조직·사이트",
+      "rule": "권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A26",
+      "screen_title": "전문가 작업 상세·타이머",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "request_details",
+      "label": "고객 요청사항",
+      "rule": "승인 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A26",
+      "screen_title": "전문가 작업 상세·타이머",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "customer_report",
+      "label": "고객 전달 메시지",
+      "rule": "10~2000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A27",
+      "screen_title": "전문가 가용시간·배정 캘린더",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "expert_filter",
+      "label": "전문가",
+      "rule": "활성 직원",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A27",
+      "screen_title": "전문가 가용시간·배정 캘린더",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "calendar",
+      "label": "작업 일정 캘린더",
+      "rule": "과다 배정 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A27",
+      "screen_title": "전문가 가용시간·배정 캘린더",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "capacity_warning",
+      "label": "초과 배정 경고",
+      "rule": "최대치",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A28",
+      "screen_title": "장애·사고 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "incident_search",
+      "label": "사고번호·사이트",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A28",
+      "screen_title": "장애·사고 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "severity",
+      "label": "심각도",
+      "rule": "P0~P3",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A28",
+      "screen_title": "장애·사고 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "owner",
+      "label": "담당자",
+      "rule": "조직 운영진",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A29",
+      "screen_title": "사고 상세·대응 타임라인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "severity",
+      "label": "등급",
+      "rule": "P0~P3",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A29",
+      "screen_title": "사고 상세·대응 타임라인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "description",
+      "label": "사고 설명",
+      "rule": "20~5000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A29",
+      "screen_title": "사고 상세·대응 타임라인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "incident_owner",
+      "label": "책임자",
+      "rule": "권한 있는 담당자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A29",
+      "screen_title": "사고 상세·대응 타임라인",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "mitigation",
+      "label": "조치 내용",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A30",
+      "screen_title": "감사로그 탐색",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "actor_search",
+      "label": "조치자 검색",
+      "rule": "마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A30",
+      "screen_title": "감사로그 탐색",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "resource_id",
+      "label": "대상 ID",
+      "rule": "유효 ID",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A30",
+      "screen_title": "감사로그 탐색",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "event_detail",
+      "label": "감사 상세",
+      "rule": "민감정보 최소",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A31",
+      "screen_title": "감사 증거 내보내기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "scopes",
+      "label": "조직·사이트 범위",
+      "rule": "허용 범위",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A31",
+      "screen_title": "감사 증거 내보내기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "purpose",
+      "label": "이용 목적",
+      "rule": "20~1000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A31",
+      "screen_title": "감사 증거 내보내기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "sensitivity",
+      "label": "민감도 분류",
+      "rule": "개인정보 포함 여부",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A31",
+      "screen_title": "감사 증거 내보내기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "requested_by",
+      "label": "요청자",
+      "rule": "계정",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A31",
+      "screen_title": "감사 증거 내보내기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "second_approval",
+      "label": "승인자",
+      "rule": "본인 불가",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A33",
+      "screen_title": "작업 큐·워커 상태",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "queue_name",
+      "label": "작업 큐",
+      "rule": "허용 큐",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A34",
+      "screen_title": "AI 모델·서킷브레이커 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "model_provider",
+      "label": "모델 공급자",
+      "rule": "허용된 공급사",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A34",
+      "screen_title": "AI 모델·서킷브레이커 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "model_name",
+      "label": "모델 ID",
+      "rule": "검증된 버전",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A34",
+      "screen_title": "AI 모델·서킷브레이커 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "current_route",
+      "label": "현재 라우팅 정책",
+      "rule": "프로덕션 반영값",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A34",
+      "screen_title": "AI 모델·서킷브레이커 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "fallback_model",
+      "label": "대체 모델",
+      "rule": "허용 목록",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A34",
+      "screen_title": "AI 모델·서킷브레이커 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "change_reason",
+      "label": "변경 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A35",
+      "screen_title": "운영 콘텐츠 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "content_search",
+      "label": "콘텐츠 제목 검색",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A36",
+      "screen_title": "콘텐츠 편집·미리보기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "title",
+      "label": "제목",
+      "rule": "5~120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A36",
+      "screen_title": "콘텐츠 편집·미리보기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "slug",
+      "label": "URL 슬러그",
+      "rule": "충돌·예약어 검사",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A36",
+      "screen_title": "콘텐츠 편집·미리보기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "body",
+      "label": "본문",
+      "rule": "10~20000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A36",
+      "screen_title": "콘텐츠 편집·미리보기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "seo_description",
+      "label": "검색 설명",
+      "rule": "50~160자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A37",
+      "screen_title": "직원 계정 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "staff_search",
+      "label": "직원 이메일 검색",
+      "rule": "최대 120자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A38",
+      "screen_title": "직원 초대·역할·세션 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "staff_name",
+      "label": "직원 이름",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A38",
+      "screen_title": "직원 초대·역할·세션 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "roles",
+      "label": "역할 목록",
+      "rule": "허용 역할만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A38",
+      "screen_title": "직원 초대·역할·세션 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "scope",
+      "label": "관리 대상 조직·서비스",
+      "rule": "최소 권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A38",
+      "screen_title": "직원 초대·역할·세션 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "mfa_status",
+      "label": "MFA 등록 상태",
+      "rule": "활성화 요구",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A38",
+      "screen_title": "직원 초대·역할·세션 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "change_reason",
+      "label": "권한 변경 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A39",
+      "screen_title": "권한 정책·접근 매트릭스",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "role",
+      "label": "역할 선택",
+      "rule": "사전 정의 role",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A39",
+      "screen_title": "권한 정책·접근 매트릭스",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "policy_version",
+      "label": "정책 버전",
+      "rule": "서명·배포 시각",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A40",
+      "screen_title": "내 관리자 프로필·세션",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "staff_name",
+      "label": "관리자 표시명",
+      "rule": "2~50자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A40",
+      "screen_title": "내 관리자 프로필·세션",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "admin_email",
+      "label": "관리자 이메일",
+      "rule": "변경 별도 절차",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A41",
+      "screen_title": "관리자 접근 거절(403)",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "requested_resource",
+      "label": "접근 요청 메뉴",
+      "rule": "민감 경로 제거",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A41",
+      "screen_title": "관리자 접근 거절(403)",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "required_role",
+      "label": "필요 역할",
+      "rule": "권한 정보 노출주의",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A42",
+      "screen_title": "운영 관제 점검·오류",
+      "release_current": "EMBEDDED",
+      "host_screen": "A03",
+      "key": "service_status",
+      "label": "관제 상태",
+      "rule": "가능한 정보",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A43",
+      "screen_title": "파트너·에이전시 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "commission_rate",
+      "label": "수수료율",
+      "rule": "0~30%·정책 버전",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A43",
+      "screen_title": "파트너·에이전시 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "decision_reason",
+      "label": "검토 사유",
+      "rule": "10~500자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A44",
+      "screen_title": "파트너 수수료 정산",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "hold_reason",
+      "label": "보류 사유",
+      "rule": "10~500자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "A47",
+      "screen_title": "호환성 매트릭스·어댑터 버전",
+      "release_current": "EMBEDDED",
+      "host_screen": "A10",
+      "key": "evidence_url",
+      "label": "검증 근거 링크",
+      "rule": "테스트 실행 결과",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O01",
+      "screen_title": "전 플랫폼 알림·토스트·상태 경고",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "message",
+      "label": "알림 본문",
+      "rule": "후속 행동 명시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O02",
+      "screen_title": "모바일 내비게이션 Drawer",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "active_menu",
+      "label": "현재 메뉴",
+      "rule": "활성 상태",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O02",
+      "screen_title": "모바일 내비게이션 Drawer",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "menu_items",
+      "label": "메뉴 목록",
+      "rule": "권한 있는 메뉴만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O03",
+      "screen_title": "쿠키/개인정보 동의 패널",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "necessary",
+      "label": "필수 쿠키",
+      "rule": "개인정보방침 링크",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O04",
+      "screen_title": "데모 온보딩 코치마크",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "key": "step",
+      "label": "안내 단계",
+      "rule": "선택·명령·미리보기",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O04",
+      "screen_title": "데모 온보딩 코치마크",
+      "release_current": "EMBEDDED",
+      "host_screen": "M02",
+      "key": "coach_text",
+      "label": "현재 단계 안내",
+      "rule": "실제 조작 위치",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O05",
+      "screen_title": "요금제 비교 팝오버",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "key": "current_plan",
+      "label": "기존 플랜",
+      "rule": "상품 스냅샷",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O05",
+      "screen_title": "요금제 비교 팝오버",
+      "release_current": "EMBEDDED",
+      "host_screen": "M11",
+      "key": "proposed_plan",
+      "label": "비교 플랜",
+      "rule": "허용 상품",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O06",
+      "screen_title": "결제 처리 대기/오류 Dialog",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "processing_status",
+      "label": "결제 확인 중",
+      "rule": "PG 확정 전 미완료",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O07",
+      "screen_title": "조직·사이트 전환기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "organization",
+      "label": "조직 선택",
+      "rule": "접근 가능한 조직만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O07",
+      "screen_title": "조직·사이트 전환기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "site",
+      "label": "사이트 선택",
+      "rule": "해당 조직 사이트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O07",
+      "screen_title": "조직·사이트 전환기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "role",
+      "label": "현재 역할",
+      "rule": "권한",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O07",
+      "screen_title": "조직·사이트 전환기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "unsaved_notice",
+      "label": "저장되지 않은 변경",
+      "rule": "전환 확인",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O08",
+      "screen_title": "접근 제한·권한 안내",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "required_action",
+      "label": "해결 방법",
+      "rule": "권한 요청·연동 재확인",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O09",
+      "screen_title": "Studio 상단 글로벌 바 ST-01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "studio_site",
+      "label": "현재 사이트",
+      "rule": "도메인·조직",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O09",
+      "screen_title": "Studio 상단 글로벌 바 ST-01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "page_selector",
+      "label": "페이지 경로",
+      "rule": "검증 host",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O09",
+      "screen_title": "Studio 상단 글로벌 바 ST-01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "source_preview",
+      "label": "원본/변경안",
+      "rule": "원본 보존",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O09",
+      "screen_title": "Studio 상단 글로벌 바 ST-01",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "connection_indicator",
+      "label": "연결 상태",
+      "rule": "끊김 시 편집 정지",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O10",
+      "screen_title": "Studio 요소 선택 경계 ST-02",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "hovered_node",
+      "label": "커서가 가리킨 요소",
+      "rule": "접근성 이름",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O11",
+      "screen_title": "Ghost Mini Dock ST-03",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "dock_location",
+      "label": "Dock 위치",
+      "rule": "사용자 설정",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O11",
+      "screen_title": "Ghost Mini Dock ST-03",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "target_pill",
+      "label": "선택된 대상",
+      "rule": "현재 대상 없으면 미선택",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O11",
+      "screen_title": "Ghost Mini Dock ST-03",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "command_draft",
+      "label": "명령 입력",
+      "rule": "2~3000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O12",
+      "screen_title": "명령 입력/의도 확인 ST-04",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "selected_target",
+      "label": "적용 대상",
+      "rule": "없으면 생성 차단",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O12",
+      "screen_title": "명령 입력/의도 확인 ST-04",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "source_text",
+      "label": "현재 보이는 값",
+      "rule": "민감 마스킹",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O12",
+      "screen_title": "명령 입력/의도 확인 ST-04",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "instruction",
+      "label": "수정 요청",
+      "rule": "2~3000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O12",
+      "screen_title": "명령 입력/의도 확인 ST-04",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "new_text",
+      "label": "교체할 문구",
+      "rule": "텍스트일 때",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O12",
+      "screen_title": "명령 입력/의도 확인 ST-04",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "style_value",
+      "label": "원하는 값",
+      "rule": "속성별 단위 검증",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O12",
+      "screen_title": "명령 입력/의도 확인 ST-04",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "impact_summary",
+      "label": "변경 예상 범위",
+      "rule": "복수 페이지 가능성",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O13",
+      "screen_title": "요소 계층 Breadcrumb ST-05",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "hierarchy_path",
+      "label": "요소 계층 경로",
+      "rule": "선택 DOM",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O13",
+      "screen_title": "요소 계층 Breadcrumb ST-05",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "current_element",
+      "label": "현재 선택 요소",
+      "rule": "고유 ID",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O14",
+      "screen_title": "원본 매핑 근거/모호성 ST-06",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "selected_candidate",
+      "label": "수정 대상 소스 확인",
+      "rule": "복수 후보",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O16",
+      "screen_title": "검증 결과 Drawer ST-08",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "postcheck_state",
+      "label": "배포 후 점검",
+      "rule": "배포 전 미실행",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O17",
+      "screen_title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "target_domain",
+      "label": "운영 도메인",
+      "rule": "현재 사이트 재검증",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O17",
+      "screen_title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "target_environment",
+      "label": "배포 대상 환경",
+      "rule": "운영 강조",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O17",
+      "screen_title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "original_hash",
+      "label": "원본 버전 해시",
+      "rule": "불일치 차단",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O17",
+      "screen_title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "approval_by",
+      "label": "승인 담당자",
+      "rule": "RBAC 검증",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O17",
+      "screen_title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "self_approval_notice",
+      "label": "본인 승인 안내",
+      "rule": "1인 조직 Owner 본인 승인 시 재인증 필요",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O17",
+      "screen_title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "validation_passed",
+      "label": "검증 결과",
+      "rule": "필수 단계 PASS",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O17",
+      "screen_title": "실제 운영 배포 승인 Dialog ST-09",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "rollback_possible",
+      "label": "되돌리기 가능 여부",
+      "rule": "거짓이면 명시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O18",
+      "screen_title": "복원·롤백 패널 ST-10",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "rollback_version",
+      "label": "복구할 버전",
+      "rule": "복구 가능 snapshot",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O18",
+      "screen_title": "복원·롤백 패널 ST-10",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "reason",
+      "label": "복원 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O18",
+      "screen_title": "복원·롤백 패널 ST-10",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "rollback_ready",
+      "label": "복구 가능 상태",
+      "rule": "검증 완료 전 차단",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O19",
+      "screen_title": "이미지 교체/대체텍스트 ST-11",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "dimensions",
+      "label": "새 이미지 크기",
+      "rule": "픽셀/비율",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O19",
+      "screen_title": "이미지 교체/대체텍스트 ST-11",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "alt_text",
+      "label": "대체텍스트",
+      "rule": "장식용 제외 구분",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O19",
+      "screen_title": "이미지 교체/대체텍스트 ST-11",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "metadata_notice",
+      "label": "위치정보 제거 안내",
+      "rule": "서버 EXIF 검사",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O20",
+      "screen_title": "작업 진행 타임라인 ST-12",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "stepper",
+      "label": "진행 단계",
+      "rule": "탐색·생성·검증·승인·배포·사후",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O20",
+      "screen_title": "작업 진행 타임라인 ST-12",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "progress_status",
+      "label": "현재 상태",
+      "rule": "서버 이벤트",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O20",
+      "screen_title": "작업 진행 타임라인 ST-12",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "message",
+      "label": "단계별 설명",
+      "rule": "사용자 언어",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O21",
+      "screen_title": "사이트 연결 에러·재진단 모달",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "error_code",
+      "label": "연결 실패 코드",
+      "rule": "민감정보 제외",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O21",
+      "screen_title": "사이트 연결 에러·재진단 모달",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "error_reason",
+      "label": "고객용 오류 설명",
+      "rule": "정확한 실패 유형",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O21",
+      "screen_title": "사이트 연결 에러·재진단 모달",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "repair_steps",
+      "label": "문제 해결 순서",
+      "rule": "모드별",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O23",
+      "screen_title": "지원요청 Trace·화면 첨부 확인",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "included_data",
+      "label": "전송 데이터 목록",
+      "rule": "명시적 항목",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O24",
+      "screen_title": "관리자 전역 통합 검색",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "query",
+      "label": "전체 검색어",
+      "rule": "고객·사이트·Trace·거래",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O25",
+      "screen_title": "고위험 조작 재확인 Dialog",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "target",
+      "label": "조치 대상",
+      "rule": "정확한 식별자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O25",
+      "screen_title": "고위험 조작 재확인 Dialog",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "action",
+      "label": "실행할 조치",
+      "rule": "취소·중지·삭제 등",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O25",
+      "screen_title": "고위험 조작 재확인 Dialog",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "impact",
+      "label": "영향 범위",
+      "rule": "실시간 조치 설명",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O25",
+      "screen_title": "고위험 조작 재확인 Dialog",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "reason",
+      "label": "업무 사유",
+      "rule": "최소 20자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O25",
+      "screen_title": "고위험 조작 재확인 Dialog",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "verification_phrase",
+      "label": "확인 문구 입력",
+      "rule": "대상값 일치",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O25",
+      "screen_title": "고위험 조작 재확인 Dialog",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "reauth",
+      "label": "재인증 상태",
+      "rule": "MFA",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O26",
+      "screen_title": "환불 심사·승인 Sheet",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "original_payment",
+      "label": "원 결제정보",
+      "rule": "서버 확인",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O26",
+      "screen_title": "환불 심사·승인 Sheet",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "key": "reason",
+      "label": "환불 심사 사유",
+      "rule": "최소 10자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O27",
+      "screen_title": "권한 승격·세션회수 Dialog",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "staff",
+      "label": "변경 직원",
+      "rule": "직원 ID",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O27",
+      "screen_title": "권한 승격·세션회수 Dialog",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "role_before",
+      "label": "기존 역할",
+      "rule": "권한표",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O27",
+      "screen_title": "권한 승격·세션회수 Dialog",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "role_after",
+      "label": "변경 역할",
+      "rule": "허용 역할",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O27",
+      "screen_title": "권한 승격·세션회수 Dialog",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "reason",
+      "label": "변경 사유",
+      "rule": "최소 20자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O28",
+      "screen_title": "P0 사고 배너·긴급 동작",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "incident_id",
+      "label": "활성 P0 사고",
+      "rule": "사고 링크",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O28",
+      "screen_title": "P0 사고 배너·긴급 동작",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "affected_scope",
+      "label": "영향 범위",
+      "rule": "조직·서비스",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O28",
+      "screen_title": "P0 사고 배너·긴급 동작",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "deploy_lock",
+      "label": "배포 중지 상태",
+      "rule": "실제 상태",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O29",
+      "screen_title": "고객 발송 vs 내부 메모 편집기",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "recipient",
+      "label": "실제 발송 대상",
+      "rule": "고객 응답 시만",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O29",
+      "screen_title": "고객 발송 vs 내부 메모 편집기",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "message",
+      "label": "본문",
+      "rule": "2~5000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O30",
+      "screen_title": "감사자료 추출·다운로드 승인",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "export_scope",
+      "label": "추출 범위",
+      "rule": "조직·시간·유형",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O30",
+      "screen_title": "감사자료 추출·다운로드 승인",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "purpose",
+      "label": "내보내기 목적",
+      "rule": "20~1000자",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O30",
+      "screen_title": "감사자료 추출·다운로드 승인",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "sensitive_data",
+      "label": "민감정보 포함 여부",
+      "rule": "자동 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O30",
+      "screen_title": "감사자료 추출·다운로드 승인",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "approver",
+      "label": "승인자",
+      "rule": "요청자와 분리",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O33",
+      "screen_title": "Studio 키보드 단축키·접근성 도움말",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "key": "disable_shortcuts",
+      "label": "단축키 사용 안 함",
+      "rule": "기본: 사용(수정자 키 조합만)",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O34",
+      "screen_title": "K1 레이어 진입 · 번호로 고르기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "tap_hint",
+      "label": "바꿀 곳을 누르세요",
+      "rule": "탭 선택 대안",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O35",
+      "screen_title": "K2 요소 선택 · 맞춤 제안 칩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "key": "selected_element",
+      "label": "선택한 요소",
+      "rule": "8번 · 스케일링 가격",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O36",
+      "screen_title": "K3 듣는 중 · 실시간 자막",
+      "release_current": "EMBEDDED",
+      "host_screen": "O11",
+      "key": "live_caption",
+      "label": "실시간 자막",
+      "rule": "숫자·고유명사 강조",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O39",
+      "screen_title": "K6 원탭 반영 · 길게 눌러 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "O17",
+      "key": "target_site",
+      "label": "반영 대상",
+      "rule": "bluedental.co.kr · 운영",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O41",
+      "screen_title": "K8 이미지 교체 · 휴대폰으로 찍어서",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "alt_suggestion",
+      "label": "대체 텍스트 제안",
+      "rule": "탭으로 확정",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O44",
+      "screen_title": "K11 자동 처리 불가 · 전문가에게 맡기기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "fail_reason",
+      "label": "자동 처리 불가 이유",
+      "rule": "고객 언어 1문장",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O44",
+      "screen_title": "K11 자동 처리 불가 · 전문가에게 맡기기",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "credit_refund",
+      "label": "크레딧 반환",
+      "rule": "HOLD 해제",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    },
+    {
+      "screen_id": "O45",
+      "screen_title": "K12 모바일 레이어 · 휴대폰에서 바로",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "key": "m_numbers",
+      "label": "번호 보기",
+      "rule": "배지 표시",
+      "example_value": "TBD — 콘텐츠·데이터 사양 확정 필요"
+    }
+  ]
+}
