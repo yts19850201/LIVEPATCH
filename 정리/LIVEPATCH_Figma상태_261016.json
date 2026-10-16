@@ -798,5 +798,19 @@
     "Components": "진행 승인 대기·미착수",
     "Studio": "미착수"
   },
-  "reviewUrl": "https://www.figma.com/design/VwuyN75CQK9Kn0ZyIVmF4S/LIVEPATCH?node-id=4-3"
+  "reviewUrl": "https://www.figma.com/design/VwuyN75CQK9Kn0ZyIVmF4S/LIVEPATCH?node-id=4-3",
+  "views": {
+    "M01": {
+      "pageId": "0:1",
+      "rootId": "13:47",
+      "url": "https://www.figma.com/design/VwuyN75CQK9Kn0ZyIVmF4S/LIVEPATCH?node-id=13-47",
+      "width": 1920,
+      "height": 2656,
+      "approval": "사용자 검토 대기",
+      "scope": "공식 웹 메인 시안 1개",
+      "componentsScope": "M01에 필요한 기본 상태만. 전체 Components 단계 미완료.",
+      "validationFile": "LIVEPATCH_M01검수_261016.json",
+      "assetsFile": "LIVEPATCH_M01필요요소상태_261016.json"
+    }
+  }
 }

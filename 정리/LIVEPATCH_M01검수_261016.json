@@ -1,0 +1,31 @@
+{
+  "pageId": "0:1",
+  "pageName": "LIVEPATH_ver1.0",
+  "topLevelViews": [
+    {
+      "id": "13:47",
+      "name": "M01 LIVEPATCH 공식 웹 메인 PC 1920 261016",
+      "type": "FRAME"
+    }
+  ],
+  "rootId": "13:47",
+  "width": 1920,
+  "height": 2656,
+  "descendantCount": 159,
+  "nodeCounts": {
+    "FRAME": 47,
+    "TEXT": 76,
+    "INSTANCE": 23,
+    "RECTANGLE": 8,
+    "VECTOR": 5
+  },
+  "autoLayoutFrames": 48,
+  "totalFrames": 48,
+  "textNodes": 76,
+  "instanceCount": 23,
+  "wrongFontIds": [],
+  "missingTextStyleIds": [],
+  "slashNames": [],
+  "imageNodes": [],
+  "spills": []
+}
