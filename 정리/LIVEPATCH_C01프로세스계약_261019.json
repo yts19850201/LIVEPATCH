@@ -1,0 +1,205 @@
+{
+  "revision": "2026-10-19 C01",
+  "scope": "고객 1인·사이트 1개. 기존 C/O ID 보존. 실제 서비스 구현·운영 검증 완료 아님.",
+  "reference": "mockups/C01_사용자홈_261019.html",
+  "menu": [
+    {
+      "key": "home",
+      "label": "홈",
+      "host": "C01",
+      "entry_route": "/app"
+    },
+    {
+      "key": "connection",
+      "label": "연결 관리",
+      "host": "C07",
+      "entry_route": "/app/connection"
+    },
+    {
+      "key": "jobs",
+      "label": "작업",
+      "host": "C15",
+      "entry_route": "/app/jobs"
+    },
+    {
+      "key": "deployments",
+      "label": "반영과 복원",
+      "host": "C19",
+      "entry_route": "/app/deployments"
+    },
+    {
+      "key": "credits",
+      "label": "크레딧",
+      "host": "C20",
+      "entry_route": "/app/credits"
+    },
+    {
+      "key": "support",
+      "label": "문의",
+      "host": "C33",
+      "entry_route": "/app/support"
+    },
+    {
+      "key": "settings",
+      "label": "설정",
+      "host": "C36",
+      "entry_route": "/app/settings/profile"
+    }
+  ],
+  "billing": {
+    "visible_when": "PAID_LAUNCH_READY AND ACTIVE_OR_ALLOWED_SUBSCRIPTION",
+    "host": "C23",
+    "entry_route": "/app/billing",
+    "hidden_in_pilot": true,
+    "excluded_actions": [
+      "추가 크레딧 구매",
+      "플랜 변경",
+      "자동 충전"
+    ]
+  },
+  "hidden_menus": [
+    "다중 사이트 목록",
+    "별도 승인함",
+    "팀",
+    "파트너",
+    "전문가 판매",
+    "모바일 Studio"
+  ],
+  "typography": {
+    "family": "Pretendard",
+    "pc": {
+      "page_title": [
+        36,
+        47
+      ],
+      "section_title": [
+        24,
+        34
+      ],
+      "panel_title": [
+        20,
+        28
+      ],
+      "body": [
+        16,
+        26
+      ],
+      "menu_and_button": [
+        16,
+        24
+      ],
+      "metadata_only": [
+        14,
+        22
+      ]
+    },
+    "body_minimum": 16
+  },
+  "theme": {
+    "default": "night",
+    "available": [
+      "light",
+      "night"
+    ],
+    "control": "좌측 사이드바 하단 해·달 아이콘과 레이블",
+    "persistence": "사용자 선택을 유지. 고객 사이트 캔버스의 원래 색은 변경하지 않음."
+  },
+  "home_states": {
+    "NO_SITE": {
+      "primary": "사이트 연결하기",
+      "target": "C01 지원 환경 확인"
+    },
+    "CONNECTING": {
+      "primary": "연결 이어서 하기",
+      "target": "저장된 연결 단계"
+    },
+    "CONNECTED": {
+      "primary": "Studio 열기",
+      "target": "C13"
+    },
+    "PASSKEY_REQUIRED": {
+      "primary": "Studio 열기",
+      "notice": "첫 반영 전 패스키 등록 필요",
+      "approval_blocked": true
+    },
+    "VALIDATION_FAILED": {
+      "primary": "검사 결과 보기",
+      "target": "C15 또는 C13 실패 항목"
+    },
+    "STALE_SOURCE": {
+      "primary": "다시 검증하기",
+      "target": "C13 최신 원본 재생성·검증",
+      "old_approval_invalid": true
+    },
+    "DEPLOY_UNKNOWN": {
+      "primary": "현재 상태 확인",
+      "target": "C19 기존 작업",
+      "new_deploy_blocked": true,
+      "hold": "유지"
+    }
+  },
+  "connection": [
+    "지원 환경 확인",
+    "소유·관리 권한 확인",
+    "GitHub 선택 저장소·브랜치 연결",
+    "원본 매핑·배포·복원 진단",
+    "비운영 테스트 수정과 원상 복원 확인",
+    "C01 연결 완료 → C13"
+  ],
+  "editing": [
+    "요소 1개 선택",
+    "음성 인식 또는 직접 입력",
+    "변경 의도·대상·최대 비용 확인",
+    "미리보기 요청과 HOLD",
+    "매핑 HIGH·자동 검사 통과",
+    "도메인·변경·최대 비용 재확인",
+    "1초 길게 누르기 또는 동등한 접근성 확인",
+    "패스키 인증",
+    "서버 권한·sourceHash·approvalDigest 확인",
+    "운영 반영",
+    "사후 확인 VERIFIED",
+    "견적 이하 1회 차감"
+  ],
+  "passkey": {
+    "registration_entry": "C36. 첫 반영 전 안내, 변경안·예약 상태 보존 후 복귀.",
+    "unavailable": "다른 등록 기기 인증 또는 계정 복구 안내. 복구 확인 전 반영 차단.",
+    "recovery_pending": "본인 확인 방식·대기 기간·운영 검토 조건 미정. 출시 전 확정 필요."
+  },
+  "results": {
+    "DEPLOYED": "반영됨 · 사후 점검 중",
+    "VERIFIED": "반영 확인 완료",
+    "DEPLOY_UNKNOWN": "결과 확인 중 · 예약 유지 · 기존 jobId와 멱등키로 대사 후 재시도 판단",
+    "FAILED": "실패 사유와 운영 변화·예약 상태 표시. 원본 유지 또는 자동 복원 확인 후 예약 해제."
+  },
+  "rollback": {
+    "target": "마지막 성공 배포 1건",
+    "gates": [
+      "보존 기간",
+      "현재 원본 해시",
+      "스냅샷",
+      "후속 의존성",
+      "권한·재인증"
+    ],
+    "completion": "복원 및 사후 확인 후 완료",
+    "unknown": "완료 표시 금지. 상태 조회·문의로 분기. 예약 자동 해제 금지.",
+    "additional_cost": 0,
+    "original_charge": "정상 반영 후 고객 변심 복원은 유지"
+  },
+  "entry_rules": {
+    "list_without_id": true,
+    "new_support_without_ticket_id": true,
+    "selection": "상세 선택 후 리소스 ID 반영",
+    "back": "목록 필터·페이지·선택 상태 유지",
+    "legacy_links": "권한 확인 후 호스트의 해당 상태로 연결"
+  },
+  "acceptance": [
+    "첫 방문에서 Studio 직접 진입 차단",
+    "미지원 연결 방식 비노출",
+    "승인 대기 상태에서 중복 승인 요청 비노출",
+    "패스키 미등록·인증 실패 시 운영 반영 차단",
+    "UNKNOWN 재반영·자동 예약 해제 차단",
+    "복원 조건 미통과 시 실행 차단",
+    "본문·메뉴·버튼 PC 16px",
+    "키보드·포커스·테마 선택 확인"
+  ]
+}

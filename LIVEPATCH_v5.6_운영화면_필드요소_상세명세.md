@@ -1,3 +1,5 @@
+> C01 보완 계약 2026-10-19: 메뉴·상태별 동선·PC 타이포그래피와 직접 연결 계약은 [C01 프로세스 계약](정리/LIVEPATCH_C01프로세스계약_261019.json)을 함께 따른다. 아래 과거 예시값·단일 primary_action보다 현재 상태별 계약을 우선한다.
+
 # LIVEPATCH v5.7 운영 화면 필드와 현재 출시 계약
 
 > 정본: 마스터 27장 및 screen_field_contracts.json v5.7. release_current가 현재 범위이며 release_v56는 이력이다. TBD·API 후보는 미정이며 DEV_READY로 간주하지 않는다. PNG는 이전 참고 스냅샷이다.
@@ -1723,7 +1725,7 @@
 | `purchase_credits` · 추가 구매 | 작업 버튼 (`button`) · action · 조건부 표시 | 상품 이용가능 여부 / 초기: 권한 및 전제조건 확인 후 활성 / 예시: 해당 없음(조작 요소) [N/A] | 동작 전제조건을 충족한 경우만 활성화합니다. 진행 중 이중 실행을 막고 성공·실패 결과를 표시합니다. / 오류: — / 실패: ‘추가 구매’ 결과를 확인하지 못했습니다. 상태를 조회한 뒤 다시 진행해 주세요. 중복 실행하지 마세요. / 대체: — | 접근성: {"target_size": "최소 24×24 CSS px(WCAG 2.5.8), 터치 주요 CTA 44px 권장"} / 이벤트: {"name": "c20_purchase_credits_click", "props": ["screenId", "orgRef(hash)", "siteRef(hash)", "result", "errorCode"], "pii": "금지(이메일·명령 원문·URL 쿼리 토큰 수집 금지)"} / 권한, 도메인·조직 범위, 실행 전제와 서버 응답 상태를 재확인합니다. 중복 전송을 차단합니다. |
 | `history` · 전체 이용내역 | 화면 이동 링크 (`link`) · navigation · 항상 표시 | 원장으로 / 초기: 항상 활성(이동 링크) / 예시: 해당 없음(조작 요소) [N/A] | 현재 위치 표시(aria-current), 키보드 Enter 이동, 새 탭 여부를 레이블/아이콘으로 명시합니다. / 오류: — / 실패: — / 대체: — | 접근성: {"target_size": "최소 24×24 CSS px(WCAG 2.5.8), 터치 주요 CTA 44px 권장"} / 이벤트: {"name": "c20_history_nav", "props": ["screenId", "orgRef(hash)", "siteRef(hash)", "result", "errorCode"], "pii": "금지(이메일·명령 원문·URL 쿼리 토큰 수집 금지)"} / 라우트 상수 사용, 외부 이동은 rel="noopener", 반환 URL은 허용 목록만. |
 
-**화면 actions:** purchase_credits, history. **primary_action:** purchase_credits.
+**화면 actions:** history. **primary_action:** history. 추가 구매는 현재 범위에서 비노출.
 **인수 조건:** HOLD 실패/해제 시 잔액 정합·중복 차감 없음. 현재 출시/통합 화면은 정책·실제 예시값·권한·반응형·실패/결과 불명·접근성을 검수한다.
 
 ---
@@ -1813,7 +1815,7 @@
 | `change_plan` · 플랜 변경 | 작업 버튼 (`button`) · action · 조건부 표시 | 정책상 지원 / 초기: 권한 및 전제조건 확인 후 활성 / 예시: 해당 없음(조작 요소) [N/A] | 동작 전제조건을 충족한 경우만 활성화합니다. 진행 중 이중 실행을 막고 성공·실패 결과를 표시합니다. / 오류: — / 실패: ‘플랜 변경’ 결과를 확인하지 못했습니다. 상태를 조회한 뒤 다시 진행해 주세요. 중복 실행하지 마세요. / 대체: — | 접근성: {"target_size": "최소 24×24 CSS px(WCAG 2.5.8), 터치 주요 CTA 44px 권장"} / 이벤트: {"name": "c23_change_plan_click", "props": ["screenId", "orgRef(hash)", "siteRef(hash)", "result", "errorCode"], "pii": "금지(이메일·명령 원문·URL 쿼리 토큰 수집 금지)"} / 권한, 도메인·조직 범위, 실행 전제와 서버 응답 상태를 재확인합니다. 중복 전송을 차단합니다. |
 | `cancel_plan` · 구독 해지 | 작업 버튼 (`button`) · action · 항상 표시 | 해지/환불 분리 / 초기: 권한 및 전제조건 확인 후 활성 / 예시: 해당 없음(조작 요소) [N/A] | 동작 전제조건을 충족한 경우만 활성화합니다. 진행 중 이중 실행을 막고 성공·실패 결과를 표시합니다. / 오류: — / 실패: ‘구독 해지’ 결과를 확인하지 못했습니다. 상태를 조회한 뒤 다시 진행해 주세요. 중복 실행하지 마세요. / 대체: — | 접근성: {"target_size": "최소 24×24 CSS px(WCAG 2.5.8), 터치 주요 CTA 44px 권장", "danger": "구체 동사 레이블 + 결과 설명 aria-describedby, 확인 단계(O25/O17 계열)"} / 이벤트: {"name": "c23_cancel_plan_click", "props": ["screenId", "orgRef(hash)", "siteRef(hash)", "result", "errorCode"], "pii": "금지(이메일·명령 원문·URL 쿼리 토큰 수집 금지)"} / 권한, 도메인·조직 범위, 실행 전제와 서버 응답 상태를 재확인합니다. 중복 전송을 차단합니다. |
 
-**화면 actions:** change_plan, cancel_plan. **primary_action:** change_plan.
+**화면 actions:** manage_payment_method, cancel_plan. **primary_action:** manage_payment_method. 플랜 변경은 현재 범위에서 비노출.
 **인수 조건:** 결제 담당자 외 변경 불가·표시 금액/기간 일치. 현재 출시/통합 화면은 정책·실제 예시값·권한·반응형·실패/결과 불명·접근성을 검수한다.
 
 ---
@@ -4522,7 +4524,7 @@
 | `hold_amount` · 작업 예약 크레딧 | 숫자 표시 (`number_display`) · display · 항상 표시 | 예상 / 초기: 서버 로딩 상태(미확정) / 예시: 120 크레딧 [AUTO] | 로딩 스켈레톤(최종 크기 고정)→값, 실패 시 대체 문구와 재시도를 제공합니다. 값의 갱신 시각을 함께 표시합니다. / 오류: — / 실패: — / 대체: 작업 예약 크레딧 정보를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요. | 접근성: {} / 이벤트: {} / 읽기 전용 값은 권한이 확인된 API/정책 데이터에서 가져옵니다. NULL·지연·구버전 응답을 구분합니다. |
 | `ledger_status` · 거래 상태 | 상태 표시 (`status`) · display · 항상 표시 | HOLD·COMMITTED·RELEASED / 초기: 서버 로딩 상태(미확정) / 예시: HOLD [AUTO] | 로딩 스켈레톤(최종 크기 고정)→값, 실패 시 대체 문구와 재시도를 제공합니다. 값의 갱신 시각을 함께 표시합니다. / 오류: — / 실패: — / 대체: 거래 상태 정보를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요. | 접근성: {"aria": "role=status, aria-live=polite (상태 변경 시 1회 낭독)"} / 이벤트: {} / 읽기 전용 값은 권한이 확인된 API/정책 데이터에서 가져옵니다. NULL·지연·구버전 응답을 구분합니다. |
 | `transaction_id` · 원장 거래번호 | 읽기 전용 값 (`readonly`) · display · 항상 표시 | 복사 / 초기: 서버 로딩 상태(미확정) / 예시: LP-20261015-000123 [AUTO] | 로딩 스켈레톤(최종 크기 고정)→값, 실패 시 대체 문구와 재시도를 제공합니다. 값의 갱신 시각을 함께 표시합니다. / 오류: — / 실패: — / 대체: 원장 거래번호 정보를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요. | 접근성: {} / 이벤트: {} / 읽기 전용 값은 권한이 확인된 API/정책 데이터에서 가져옵니다. NULL·지연·구버전 응답을 구분합니다. |
-| `charge_policy` · 차감 확정 조건 | 안내 문구 (`notice`) · display · 항상 표시 | HOLD→VERIFIED 후 COMMITTED, 취소/만료/복원 확인 실패 시 RELEASED. UNKNOWN은 예약 유지. / 초기: 서버 로딩 상태(미확정) / 예시: 운영 배포와 사후 확인이 VERIFIED가 되면 견적 이하로 1회 확정. [SPEC] | 로딩 스켈레톤(최종 크기 고정)→값, 실패 시 대체 문구와 재시도를 제공합니다. 값의 갱신 시각을 함께 표시합니다. / 오류: — / 실패: — / 대체: 차감 확정 조건 정보를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요. | 접근성: {"aria": "role=status, aria-live=polite (상태 변경 시 1회 낭독)"} / 이벤트: {} / 읽기 전용 값은 권한이 확인된 API/정책 데이터에서 가져옵니다. NULL·지연·구버전 응답을 구분합니다. |
+| `charge_policy` · 차감 확정 조건 | 안내 문구 (`notice`) · display · 항상 표시 | 미리보기 요청 HOLD → VERIFIED 후 COMMIT. 실패 배포는 원본 유지 또는 자동 복원 확인 후 RELEASE. UNKNOWN·복원 결과 불명은 예약 유지·대사. / 초기: 서버 로딩 상태(미확정) / 예시: 운영 배포와 사후 확인이 VERIFIED가 되면 견적 이하로 1회 확정. [SPEC] | 로딩 스켈레톤(최종 크기 고정)→값, 실패 시 대체 문구와 재시도를 제공합니다. 값의 갱신 시각을 함께 표시합니다. / 오류: — / 실패: — / 대체: 차감 확정 조건 정보를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요. | 접근성: {"aria": "role=status, aria-live=polite (상태 변경 시 1회 낭독)"} / 이벤트: {} / 읽기 전용 값은 권한이 확인된 API/정책 데이터에서 가져옵니다. NULL·지연·구버전 응답을 구분합니다. |
 | `open_history` · 원장 보기 | 작업 버튼 (`button`) · action · 항상 표시 | 거래 링크 / 초기: 권한 및 전제조건 확인 후 활성 / 예시: 해당 없음(조작 요소) [N/A] | 동작 전제조건을 충족한 경우만 활성화합니다. 진행 중 이중 실행을 막고 성공·실패 결과를 표시합니다. / 오류: — / 실패: ‘원장 보기’ 결과를 확인하지 못했습니다. 상태를 조회한 뒤 다시 진행해 주세요. 중복 실행하지 마세요. / 대체: — | 접근성: {"target_size": "최소 24×24 CSS px(WCAG 2.5.8), 터치 주요 CTA 44px 권장"} / 이벤트: {"name": "o22_open_history_click", "props": ["screenId", "orgRef(hash)", "siteRef(hash)", "result", "errorCode"], "pii": "금지(이메일·명령 원문·URL 쿼리 토큰 수집 금지)"} / 권한, 도메인·조직 범위, 실행 전제와 서버 응답 상태를 재확인합니다. 중복 전송을 차단합니다. |
 
 **화면 actions:** open_history. **primary_action:** open_history.

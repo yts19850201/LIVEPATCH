@@ -1,0 +1,311 @@
+{
+  "page": {
+    "id": "21:60",
+    "name": "01 메인 시안 261017"
+  },
+  "screens": [
+    {
+      "id": "70:1886",
+      "name": "C01 사용자 홈 나이트 PC 1920_261019",
+      "descendants": 135,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        18,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 5,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "70:2025",
+      "name": "C01 사용자 홈 라이트 PC 1920_261019",
+      "descendants": 135,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        18,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 5,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "70:2164",
+      "name": "C02 처음 시작 기본 정보 나이트 PC 1920_261019",
+      "descendants": 149,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 6,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "70:2317",
+      "name": "C02 처음 시작 기본 정보 라이트 PC 1920_261019",
+      "descendants": 149,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 6,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "70:2470",
+      "name": "C02 처음 시작 GitHub 연결 나이트 PC 1920_261019",
+      "descendants": 146,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "70:2620",
+      "name": "C02 처음 시작 연결 진단 나이트 PC 1920_261019",
+      "descendants": 148,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "70:2772",
+      "name": "C02 처음 시작 테스트·복원 나이트 PC 1920_261019",
+      "descendants": 145,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "70:2921",
+      "name": "C02 처음 시작 시작 준비 나이트 PC 1920_261019",
+      "descendants": 138,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "72:733",
+      "name": "C02 처음 시작 GitHub 연결 라이트 PC 1920_261019",
+      "descendants": 146,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "72:880",
+      "name": "C02 처음 시작 연결 진단 라이트 PC 1920_261019",
+      "descendants": 148,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "72:1029",
+      "name": "C02 처음 시작 테스트·복원 라이트 PC 1920_261019",
+      "descendants": 145,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "72:1175",
+      "name": "C02 처음 시작 시작 준비 라이트 PC 1920_261019",
+      "descendants": 138,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 7,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "72:1314",
+      "name": "C01 사이트 연결 전 나이트 PC 1920_261019",
+      "descendants": 135,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        18,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 6,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    },
+    {
+      "id": "72:1450",
+      "name": "C01 사이트 연결 전 라이트 PC 1920_261019",
+      "descendants": 135,
+      "fonts": [
+        "Pretendard"
+      ],
+      "fontSizes": [
+        14,
+        16,
+        18,
+        20,
+        24,
+        36
+      ],
+      "imageNodes": 0,
+      "overflow": [],
+      "prototypes": 6,
+      "slashNames": [],
+      "nonAutoLayoutContainers": []
+    }
+  ],
+  "existingFrames": [
+    "23:43",
+    "24:130",
+    "50:779"
+  ],
+  "finalCreditState": "C02 전 단계: 사용 가능 100C · 예약 0C",
+  "originalHtmlRestored": true,
+  "review": {
+    "screens": 14,
+    "overflow": 0,
+    "imageNodes": 0,
+    "fonts": [
+      "Pretendard"
+    ],
+    "body": 16,
+    "metadata": 14,
+    "autoLayout": true,
+    "slashLayerNames": 0
+  }
+}

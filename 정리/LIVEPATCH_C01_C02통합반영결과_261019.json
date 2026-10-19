@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19",
+  "updated": "LIVEPATCH_v5.6_화면목업.html",
+  "changedTemplates": [
+    "C01",
+    "C02"
+  ],
+  "unchangedTemplateCount": 171,
+  "m01Unchanged": true,
+  "m01Hash": "42964f25f18c2f3874fe4f9364126b42840e13f6eeae061ed077c034972e1887",
+  "stylesScoped": ".frame.lp-current",
+  "backup": "LIVEPATCH_통합목업_수정전_261019.html"
+}
