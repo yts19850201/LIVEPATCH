@@ -1,0 +1,49 @@
+{
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "page": "21:60",
+  "scope": "C02 first screen and C01 before connection; final C01 preserved",
+  "board": "96:814",
+  "buttonSet": "96:832",
+  "buttons": [
+    {
+      "id": "96:819",
+      "name": "종류=주요, 상태=기본"
+    },
+    {
+      "id": "96:824",
+      "name": "종류=보조, 상태=기본"
+    },
+    {
+      "id": "96:829",
+      "name": "종류=무테, 상태=기본"
+    },
+    {
+      "id": "96:830",
+      "name": "종류=보조, 상태=비활성"
+    }
+  ],
+  "cardSet": "96:855",
+  "cards": [
+    {
+      "id": "96:838",
+      "name": "종류=확인할 일"
+    },
+    {
+      "id": "96:845",
+      "name": "종류=최근 반영"
+    },
+    {
+      "id": "96:853",
+      "name": "종류=크레딧"
+    }
+  ],
+  "control": "96:861",
+  "tokens": {
+    "final-radius-button": "VariableID:96:808",
+    "final-radius-card": "VariableID:96:809",
+    "final-button-height": "VariableID:96:810",
+    "final-control-height": "VariableID:96:811",
+    "final-space-card": "VariableID:96:812",
+    "final-space-stack": "VariableID:96:813"
+  }
+}

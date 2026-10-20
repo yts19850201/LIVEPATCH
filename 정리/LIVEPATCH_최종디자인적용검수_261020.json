@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "page": "21:60",
+  "scope": "Apply final C01 to existing C02 first screen and C01 before connection in night/light; preserve final C01",
+  "board": "96:814",
+  "buttonSet": "96:832",
+  "buttons": [
+    {
+      "id": "96:819",
+      "name": "종류=주요, 상태=기본"
+    },
+    {
+      "id": "96:824",
+      "name": "종류=보조, 상태=기본"
+    },
+    {
+      "id": "96:829",
+      "name": "종류=무테, 상태=기본"
+    },
+    {
+      "id": "96:830",
+      "name": "종류=보조, 상태=비활성"
+    }
+  ],
+  "cardSet": "96:855",
+  "cards": [
+    {
+      "id": "96:838",
+      "name": "종류=확인할 일"
+    },
+    {
+      "id": "96:845",
+      "name": "종류=최근 반영"
+    },
+    {
+      "id": "96:853",
+      "name": "종류=크레딧"
+    }
+  ],
+  "control": "96:861",
+  "tokens": {
+    "final-radius-button": "VariableID:96:808",
+    "final-radius-card": "VariableID:96:809",
+    "final-button-height": "VariableID:96:810",
+    "final-control-height": "VariableID:96:811",
+    "final-space-card": "VariableID:96:812",
+    "final-space-stack": "VariableID:96:813"
+  },
+  "guideSet": "97:977",
+  "guideCards": [
+    {
+      "id": "97:961",
+      "name": "종류=연결 요약"
+    },
+    {
+      "id": "97:976",
+      "name": "종류=진행 순서"
+    }
+  ],
+  "input": "97:980",
+  "themeSet": "97:1061",
+  "themes": [
+    {
+      "id": "97:1048",
+      "name": "테마=나이트"
+    },
+    {
+      "id": "97:1057",
+      "name": "테마=라이트"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "id": "70:2164",
+        "width": 1920,
+        "height": 1080,
+        "overflow": [],
+        "asideMatchesHeight": true,
+        "menuCount": 7,
+        "textCount": 62,
+        "components": 0
+      },
+      {
+        "id": "70:2317",
+        "width": 1920,
+        "height": 1080,
+        "overflow": [],
+        "asideMatchesHeight": true,
+        "menuCount": 7,
+        "textCount": 62,
+        "components": 0
+      },
+      {
+        "id": "72:1314",
+        "width": 1920,
+        "height": 1160,
+        "overflow": [],
+        "asideMatchesHeight": true,
+        "menuCount": 7,
+        "textCount": 55,
+        "components": 0
+      },
+      {
+        "id": "72:1450",
+        "width": 1920,
+        "height": 1160,
+        "overflow": [],
+        "asideMatchesHeight": true,
+        "menuCount": 7,
+        "textCount": 55,
+        "components": 0
+      },
+      {
+        "id": "96:814",
+        "width": 1300,
+        "height": 1318,
+        "overflow": [],
+        "asideMatchesHeight": null,
+        "menuCount": null,
+        "textCount": 35,
+        "components": 13
+      }
+    ],
+    "sourceFrame": "70:1886",
+    "modifiedScreens": [
+      "70:2164",
+      "70:2317",
+      "72:1314",
+      "72:1450"
+    ],
+    "mobileScreensCreated": 0,
+    "processScreensAdded": 0
+  },
+  "notes": [
+    "Final C01 appearance preserved; existing common master components not changed.",
+    "Button 52px, panel control 44px, cards 8px radius, card padding20px, outer panel spacing16px.",
+    "Variant-specific text properties prevent content mixing.",
+    "Figma native design is saved in Figma; this JSON records identity and validation only."
+  ]
+}

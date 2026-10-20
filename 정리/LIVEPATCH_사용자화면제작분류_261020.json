@@ -1,0 +1,649 @@
+{
+  "date": "2026-10-20",
+  "sources": [
+    "LIVEPATCH_사업기획서.md 27-3·27-4·27-7",
+    "정리/LIVEPATCH_화면작업인덱스_261016.json",
+    "정리/LIVEPATCH_C01프로세스계약_261019.json"
+  ],
+  "counts": {
+    "total": 44,
+    "independent": 14,
+    "pilot": 10,
+    "paid": 4,
+    "embedded": 18,
+    "postMvp": 12
+  },
+  "scope": "이번에는 전체 화면 검토·번호 박스·컴포넌트 이동과 정리. 독립 화면 전체 신규 디자인은 미착수.",
+  "principles": [
+    "통합은 기능 삭제가 아니다. 별도 디자인과 라우트만 생략한다.",
+    "비슷한 목록·상세·폼은 공통 컴포넌트로 재사용한다.",
+    "승인·복원·크레딧·보안·삭제의 독립 목적을 단순 외형 유사성만으로 합치지 않는다.",
+    "목록 선택·필터·복귀 맥락과 ID 없는 메뉴 진입을 유지한다.",
+    "C02 기존 첫 화면 보존. 후속 온보딩 아트보드 생성하지 않는다.",
+    "나이트 우선. 라이트·모바일은 별도 요청 전 제작하지 않는다."
+  ],
+  "screens": [
+    {
+      "id": "C01",
+      "title": "콘솔 홈·대시보드",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app",
+      "actions": [
+        "new_site",
+        "launch_studio"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [
+        "70:1886",
+        "70:2025"
+      ],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C02",
+      "title": "처음 시작 온보딩",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "continue",
+        "skip_site",
+        "delegate_setup"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [
+        "70:2164",
+        "70:2317"
+      ],
+      "note": "기존 첫 화면 보존. 별도 프로세스 화면 추가 금지."
+    },
+    {
+      "id": "C03",
+      "title": "내 사이트 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "add_site"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C04",
+      "title": "사이트 등록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "create_site"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C05",
+      "title": "사이트 소유권 증명",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "verify_now"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C06",
+      "title": "연결 방식 선택",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "continue",
+        "delegate_setup_invite"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C07",
+      "title": "연결 인증·설정",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/sites/:siteId/connect/setup",
+      "actions": [
+        "test_connection",
+        "save_connection"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C08",
+      "title": "연결 진단 결과",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "rerun",
+        "continue_test"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C09",
+      "title": "테스트 수정·복구 확인",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "test_execute",
+        "complete_setup"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C10",
+      "title": "사이트 개요",
+      "release_current": "EMBEDDED",
+      "host_screen": "C01",
+      "effective_route": "/app",
+      "actions": [
+        "edit_site",
+        "settings"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C11",
+      "title": "사이트 페이지 탐색기",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "effective_route": "/app/sites/:siteId/studio",
+      "actions": [
+        "open_selected",
+        "rescan"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C12",
+      "title": "사이트 설정·연결 관리",
+      "release_current": "EMBEDDED",
+      "host_screen": "C07",
+      "effective_route": "/app/sites/:siteId/connect/setup",
+      "actions": [
+        "retest",
+        "disconnect"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C13",
+      "title": "Visual Patch Studio 편집",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/sites/:siteId/studio",
+      "actions": [
+        "voice_start",
+        "create_preview",
+        "compare",
+        "validate",
+        "request_approval",
+        "deploy",
+        "rollback"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [
+        "23:43",
+        "50:779"
+      ],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C14",
+      "title": "작업 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C15",
+      "effective_route": "/app/jobs/:jobId",
+      "actions": [
+        "job_detail",
+        "new_job"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C15",
+      "title": "작업 상세·증빙",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/jobs/:jobId",
+      "actions": [
+        "request_approval",
+        "support_ticket"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C16",
+      "title": "승인 대기함",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "effective_route": "/app/sites/:siteId/studio",
+      "actions": [
+        "review_action",
+        "bulk_approve"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C17",
+      "title": "승인 상세·결재",
+      "release_current": "EMBEDDED",
+      "host_screen": "C13",
+      "effective_route": "/app/sites/:siteId/studio",
+      "actions": [
+        "approve",
+        "reject"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C18",
+      "title": "배포 이력 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C19",
+      "effective_route": "/app/deployments/:deploymentId",
+      "actions": [
+        "deployment_detail"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C19",
+      "title": "배포 상세·복원",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/deployments/:deploymentId",
+      "actions": [
+        "request_rollback",
+        "support"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C20",
+      "title": "크레딧 잔액 개요",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/credits",
+      "actions": [
+        "purchase_credits",
+        "history"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C21",
+      "title": "크레딧 거래 원장",
+      "release_current": "EMBEDDED",
+      "host_screen": "C20",
+      "effective_route": "/app/credits",
+      "actions": [
+        "export_history"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C22",
+      "title": "크레딧 추가 구매",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/credits/purchase",
+      "actions": [
+        "checkout"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C23",
+      "title": "구독·계약 현황",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/billing",
+      "actions": [
+        "change_plan",
+        "cancel_plan"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "유료 출시 게이트 전 비노출."
+    },
+    {
+      "id": "C24",
+      "title": "플랜 변경",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/billing/change-plan",
+      "actions": [
+        "confirm_change"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C25",
+      "title": "결제수단 관리",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/billing/payment-methods",
+      "actions": [
+        "add_card",
+        "remove_card"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "유료 출시 게이트 전 비노출."
+    },
+    {
+      "id": "C26",
+      "title": "청구·영수증·증빙",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/billing/invoices",
+      "actions": [
+        "download",
+        "support_invoice"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "유료 출시 게이트 전 비노출."
+    },
+    {
+      "id": "C27",
+      "title": "구독 해지·정지",
+      "release_current": "PAID_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/billing/cancel",
+      "actions": [
+        "downgrade_option",
+        "cancel_submit",
+        "keep_subscription"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "유료 출시 게이트 전 비노출."
+    },
+    {
+      "id": "C28",
+      "title": "팀원·초대 목록",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/team",
+      "actions": [
+        "invite_member",
+        "remove_member"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C29",
+      "title": "팀원 초대·권한 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/team/invite",
+      "actions": [
+        "send_invite"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C30",
+      "title": "알림 센터",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/notifications",
+      "actions": [
+        "mark_read",
+        "target_link",
+        "preferences"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C31",
+      "title": "1:1 문의 목록",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "effective_route": "/app/support/:ticketId",
+      "actions": [
+        "new_ticket"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C32",
+      "title": "새 문의 작성",
+      "release_current": "EMBEDDED",
+      "host_screen": "C33",
+      "effective_route": "/app/support/:ticketId",
+      "actions": [
+        "send_ticket"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C33",
+      "title": "문의 상세·대화",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/support/:ticketId",
+      "actions": [
+        "send_reply",
+        "reopen_ticket",
+        "related_job"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C34",
+      "title": "전문가 작업 요청",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/expert-tickets/new",
+      "actions": [
+        "submit"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C35",
+      "title": "전문가 진행 상세",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/expert-tickets/:ticketId",
+      "actions": [
+        "accept_result",
+        "reopen"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C36",
+      "title": "개인 프로필·보안",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/settings/profile",
+      "actions": [
+        "change_password",
+        "save_profile"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C37",
+      "title": "조직 정보·사업자 설정",
+      "release_current": "EMBEDDED",
+      "host_screen": "C23",
+      "effective_route": "/app/billing",
+      "actions": [
+        "save_organization"
+      ],
+      "design_decision": "NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "기능은 호스트에 포함. 별도 화면·라우트 제작 생략."
+    },
+    {
+      "id": "C38",
+      "title": "알림 수신 설정",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/settings/notifications",
+      "actions": [
+        "save_prefs"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C39",
+      "title": "연동·키 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/settings/integrations",
+      "actions": [
+        "new_connector",
+        "test_integration",
+        "revoke_integration"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C40",
+      "title": "데이터 보존·삭제 요청",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/settings/data",
+      "actions": [
+        "export_request",
+        "submit_delete"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C41",
+      "title": "모바일 웹 마이크·QR 페어링",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/mic/:sessionId",
+      "actions": [
+        "push_to_talk",
+        "send_command",
+        "end_pairing"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "후속. 모바일 화면 생성 안 함."
+    },
+    {
+      "id": "C42",
+      "title": "고객용 서비스 상태·작업 제한",
+      "release_current": "PILOT_REQUIRED",
+      "host_screen": null,
+      "effective_route": "/app/service-status",
+      "actions": [
+        "refresh_status",
+        "support_link"
+      ],
+      "design_decision": "INDEPENDENT_REPRESENTATIVE",
+      "existing_design": [],
+      "note": "별도 목적과 필수 행동을 보존하며 공통 패턴 재사용."
+    },
+    {
+      "id": "C43",
+      "title": "파트너 고객사 관리",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/partner/clients",
+      "actions": [
+        "open_client",
+        "invite_client"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    },
+    {
+      "id": "C44",
+      "title": "파트너 수수료·정산 내역",
+      "release_current": "POST_MVP",
+      "host_screen": null,
+      "effective_route": "/app/partner/payouts",
+      "actions": [
+        "dispute"
+      ],
+      "design_decision": "DEFERRED_NUMBER_BOX_ONLY",
+      "existing_design": [],
+      "note": "현 MVP 디자인 범위에서 제외."
+    }
+  ]
+}
