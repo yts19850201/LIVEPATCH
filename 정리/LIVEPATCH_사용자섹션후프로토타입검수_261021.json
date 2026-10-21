@@ -1,0 +1,1551 @@
+{
+  "date": "2026-10-21",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "119:890",
+  "scope": "서비스·시연 섹션 분리 후 사용자 프로토타입 회귀 검수",
+  "finalAudit": {
+    "flowCount": 34,
+    "sectionCount": 2,
+    "allRootsInPrototypeSection": true,
+    "nodeActions": 745,
+    "errors": [],
+    "disabled": [],
+    "overlays": [
+      {
+        "id": "181:4759",
+        "navigationLinks": 7,
+        "closeCount": 1
+      },
+      {
+        "id": "181:4816",
+        "navigationLinks": 7,
+        "closeCount": 1
+      },
+      {
+        "id": "181:4873",
+        "navigationLinks": 7,
+        "closeCount": 1
+      },
+      {
+        "id": "181:4930",
+        "navigationLinks": 7,
+        "closeCount": 1
+      }
+    ],
+    "roots": [
+      {
+        "id": "243:5505",
+        "parent": "267:7800",
+        "links": 17
+      },
+      {
+        "id": "243:5755",
+        "parent": "267:7800",
+        "links": 17
+      },
+      {
+        "id": "243:6005",
+        "parent": "267:7800",
+        "links": 14
+      },
+      {
+        "id": "243:6161",
+        "parent": "267:7800",
+        "links": 14
+      },
+      {
+        "id": "243:6317",
+        "parent": "267:7800",
+        "links": 16
+      },
+      {
+        "id": "243:6485",
+        "parent": "267:7800",
+        "links": 16
+      },
+      {
+        "id": "243:6653",
+        "parent": "267:7800",
+        "links": 21
+      },
+      {
+        "id": "243:6807",
+        "parent": "267:7800",
+        "links": 25
+      },
+      {
+        "id": "243:7983",
+        "parent": "267:7800",
+        "links": 18
+      },
+      {
+        "id": "243:8191",
+        "parent": "267:7800",
+        "links": 15
+      },
+      {
+        "id": "243:8395",
+        "parent": "267:7800",
+        "links": 15
+      },
+      {
+        "id": "243:8549",
+        "parent": "267:7800",
+        "links": 17
+      },
+      {
+        "id": "243:8687",
+        "parent": "267:7800",
+        "links": 17
+      },
+      {
+        "id": "243:8813",
+        "parent": "267:7800",
+        "links": 22
+      },
+      {
+        "id": "243:8985",
+        "parent": "267:7800",
+        "links": 15
+      },
+      {
+        "id": "243:9119",
+        "parent": "267:7800",
+        "links": 15
+      },
+      {
+        "id": "243:9253",
+        "parent": "267:7800",
+        "links": 20
+      },
+      {
+        "id": "197:3161",
+        "parent": "267:7800",
+        "links": 25
+      },
+      {
+        "id": "197:3443",
+        "parent": "267:7800",
+        "links": 25
+      },
+      {
+        "id": "197:3725",
+        "parent": "267:7800",
+        "links": 23
+      },
+      {
+        "id": "197:3903",
+        "parent": "267:7800",
+        "links": 23
+      },
+      {
+        "id": "199:3469",
+        "parent": "267:7800",
+        "links": 23
+      },
+      {
+        "id": "199:3666",
+        "parent": "267:7800",
+        "links": 23
+      },
+      {
+        "id": "199:3863",
+        "parent": "267:7800",
+        "links": 28
+      },
+      {
+        "id": "199:4040",
+        "parent": "267:7800",
+        "links": 34
+      },
+      {
+        "id": "199:4270",
+        "parent": "267:7800",
+        "links": 35
+      },
+      {
+        "id": "199:4488",
+        "parent": "267:7800",
+        "links": 25
+      },
+      {
+        "id": "199:4713",
+        "parent": "267:7800",
+        "links": 26
+      },
+      {
+        "id": "199:4903",
+        "parent": "267:7800",
+        "links": 25
+      },
+      {
+        "id": "199:5058",
+        "parent": "267:7800",
+        "links": 25
+      },
+      {
+        "id": "199:5201",
+        "parent": "267:7800",
+        "links": 33
+      },
+      {
+        "id": "199:5401",
+        "parent": "267:7800",
+        "links": 27
+      },
+      {
+        "id": "199:5553",
+        "parent": "267:7800",
+        "links": 23
+      },
+      {
+        "id": "199:5704",
+        "parent": "267:7800",
+        "links": 28
+      }
+    ]
+  },
+  "mobileStructuralAudit": {
+    "mobileCount": 17,
+    "carouselSetCount": 25,
+    "stateCount": 65,
+    "errors": [],
+    "menus": [
+      {
+        "screenId": "197:3161",
+        "opens": [
+          {
+            "id": "I197:3162;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "197:3443",
+        "opens": [
+          {
+            "id": "I197:3444;170:2544",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4816",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4816",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "197:3725",
+        "opens": [
+          {
+            "id": "I197:3726;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4873",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4873",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "197:3903",
+        "opens": [
+          {
+            "id": "I197:3904;170:2544",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4930",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4930",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:3469",
+        "opens": [
+          {
+            "id": "I199:3470;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4873",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4873",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:3666",
+        "opens": [
+          {
+            "id": "I199:3667;170:2544",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4930",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4930",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:3863",
+        "opens": [
+          {
+            "id": "I199:3864;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:4040",
+        "opens": [
+          {
+            "id": "I199:4041;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:4270",
+        "opens": [
+          {
+            "id": "I199:4271;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:4488",
+        "opens": [
+          {
+            "id": "I199:4489;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:4713",
+        "opens": [
+          {
+            "id": "I199:4714;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:4903",
+        "opens": [
+          {
+            "id": "I199:4904;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:5058",
+        "opens": [
+          {
+            "id": "I199:5059;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:5201",
+        "opens": [
+          {
+            "id": "I199:5202;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:5401",
+        "opens": [
+          {
+            "id": "I199:5402;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:5553",
+        "opens": [
+          {
+            "id": "I199:5554;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "screenId": "199:5704",
+        "opens": [
+          {
+            "id": "I199:5705;170:2535",
+            "reactions": [
+              {
+                "action": {
+                  "type": "NODE",
+                  "destinationId": "181:4759",
+                  "navigation": "OVERLAY",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.15000000596046448
+                  },
+                  "resetVideoPosition": false
+                },
+                "actions": [
+                  {
+                    "type": "NODE",
+                    "destinationId": "181:4759",
+                    "navigation": "OVERLAY",
+                    "transition": {
+                      "type": "DISSOLVE",
+                      "easing": {
+                        "type": "EASE_OUT"
+                      },
+                      "duration": 0.15000000596046448
+                    },
+                    "resetVideoPosition": false
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "overlays": [
+      {
+        "id": "181:4759",
+        "parent": "267:7800",
+        "closeCount": 1,
+        "menuLinks": 6
+      },
+      {
+        "id": "181:4816",
+        "parent": "267:7800",
+        "closeCount": 1,
+        "menuLinks": 7
+      },
+      {
+        "id": "181:4873",
+        "parent": "267:7800",
+        "closeCount": 1,
+        "menuLinks": 7
+      },
+      {
+        "id": "181:4930",
+        "parent": "267:7800",
+        "closeCount": 1,
+        "menuLinks": 7
+      }
+    ],
+    "cardStates": [
+      {
+        "id": "243:9405",
+        "setId": "243:9404",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9426",
+        "setId": "243:9404",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9468",
+        "setId": "243:9467",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9489",
+        "setId": "243:9467",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9531",
+        "setId": "243:9530",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9552",
+        "setId": "243:9530",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9594",
+        "setId": "243:9593",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9615",
+        "setId": "243:9593",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9657",
+        "setId": "243:9656",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9676",
+        "setId": "243:9656",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9700",
+        "setId": "243:9699",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9719",
+        "setId": "243:9699",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "181:822",
+        "setId": "181:888",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "181:855",
+        "setId": "181:888",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "181:889",
+        "setId": "181:955",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "181:922",
+        "setId": "181:955",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9743",
+        "setId": "243:9742",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9760",
+        "setId": "243:9742",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9778",
+        "setId": "243:9742",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9805",
+        "setId": "243:9804",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:9826",
+        "setId": "243:9804",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:9845",
+        "setId": "243:9804",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:9863",
+        "setId": "243:9804",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:961",
+        "setId": "191:1093",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:998",
+        "setId": "191:1093",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:1031",
+        "setId": "191:1093",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:1064",
+        "setId": "191:1093",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:1110",
+        "setId": "191:1203",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "191:1145",
+        "setId": "191:1203",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "191:1176",
+        "setId": "191:1203",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9898",
+        "setId": "243:9897",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9917",
+        "setId": "243:9897",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9936",
+        "setId": "243:9897",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "191:1213",
+        "setId": "191:1306",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "191:1248",
+        "setId": "191:1306",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "191:1279",
+        "setId": "191:1306",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9968",
+        "setId": "243:9967",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9987",
+        "setId": "243:9967",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10003",
+        "setId": "243:9967",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "191:1316",
+        "setId": "191:1410",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "191:1367",
+        "setId": "191:1410",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10036",
+        "setId": "243:10035",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10052",
+        "setId": "243:10035",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10068",
+        "setId": "243:10035",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10086",
+        "setId": "243:10085",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10100",
+        "setId": "243:10085",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10117",
+        "setId": "243:10116",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10132",
+        "setId": "243:10116",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10148",
+        "setId": "243:10116",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "189:3225",
+        "setId": "189:3378",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "189:3276",
+        "setId": "189:3378",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "189:3327",
+        "setId": "189:3378",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10167",
+        "setId": "243:10166",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10181",
+        "setId": "243:10166",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "191:1415",
+        "setId": "191:1483",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:1432",
+        "setId": "191:1483",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:1449",
+        "setId": "191:1483",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "191:1466",
+        "setId": "191:1483",
+        "drag": true,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:10198",
+        "setId": "243:10197",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10212",
+        "setId": "243:10197",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "181:1472",
+        "setId": "181:1517",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "181:1487",
+        "setId": "181:1517",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "181:1502",
+        "setId": "181:1517",
+        "drag": true,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10229",
+        "setId": "243:10228",
+        "drag": true,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10243",
+        "setId": "243:10228",
+        "drag": true,
+        "dotLinks": 1
+      }
+    ]
+  },
+  "fix": {
+    "mutatedNodeIds": [
+      "I181:4760;181:4519",
+      "I181:4760;181:4520",
+      "I181:4760;181:4521",
+      "I181:4760;181:4522",
+      "I181:4760;181:4523",
+      "I181:4760;181:4524",
+      "I181:4760;181:4525",
+      "I181:4817;181:4583",
+      "I181:4817;181:4584",
+      "I181:4817;181:4585",
+      "I181:4817;181:4586",
+      "I181:4817;181:4587",
+      "I181:4817;181:4588",
+      "I181:4817;181:4589",
+      "I181:4874;181:4647",
+      "I181:4874;181:4648",
+      "I181:4874;181:4649",
+      "I181:4874;181:4650",
+      "I181:4874;181:4651",
+      "I181:4874;181:4652",
+      "I181:4874;181:4653",
+      "I181:4931;181:4711",
+      "I181:4931;181:4712",
+      "I181:4931;181:4713",
+      "I181:4931;181:4714",
+      "I181:4931;181:4715",
+      "I181:4931;181:4716",
+      "I181:4931;181:4717",
+      "243:5507",
+      "243:5526",
+      "243:6675",
+      "243:8214",
+      "243:8419",
+      "243:8574",
+      "243:9145",
+      "243:9280",
+      "I197:3162;170:2533",
+      "197:3239",
+      "I197:3258;170:2552",
+      "199:3938",
+      "I199:3949;170:2573",
+      "199:4572",
+      "I199:4582;170:2594",
+      "199:4776",
+      "199:4974",
+      "199:5622",
+      "199:5777"
+    ],
+    "fixedCurrentNavigation": [
+      {
+        "id": "243:5507",
+        "name": "LIVEPATCH"
+      },
+      {
+        "id": "243:5526",
+        "name": "메뉴 작업"
+      },
+      {
+        "id": "243:6675",
+        "name": "메뉴 연결 관리"
+      },
+      {
+        "id": "243:8214",
+        "name": "메뉴 반영과 복원"
+      },
+      {
+        "id": "243:8419",
+        "name": "메뉴 크레딧"
+      },
+      {
+        "id": "243:8574",
+        "name": "메뉴 결제"
+      },
+      {
+        "id": "243:9145",
+        "name": "메뉴 문의"
+      },
+      {
+        "id": "243:9280",
+        "name": "메뉴 프로필"
+      },
+      {
+        "id": "I197:3162;170:2533",
+        "name": "LIVEPATCH"
+      },
+      {
+        "id": "197:3239",
+        "name": "메뉴 작업 · 전체 메뉴"
+      },
+      {
+        "id": "I197:3258;170:2552",
+        "name": "하단 작업"
+      },
+      {
+        "id": "199:3938",
+        "name": "메뉴 연결 관리 · 전체 메뉴"
+      },
+      {
+        "id": "I199:3949;170:2573",
+        "name": "하단 연결 관리"
+      },
+      {
+        "id": "199:4572",
+        "name": "메뉴 반영과 복원 · 전체 메뉴"
+      },
+      {
+        "id": "I199:4582;170:2594",
+        "name": "하단 반영·복원"
+      },
+      {
+        "id": "199:4776",
+        "name": "메뉴 크레딧 · 전체 메뉴"
+      },
+      {
+        "id": "199:4974",
+        "name": "메뉴 결제 · 전체 메뉴"
+      },
+      {
+        "id": "199:5622",
+        "name": "메뉴 문의 · 전체 메뉴"
+      },
+      {
+        "id": "199:5777",
+        "name": "메뉴 프로필 · 전체 메뉴"
+      }
+    ],
+    "menuOverlays": 4,
+    "menuLinks": 28
+  },
+  "runtimeChecks": [
+    {
+      "screen": "C01 나이트 모바일",
+      "checks": [
+        "전체 메뉴 열기·닫기",
+        "수정 후 작업 메뉴 복귀",
+        "작업 카드 드래그 전환",
+        "dot 2 선택과 dot 1 복귀",
+        "보조 카드 드래그·활성 dot 변경",
+        "두 번째 작업 카드 반영 결과 → C19"
+      ],
+      "result": "pass"
+    },
+    {
+      "screen": "C19 나이트 모바일",
+      "checks": [
+        "전체 메뉴 열기",
+        "메뉴 테마 아이콘 → C01 라이트"
+      ],
+      "result": "pass"
+    },
+    {
+      "screen": "C01 라이트 모바일",
+      "checks": [
+        "전체 메뉴 열기·닫기",
+        "메뉴 작업 아이콘 표시",
+        "작업 카드 드래그와 dot 복귀",
+        "보조 카드 드래그"
+      ],
+      "result": "pass"
+    },
+    {
+      "screen": "C26 나이트 모바일",
+      "checks": [
+        "dot 3 선택 → TAX 시연 문서",
+        "마지막 상태 드래그 → 첫 번째 INV 시연 문서"
+      ],
+      "result": "pass"
+    },
+    {
+      "screen": "C01 나이트 PC",
+      "checks": [
+        "우측 패널 접기·펼치기",
+        "좌측 결제 메뉴 → C23"
+      ],
+      "result": "pass"
+    }
+  ],
+  "fixExplanation": "나이트 98C 전체 메뉴의 작업 항목이 filter 안내를 여는 오류를 실제 재현했다. 전체 메뉴 4종의 메뉴 7개를 각각 NAVIGATE로 명시하고, 현재 화면의 메뉴·로고·하단 메뉴가 필터 안내를 여는 반응 19개를 제거했다. 원본 화면 디자인·문구·섹션 배경은 수정하지 않았다.",
+  "validationScope": "전체 34개 시작 화면과 모바일 카드 25종·65개 상태는 API로 검사했다. 실제 브라우저 재생은 runtimeChecks의 대표 화면과 동작에 한정한다. 결제·저장·배포 등의 실서비스 실행은 포함하지 않는다.",
+  "screenshot": "정리/LIVEPATCH_사용자섹션후모바일시연검수_261021.png",
+  "git": {
+    "commit": false,
+    "push": false
+  }
+}
