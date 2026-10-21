@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-21",
+  "scope": "M01 홈 랜딩 PC 재제작",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "page": {
+    "id": "156:1474",
+    "name": "04 웹 서비스 화면"
+  },
+  "frame": {
+    "id": "158:2",
+    "name": "M01 홈 랜딩 PC 1920_261021",
+    "width": 1920,
+    "height": 9763.123046875
+  },
+  "reference": {
+    "id": "24:130",
+    "name": "M01 원본 동일 화면 비교 보정 v06 PC 1920_261017",
+    "pageId": "21:60",
+    "originalPreserved": true
+  },
+  "approach": "원본을 네이티브 레이어로 복사하고 검정 배경·타이포·세로 미디어·섹션 순서 유지. 사용자 UI가 들어가는 부분만 최신 03 사용자 화면에서 재사용.",
+  "sources": [
+    {
+      "id": "70:2025",
+      "role": "C01 라이트 작업 허브 · 쇼케이스 및 배경"
+    },
+    {
+      "id": "119:1035",
+      "role": "나이트 Studio · 승인 섹션 시연 셸"
+    },
+    {
+      "id": "119:1134",
+      "role": "선택 표시를 포함한 고객 사이트 미리보기"
+    },
+    {
+      "id": "119:1151",
+      "role": "선택 요소 카드"
+    },
+    {
+      "id": "119:1136",
+      "role": "수정 요청 카드"
+    },
+    {
+      "id": "119:1317",
+      "role": "변경안 검토 카드"
+    },
+    {
+      "id": "119:1322",
+      "role": "작업 비용 카드"
+    }
+  ],
+  "replacements": [
+    {
+      "source": "38:279",
+      "target": "158:881",
+      "name": "03 사용자 화면 C01 라이트 · 내 작업 시연",
+      "width": 949.3333129882812,
+      "height": 547.844482421875
+    },
+    {
+      "source": "42:299",
+      "target": "158:1086",
+      "name": "03 사용자 화면 C01 라이트 · 배경 시연",
+      "width": 1280.0001220703125,
+      "height": 741.6666870117188
+    },
+    {
+      "source": "38:409",
+      "target": "158:1287",
+      "name": "03 사용자 화면 Studio · 요소 선택 시연",
+      "width": 822,
+      "height": 455.4888916015625
+    },
+    {
+      "source": "38:335",
+      "target": "158:1339",
+      "name": "03 사용자 화면 Studio · 요소 선택 시연",
+      "width": 949.3333129882812,
+      "height": 524.7703857421875
+    },
+    {
+      "source": "38:220",
+      "target": "158:1391",
+      "name": "03 사용자 화면 · 선택 요소 카드",
+      "width": 270,
+      "height": 192
+    },
+    {
+      "source": "38:245",
+      "target": "158:1400",
+      "name": "03 사용자 화면 · 변경안 검토 카드",
+      "width": 296,
+      "height": 196
+    },
+    {
+      "source": "38:461",
+      "target": "158:1405",
+      "name": "03 사용자 화면 · 수정 요청 카드",
+      "width": 592,
+      "height": 350
+    },
+    {
+      "source": "35:435",
+      "target": "158:1426",
+      "name": "03 사용자 화면 Studio · 변경안 검토 시연",
+      "width": 1440,
+      "height": 810
+    }
+  ],
+  "sections": [
+    {
+      "id": "158:3",
+      "name": "원본형 검정 헤더",
+      "width": 1920,
+      "height": 67
+    },
+    {
+      "id": "158:12",
+      "name": "구분선",
+      "width": 1920,
+      "height": 1
+    },
+    {
+      "id": "158:13",
+      "name": "원본형 Hero 제목과 세로 미디어",
+      "width": 1920,
+      "height": 1200.123046875
+    },
+    {
+      "id": "158:92",
+      "name": "원본형 중앙 쇼케이스",
+      "width": 1920,
+      "height": 1189
+    },
+    {
+      "id": "158:129",
+      "name": "원본형 구조와 스타일 교차 시연",
+      "width": 1920,
+      "height": 1883
+    },
+    {
+      "id": "158:169",
+      "name": "원본형 작업 범위 가로 카드",
+      "width": 1920,
+      "height": 593
+    },
+    {
+      "id": "158:190",
+      "name": "원본형 승인과 게시 협업 영역",
+      "width": 1920,
+      "height": 1296
+    },
+    {
+      "id": "158:270",
+      "name": "원본형 운영 원칙 그리드",
+      "width": 1920,
+      "height": 911
+    },
+    {
+      "id": "158:304",
+      "name": "원본형 미리보기와 실제 게시",
+      "width": 1920,
+      "height": 603
+    },
+    {
+      "id": "158:326",
+      "name": "원본형 자주 묻는 질문",
+      "width": 1920,
+      "height": 615
+    },
+    {
+      "id": "158:356",
+      "name": "원본형 마지막 시작 CTA",
+      "width": 1920,
+      "height": 407
+    },
+    {
+      "id": "158:365",
+      "name": "구분선",
+      "width": 1920,
+      "height": 1
+    },
+    {
+      "id": "158:366",
+      "name": "원본형 검정 다열 푸터",
+      "width": 1920,
+      "height": 479
+    }
+  ],
+  "planning": {
+    "reference": "LIVEPATCH_사업기획서.md 14-2 및 19장 M01; 최신 메뉴 계약 우선",
+    "primaryCTA": "데모로 바로 해보기",
+    "secondaryCTA": "무료로 시작하기",
+    "login": true,
+    "sampleNotice": "샘플 사이트로 체험합니다. 실제 사이트는 변경되지 않습니다.",
+    "support": "지원되는 GitHub 정적 사이트·관리 권한 확인·최종 승인",
+    "cookiePreferences": true,
+    "embeddedFeatures": "M04 기능 소개와 M17 소개 콘텐츠는 기존 섹션 안에 통합. 별도 전체 화면 생성 없음."
+  },
+  "spacingUpdate": {
+    "date": "2026-10-21",
+    "sectionPaddingTop": 80,
+    "sectionPaddingBottom": 80,
+    "sectionContentGap": 80,
+    "finalCtaPaddingBottom": 120,
+    "removedSpacerId": "158:197",
+    "finalButtons": ["158:361", "160:363"],
+    "buttonSize": [196, 52],
+    "buttonGap": 16,
+    "buttonColors": ["blue", "white"],
+    "finalCtaVisualChecked": true
+  },
+  "validation": {
+    "width1920": true,
+    "nativeTextCount": 380,
+    "nativeInstanceCount": 123,
+    "rootAutoLayout": true,
+    "newNamesWithoutSlash": true,
+    "originalSourceHeight": 9111.123046875,
+    "sourceUntouched": true,
+    "captionClippingFixed": true,
+    "reviewedSections": [
+      "Hero",
+      "중앙 쇼케이스",
+      "승인 시연",
+      "요청 카드",
+      "푸터"
+    ],
+    "mobileScreensCreated": 0,
+    "otherMScreensCreated": 0
+  },
+  "notes": "실행 코드·원본 HTML·03 사용자 화면 원본은 수정하지 않음. Figma 디자인 기준이며 실제 API·미리보기·데모 라우트 동작을 구현한 것은 아님."
+}

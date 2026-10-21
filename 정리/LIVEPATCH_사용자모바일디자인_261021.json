@@ -1,0 +1,346 @@
+{
+  "date": "2026-10-21",
+  "scope": "03 사용자 화면의 기존 화면 모바일만 제작",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "119:890",
+  "total": 17,
+  "night": 14,
+  "light": 3,
+  "width": 390,
+  "typography": {
+    "body": 16,
+    "metadata": 14,
+    "title": 30,
+    "section": 22
+  },
+  "buttons": {
+    "height": 52
+  },
+  "placement": {
+    "direction": "각 PC 오른쪽",
+    "gap": 80,
+    "topAligned": true,
+    "boardId": "121:1424",
+    "rows": [
+      10,
+      9
+    ],
+    "rule": "기존 화면 순서를 유지한 PC·모바일 쌍 17개와 C40·C42 번호 박스"
+  },
+  "screens": [
+    {
+      "pcId": "70:1886",
+      "mobileId": "166:1688",
+      "pairId": "166:1823",
+      "name": "C01 작업 허브 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2687,
+      "mainId": "166:1727",
+      "rightId": "166:1801",
+      "headerId": "170:2696",
+      "bottomNavId": "170:2704",
+      "scrollers": [
+        "166:1749",
+        "166:1938"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "119:1035",
+      "mobileId": "166:1959",
+      "pairId": "166:2048",
+      "name": "C13 Visual Patch Studio 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 3102,
+      "mainId": "166:1996",
+      "rightId": "166:2029",
+      "headerId": "170:2721",
+      "bottomNavId": "170:2729",
+      "scrollers": [
+        "166:2001",
+        "166:2005",
+        "166:2254"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "119:1332",
+      "mobileId": "166:2278",
+      "pairId": "166:2406",
+      "name": "C19 반영 상세·복원 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 3285,
+      "mainId": "166:2315",
+      "rightId": "166:2390",
+      "headerId": "170:2746",
+      "bottomNavId": "170:2754",
+      "scrollers": [
+        "166:2531"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "70:2025",
+      "mobileId": "168:2253",
+      "pairId": "168:2388",
+      "name": "C01 작업 허브 라이트 모바일 390_261021",
+      "width": 390,
+      "height": 2697,
+      "mainId": "168:2292",
+      "rightId": "168:2366",
+      "headerId": "170:2771",
+      "bottomNavId": "170:2779",
+      "scrollers": [
+        "168:2314"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "72:1314",
+      "mobileId": "168:2524",
+      "pairId": "168:2613",
+      "name": "C01 사이트 연결 전 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2299,
+      "mainId": "168:2556",
+      "rightId": "168:2606",
+      "headerId": "170:2796",
+      "bottomNavId": "170:2804",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "72:1450",
+      "mobileId": "168:2750",
+      "pairId": "168:2839",
+      "name": "C01 사이트 연결 전 라이트 모바일 390_261021",
+      "width": 390,
+      "height": 2311,
+      "mainId": "168:2782",
+      "rightId": "168:2832",
+      "headerId": "170:2821",
+      "bottomNavId": "170:2829",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "70:2164",
+      "mobileId": "168:2976",
+      "pairId": "168:3069",
+      "name": "C02 처음 시작 기본 정보 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2436,
+      "mainId": "168:3007",
+      "rightId": "168:3064",
+      "headerId": "170:2846",
+      "bottomNavId": "170:2854",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "70:2317",
+      "mobileId": "168:3214",
+      "pairId": "168:3307",
+      "name": "C02 처음 시작 기본 정보 라이트 모바일 390_261021",
+      "width": 390,
+      "height": 2444,
+      "mainId": "168:3245",
+      "rightId": "168:3302",
+      "headerId": "170:2871",
+      "bottomNavId": "170:2879",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "119:891",
+      "mobileId": "168:3452",
+      "pairId": "168:3553",
+      "name": "C07 연결 인증·설정 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2575,
+      "mainId": "168:3489",
+      "rightId": "168:3539",
+      "headerId": "170:2896",
+      "bottomNavId": "170:2904",
+      "scrollers": [
+        "168:3493"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "119:1169",
+      "mobileId": "168:3676",
+      "pairId": "168:3808",
+      "name": "C15 작업 상세·증빙 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 3241,
+      "mainId": "168:3713",
+      "rightId": "168:3792",
+      "headerId": "170:2921",
+      "bottomNavId": "170:2929",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "119:1477",
+      "mobileId": "168:3954",
+      "pairId": "168:4058",
+      "name": "C20 크레딧 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2753,
+      "mainId": "168:3991",
+      "rightId": "168:4046",
+      "headerId": "170:2946",
+      "bottomNavId": "170:2954",
+      "scrollers": [
+        "168:4020"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "119:1618",
+      "mobileId": "168:4186",
+      "pairId": "168:4280",
+      "name": "C23 결제·이용 현황 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2241,
+      "mainId": "168:4223",
+      "rightId": "168:4271",
+      "headerId": "170:2971",
+      "bottomNavId": "170:2979",
+      "scrollers": [
+        "168:4228"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "120:1165",
+      "mobileId": "168:4394",
+      "pairId": "168:4476",
+      "name": "C25 토스페이먼츠 결제 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2049,
+      "mainId": "168:4431",
+      "rightId": "168:4464",
+      "headerId": "170:2996",
+      "bottomNavId": "170:3004",
+      "scrollers": [
+        "168:4437"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "120:1288",
+      "mobileId": "168:4590",
+      "pairId": "168:4702",
+      "name": "C26 청구·영수증·증빙 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 3039,
+      "mainId": "168:4627",
+      "rightId": "168:4693",
+      "headerId": "170:3021",
+      "bottomNavId": "170:3029",
+      "scrollers": [
+        "168:4633"
+      ],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "120:1439",
+      "mobileId": "168:4847",
+      "pairId": "168:4939",
+      "name": "C27 구독 해지·정지 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2203,
+      "mainId": "168:4884",
+      "rightId": "168:4930",
+      "headerId": "170:3046",
+      "bottomNavId": "170:3054",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "120:1570",
+      "mobileId": "168:5051",
+      "pairId": "168:5142",
+      "name": "C33 문의 상세·대화 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2223,
+      "mainId": "168:5088",
+      "rightId": "168:5131",
+      "headerId": "170:3071",
+      "bottomNavId": "170:3079",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    },
+    {
+      "pcId": "120:1691",
+      "mobileId": "168:5255",
+      "pairId": "168:5349",
+      "name": "C36 프로필·보안 나이트 모바일 390_261021",
+      "width": 390,
+      "height": 2205,
+      "mainId": "168:5292",
+      "rightId": "168:5340",
+      "headerId": "170:3096",
+      "bottomNavId": "170:3104",
+      "scrollers": [],
+      "overflow": [],
+      "slashNames": 0
+    }
+  ],
+  "components": {
+    "headerSetId": "170:2550",
+    "bottomSetId": "170:2695",
+    "headerVariants": 2,
+    "bottomVariants": 8,
+    "previewId": "171:2321",
+    "pageId": "113:895"
+  },
+  "mobileRules": [
+    "공통 헤더와 하단 탐색을 컴포넌트 인스턴스로 연결",
+    "전체 메뉴는 접힌 서랍 레이어로 보관하고 메뉴·하단 전체 메뉴로 진입하는 디자인",
+    "PC 우측 보조 패널은 모바일 본문 아래 확인 및 도움말 카드로 배치",
+    "PC 전용 패널 폭 드래그 핸들 제외",
+    "표는 모바일 카드 목록으로 전환하고 문서·거래 필드명 보존",
+    "다단 입력과 CTA는 세로 배치",
+    "C02는 첫 화면만 제작하고 5단계 진행 표시는 한 줄로 압축",
+    "Studio의 사이트 선택·PC 및 모바일 전환·요소 선택 도구는 3줄 배치",
+    "사이트 미리보기는 실제 모바일 폭으로 재배치하고 사진·선택 번호 보존",
+    "기존 테마·의미색·왼쪽 강조 라인·라이트 그림자 유지"
+  ],
+  "validation": {
+    "allWidth390": true,
+    "allOverflowClear": true,
+    "pcDimensionsUnchanged": true,
+    "sourceBodyAndRightTextPreserved": true,
+    "selectionNumberPresent": true,
+    "nativeEditableLayers": true,
+    "namesWithoutSlash": true,
+    "autoLayout": true,
+    "visualReviewCompleted": true,
+    "m01Untouched": true,
+    "m01Height": 9763.123046875,
+    "placeholdersPreserved": [
+      "147:1448",
+      "147:1450"
+    ]
+  },
+  "limitations": "Figma 디자인 작업이다. 실제 앱의 드로어·고정 탐색·스크롤·링크·API 동작을 구현한 것은 아니다. M01 모바일 및 사용자 후속 프로세스 화면은 추가하지 않았다."
+}
