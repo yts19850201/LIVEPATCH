@@ -1,0 +1,1451 @@
+{
+  "date": "2026-10-21",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "119:890",
+  "scope": "사용자 화면 PC·모바일 프로토타입 연결",
+  "routes": {
+    "pc": [
+      "243:5505",
+      "243:5755",
+      "243:6005",
+      "243:6161",
+      "243:6317",
+      "243:6485",
+      "243:6653",
+      "243:6807",
+      "243:7983",
+      "243:8191",
+      "243:8395",
+      "243:8549",
+      "243:8687",
+      "243:8813",
+      "243:8985",
+      "243:9119",
+      "243:9253"
+    ],
+    "mobile": [
+      "197:3161",
+      "197:3443",
+      "197:3725",
+      "197:3903",
+      "199:3469",
+      "199:3666",
+      "199:3863",
+      "199:4040",
+      "199:4270",
+      "199:4488",
+      "199:4713",
+      "199:4903",
+      "199:5058",
+      "199:5201",
+      "199:5401",
+      "199:5553",
+      "199:5704"
+    ]
+  },
+  "pcSources": [
+    {
+      "sourceId": "70:1886",
+      "id": "243:5505",
+      "name": "시연용 사용자 C01 작업 허브 나이트 PC 1920_261021",
+      "index": 0
+    },
+    {
+      "sourceId": "70:2025",
+      "id": "243:5755",
+      "name": "시연용 사용자 C01 작업 허브 라이트 PC 1920_261021",
+      "index": 1
+    },
+    {
+      "sourceId": "72:1314",
+      "id": "243:6005",
+      "name": "시연용 사용자 C01 사이트 연결 전 나이트 PC 1920_261019",
+      "index": 2
+    },
+    {
+      "sourceId": "72:1450",
+      "id": "243:6161",
+      "name": "시연용 사용자 C01 사이트 연결 전 라이트 PC 1920_261021",
+      "index": 3
+    },
+    {
+      "sourceId": "70:2164",
+      "id": "243:6317",
+      "name": "시연용 사용자 C02 처음 시작 기본 정보 나이트 PC 1920_261019",
+      "index": 4
+    },
+    {
+      "sourceId": "70:2317",
+      "id": "243:6485",
+      "name": "시연용 사용자 C02 처음 시작 기본 정보 라이트 PC 1920_261021",
+      "index": 5
+    },
+    {
+      "sourceId": "119:891",
+      "id": "243:6653",
+      "name": "시연용 사용자 C07 연결 인증·설정 나이트 PC 1920_261020",
+      "index": 6
+    },
+    {
+      "sourceId": "119:1035",
+      "id": "243:6807",
+      "name": "시연용 사용자 C13 Visual Patch Studio 나이트 PC 1920_261020",
+      "index": 7
+    },
+    {
+      "sourceId": "119:1169",
+      "id": "243:7983",
+      "name": "시연용 사용자 C15 작업 상세·증빙 나이트 PC 1920_261020",
+      "index": 8
+    },
+    {
+      "sourceId": "119:1332",
+      "id": "243:8191",
+      "name": "시연용 사용자 C19 반영 상세·복원 나이트 PC 1920_261020",
+      "index": 9
+    },
+    {
+      "sourceId": "119:1477",
+      "id": "243:8395",
+      "name": "시연용 사용자 C20 크레딧 나이트 PC 1920_261020",
+      "index": 10
+    },
+    {
+      "sourceId": "119:1618",
+      "id": "243:8549",
+      "name": "시연용 사용자 C23 결제·이용 현황 나이트 PC 1920_261021",
+      "index": 11
+    },
+    {
+      "sourceId": "120:1165",
+      "id": "243:8687",
+      "name": "시연용 사용자 C25 토스페이먼츠 결제 나이트 PC 1920_261021",
+      "index": 12
+    },
+    {
+      "sourceId": "120:1288",
+      "id": "243:8813",
+      "name": "시연용 사용자 C26 청구·영수증·증빙 나이트 PC 1920_261020",
+      "index": 13
+    },
+    {
+      "sourceId": "120:1439",
+      "id": "243:8985",
+      "name": "시연용 사용자 C27 구독 해지·정지 나이트 PC 1920_261020",
+      "index": 14
+    },
+    {
+      "sourceId": "120:1570",
+      "id": "243:9119",
+      "name": "시연용 사용자 C33 문의 상세·대화 나이트 PC 1920_261020",
+      "index": 15
+    },
+    {
+      "sourceId": "120:1691",
+      "id": "243:9253",
+      "name": "시연용 사용자 C36 프로필·보안 나이트 PC 1920_261021",
+      "index": 16
+    }
+  ],
+  "localMobileCardSets": [
+    {
+      "sourceSetId": "184:3250",
+      "setId": "243:9404",
+      "name": "모바일 C01 내 작업 스와이프 나이트",
+      "variants": [
+        {
+          "sourceId": "184:3188",
+          "id": "243:9405",
+          "index": 0
+        },
+        {
+          "sourceId": "184:3219",
+          "id": "243:9426",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:658",
+      "setId": "243:9467",
+      "name": "사용자 모바일 보조 카드 C01 작업 허브 나이트",
+      "variants": [
+        {
+          "sourceId": "181:586",
+          "id": "243:9468",
+          "index": 0
+        },
+        {
+          "sourceId": "181:627",
+          "id": "243:9489",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "191:956",
+      "setId": "243:9530",
+      "name": "모바일 C01 작업 내역 라이트 내역 스와이프",
+      "variants": [
+        {
+          "sourceId": "191:884",
+          "id": "243:9531",
+          "index": 0
+        },
+        {
+          "sourceId": "191:925",
+          "id": "243:9552",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:731",
+      "setId": "243:9593",
+      "name": "사용자 모바일 보조 카드 C01 작업 허브 라이트",
+      "variants": [
+        {
+          "sourceId": "181:659",
+          "id": "243:9594",
+          "index": 0
+        },
+        {
+          "sourceId": "181:700",
+          "id": "243:9615",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:776",
+      "setId": "243:9656",
+      "name": "사용자 모바일 보조 카드 C01 사이트 연결 전 나이트",
+      "variants": [
+        {
+          "sourceId": "181:732",
+          "id": "243:9657",
+          "index": 0
+        },
+        {
+          "sourceId": "181:755",
+          "id": "243:9676",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:821",
+      "setId": "243:9699",
+      "name": "사용자 모바일 보조 카드 C01 사이트 연결 전 라이트",
+      "variants": [
+        {
+          "sourceId": "181:777",
+          "id": "243:9700",
+          "index": 0
+        },
+        {
+          "sourceId": "181:800",
+          "id": "243:9719",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1022",
+      "setId": "243:9742",
+      "name": "사용자 모바일 보조 카드 C07 연결 인증·설정 나이트",
+      "variants": [
+        {
+          "sourceId": "181:956",
+          "id": "243:9743",
+          "index": 0
+        },
+        {
+          "sourceId": "181:981",
+          "id": "243:9760",
+          "index": 1
+        },
+        {
+          "sourceId": "181:1005",
+          "id": "243:9778",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1122",
+      "setId": "243:9804",
+      "name": "사용자 모바일 보조 카드 C13 Visual Patch Studio 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1023",
+          "id": "243:9805",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1056",
+          "id": "243:9826",
+          "index": 1
+        },
+        {
+          "sourceId": "181:1079",
+          "id": "243:9845",
+          "index": 2
+        },
+        {
+          "sourceId": "181:1099",
+          "id": "243:9863",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1199",
+      "setId": "243:9897",
+      "name": "사용자 모바일 보조 카드 C15 작업 상세·증빙 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1123",
+          "id": "243:9898",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1154",
+          "id": "243:9917",
+          "index": 1
+        },
+        {
+          "sourceId": "181:1180",
+          "id": "243:9936",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1273",
+      "setId": "243:9967",
+      "name": "사용자 모바일 보조 카드 C19 반영 상세·복원 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1200",
+          "id": "243:9968",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1229",
+          "id": "243:9987",
+          "index": 1
+        },
+        {
+          "sourceId": "181:1247",
+          "id": "243:10003",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1324",
+      "setId": "243:10035",
+      "name": "사용자 모바일 보조 카드 C20 크레딧 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1274",
+          "id": "243:10036",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1292",
+          "id": "243:10052",
+          "index": 1
+        },
+        {
+          "sourceId": "181:1309",
+          "id": "243:10068",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1356",
+      "setId": "243:10085",
+      "name": "사용자 모바일 보조 카드 C23 결제·이용 현황 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1325",
+          "id": "243:10086",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1341",
+          "id": "243:10100",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1407",
+      "setId": "243:10116",
+      "name": "사용자 모바일 보조 카드 C25 토스페이먼츠 결제 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1357",
+          "id": "243:10117",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1372",
+          "id": "243:10132",
+          "index": 1
+        },
+        {
+          "sourceId": "181:1390",
+          "id": "243:10148",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1439",
+      "setId": "243:10166",
+      "name": "사용자 모바일 보조 카드 C26 청구·영수증·증빙 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1408",
+          "id": "243:10167",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1424",
+          "id": "243:10181",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1471",
+      "setId": "243:10197",
+      "name": "사용자 모바일 보조 카드 C27 구독 해지·정지 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1440",
+          "id": "243:10198",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1456",
+          "id": "243:10212",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "sourceSetId": "181:1549",
+      "setId": "243:10228",
+      "name": "사용자 모바일 보조 카드 C36 프로필·보안 나이트",
+      "variants": [
+        {
+          "sourceId": "181:1518",
+          "id": "243:10229",
+          "index": 0
+        },
+        {
+          "sourceId": "181:1534",
+          "id": "243:10243",
+          "index": 1
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "key": "guide",
+      "device": "pc",
+      "light": false,
+      "id": "244:6571"
+    },
+    {
+      "key": "connect",
+      "device": "pc",
+      "light": false,
+      "id": "244:6580"
+    },
+    {
+      "key": "test",
+      "device": "pc",
+      "light": false,
+      "id": "244:6589"
+    },
+    {
+      "key": "permissions",
+      "device": "pc",
+      "light": false,
+      "id": "244:6598"
+    },
+    {
+      "key": "request",
+      "device": "pc",
+      "light": false,
+      "id": "244:6607"
+    },
+    {
+      "key": "approval",
+      "device": "pc",
+      "light": false,
+      "id": "244:6616"
+    },
+    {
+      "key": "document",
+      "device": "pc",
+      "light": false,
+      "id": "244:6625"
+    },
+    {
+      "key": "payment",
+      "device": "pc",
+      "light": false,
+      "id": "244:6634"
+    },
+    {
+      "key": "save",
+      "device": "pc",
+      "light": false,
+      "id": "244:6643"
+    },
+    {
+      "key": "security",
+      "device": "pc",
+      "light": false,
+      "id": "244:6652"
+    },
+    {
+      "key": "input",
+      "device": "pc",
+      "light": false,
+      "id": "244:6661"
+    },
+    {
+      "key": "filter",
+      "device": "pc",
+      "light": false,
+      "id": "244:6670"
+    },
+    {
+      "key": "preview",
+      "device": "pc",
+      "light": false,
+      "id": "244:6679"
+    },
+    {
+      "key": "attachment",
+      "device": "pc",
+      "light": false,
+      "id": "244:6688"
+    },
+    {
+      "key": "theme",
+      "device": "pc",
+      "light": false,
+      "id": "244:6697"
+    },
+    {
+      "key": "supportList",
+      "device": "pc",
+      "light": false,
+      "id": "244:6706"
+    },
+    {
+      "key": "deployList",
+      "device": "pc",
+      "light": false,
+      "id": "244:6715"
+    },
+    {
+      "key": "guide",
+      "device": "pc",
+      "light": true,
+      "id": "244:6724"
+    },
+    {
+      "key": "connect",
+      "device": "pc",
+      "light": true,
+      "id": "244:6733"
+    },
+    {
+      "key": "test",
+      "device": "pc",
+      "light": true,
+      "id": "244:6742"
+    },
+    {
+      "key": "permissions",
+      "device": "pc",
+      "light": true,
+      "id": "244:6751"
+    },
+    {
+      "key": "request",
+      "device": "pc",
+      "light": true,
+      "id": "244:6760"
+    },
+    {
+      "key": "approval",
+      "device": "pc",
+      "light": true,
+      "id": "244:6769"
+    },
+    {
+      "key": "document",
+      "device": "pc",
+      "light": true,
+      "id": "244:6778"
+    },
+    {
+      "key": "payment",
+      "device": "pc",
+      "light": true,
+      "id": "244:6787"
+    },
+    {
+      "key": "save",
+      "device": "pc",
+      "light": true,
+      "id": "244:6796"
+    },
+    {
+      "key": "security",
+      "device": "pc",
+      "light": true,
+      "id": "244:6805"
+    },
+    {
+      "key": "input",
+      "device": "pc",
+      "light": true,
+      "id": "244:6814"
+    },
+    {
+      "key": "filter",
+      "device": "pc",
+      "light": true,
+      "id": "244:6823"
+    },
+    {
+      "key": "preview",
+      "device": "pc",
+      "light": true,
+      "id": "244:6832"
+    },
+    {
+      "key": "attachment",
+      "device": "pc",
+      "light": true,
+      "id": "244:6841"
+    },
+    {
+      "key": "theme",
+      "device": "pc",
+      "light": true,
+      "id": "244:6850"
+    },
+    {
+      "key": "supportList",
+      "device": "pc",
+      "light": true,
+      "id": "244:6859"
+    },
+    {
+      "key": "deployList",
+      "device": "pc",
+      "light": true,
+      "id": "244:6868"
+    },
+    {
+      "key": "guide",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6877"
+    },
+    {
+      "key": "connect",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6886"
+    },
+    {
+      "key": "test",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6895"
+    },
+    {
+      "key": "permissions",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6904"
+    },
+    {
+      "key": "request",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6913"
+    },
+    {
+      "key": "approval",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6922"
+    },
+    {
+      "key": "document",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6931"
+    },
+    {
+      "key": "payment",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6940"
+    },
+    {
+      "key": "save",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6949"
+    },
+    {
+      "key": "security",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6958"
+    },
+    {
+      "key": "input",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6967"
+    },
+    {
+      "key": "filter",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6976"
+    },
+    {
+      "key": "preview",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6985"
+    },
+    {
+      "key": "attachment",
+      "device": "mobile",
+      "light": false,
+      "id": "244:6994"
+    },
+    {
+      "key": "theme",
+      "device": "mobile",
+      "light": false,
+      "id": "244:7003"
+    },
+    {
+      "key": "supportList",
+      "device": "mobile",
+      "light": false,
+      "id": "244:7012"
+    },
+    {
+      "key": "deployList",
+      "device": "mobile",
+      "light": false,
+      "id": "244:7021"
+    },
+    {
+      "key": "guide",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7030"
+    },
+    {
+      "key": "connect",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7039"
+    },
+    {
+      "key": "test",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7048"
+    },
+    {
+      "key": "permissions",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7057"
+    },
+    {
+      "key": "request",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7066"
+    },
+    {
+      "key": "approval",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7075"
+    },
+    {
+      "key": "document",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7084"
+    },
+    {
+      "key": "payment",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7093"
+    },
+    {
+      "key": "save",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7102"
+    },
+    {
+      "key": "security",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7111"
+    },
+    {
+      "key": "input",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7120"
+    },
+    {
+      "key": "filter",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7129"
+    },
+    {
+      "key": "preview",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7138"
+    },
+    {
+      "key": "attachment",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7147"
+    },
+    {
+      "key": "theme",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7156"
+    },
+    {
+      "key": "supportList",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7165"
+    },
+    {
+      "key": "deployList",
+      "device": "mobile",
+      "light": true,
+      "id": "244:7174"
+    }
+  ],
+  "audit": {
+    "summary": [
+      {
+        "id": "243:5505",
+        "device": "pc",
+        "links": 20
+      },
+      {
+        "id": "243:5755",
+        "device": "pc",
+        "links": 18
+      },
+      {
+        "id": "243:6005",
+        "device": "pc",
+        "links": 15
+      },
+      {
+        "id": "243:6161",
+        "device": "pc",
+        "links": 15
+      },
+      {
+        "id": "243:6317",
+        "device": "pc",
+        "links": 17
+      },
+      {
+        "id": "243:6485",
+        "device": "pc",
+        "links": 17
+      },
+      {
+        "id": "243:6653",
+        "device": "pc",
+        "links": 23
+      },
+      {
+        "id": "243:6807",
+        "device": "pc",
+        "links": 26
+      },
+      {
+        "id": "243:7983",
+        "device": "pc",
+        "links": 19
+      },
+      {
+        "id": "243:8191",
+        "device": "pc",
+        "links": 17
+      },
+      {
+        "id": "243:8395",
+        "device": "pc",
+        "links": 17
+      },
+      {
+        "id": "243:8549",
+        "device": "pc",
+        "links": 19
+      },
+      {
+        "id": "243:8687",
+        "device": "pc",
+        "links": 18
+      },
+      {
+        "id": "243:8813",
+        "device": "pc",
+        "links": 23
+      },
+      {
+        "id": "243:8985",
+        "device": "pc",
+        "links": 16
+      },
+      {
+        "id": "243:9119",
+        "device": "pc",
+        "links": 17
+      },
+      {
+        "id": "243:9253",
+        "device": "pc",
+        "links": 22
+      },
+      {
+        "id": "197:3161",
+        "device": "mobile",
+        "links": 28
+      },
+      {
+        "id": "197:3443",
+        "device": "mobile",
+        "links": 25
+      },
+      {
+        "id": "197:3725",
+        "device": "mobile",
+        "links": 23
+      },
+      {
+        "id": "197:3903",
+        "device": "mobile",
+        "links": 23
+      },
+      {
+        "id": "199:3469",
+        "device": "mobile",
+        "links": 23
+      },
+      {
+        "id": "199:3666",
+        "device": "mobile",
+        "links": 23
+      },
+      {
+        "id": "199:3863",
+        "device": "mobile",
+        "links": 30
+      },
+      {
+        "id": "199:4040",
+        "device": "mobile",
+        "links": 34
+      },
+      {
+        "id": "199:4270",
+        "device": "mobile",
+        "links": 35
+      },
+      {
+        "id": "199:4488",
+        "device": "mobile",
+        "links": 27
+      },
+      {
+        "id": "199:4713",
+        "device": "mobile",
+        "links": 27
+      },
+      {
+        "id": "199:4903",
+        "device": "mobile",
+        "links": 26
+      },
+      {
+        "id": "199:5058",
+        "device": "mobile",
+        "links": 25
+      },
+      {
+        "id": "199:5201",
+        "device": "mobile",
+        "links": 33
+      },
+      {
+        "id": "199:5401",
+        "device": "mobile",
+        "links": 27
+      },
+      {
+        "id": "199:5553",
+        "device": "mobile",
+        "links": 24
+      },
+      {
+        "id": "199:5704",
+        "device": "mobile",
+        "links": 29
+      }
+    ],
+    "links": 781,
+    "errors": [],
+    "disabled": [],
+    "flowCount": 34,
+    "nonButtonCardContainers": [
+      {
+        "id": "243:6088",
+        "name": "확인할 일"
+      },
+      {
+        "id": "243:6089",
+        "name": "최근 반영"
+      },
+      {
+        "id": "243:6090",
+        "name": "크레딧"
+      },
+      {
+        "id": "243:6244",
+        "name": "확인할 일"
+      },
+      {
+        "id": "243:6245",
+        "name": "최근 반영"
+      },
+      {
+        "id": "243:6246",
+        "name": "크레딧"
+      },
+      {
+        "id": "243:6406",
+        "name": "연결 요약"
+      },
+      {
+        "id": "243:6407",
+        "name": "진행 순서"
+      },
+      {
+        "id": "243:6574",
+        "name": "연결 요약"
+      },
+      {
+        "id": "243:6575",
+        "name": "진행 순서"
+      }
+    ]
+  },
+  "cardAudit": {
+    "states": 39,
+    "errors": [],
+    "localCards": [
+      {
+        "id": "243:9405",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9426",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9468",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9489",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9531",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9552",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9594",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9615",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9657",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9676",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9700",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9719",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:9743",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9760",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9778",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9805",
+        "drag": 1,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:9826",
+        "drag": 1,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:9845",
+        "drag": 1,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:9863",
+        "drag": 1,
+        "dotLinks": 3
+      },
+      {
+        "id": "243:9898",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9917",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9936",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9968",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:9987",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10003",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10036",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10052",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10068",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10086",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10100",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10117",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10132",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10148",
+        "drag": 1,
+        "dotLinks": 2
+      },
+      {
+        "id": "243:10167",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10181",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10198",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10212",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10229",
+        "drag": 1,
+        "dotLinks": 1
+      },
+      {
+        "id": "243:10243",
+        "drag": 1,
+        "dotLinks": 1
+      }
+    ],
+    "menus": [
+      {
+        "id": "181:4759",
+        "links": 7,
+        "close": [
+          {
+            "id": "I181:4760;181:4503;170:2539",
+            "reactions": [
+              {
+                "action": {
+                  "type": "CLOSE"
+                },
+                "actions": [
+                  {
+                    "type": "CLOSE"
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "181:4816",
+        "links": 7,
+        "close": [
+          {
+            "id": "I181:4817;181:4567;170:2548",
+            "reactions": [
+              {
+                "action": {
+                  "type": "CLOSE"
+                },
+                "actions": [
+                  {
+                    "type": "CLOSE"
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "181:4873",
+        "links": 7,
+        "close": [
+          {
+            "id": "I181:4874;181:4631;170:2539",
+            "reactions": [
+              {
+                "action": {
+                  "type": "CLOSE"
+                },
+                "actions": [
+                  {
+                    "type": "CLOSE"
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "181:4930",
+        "links": 7,
+        "close": [
+          {
+            "id": "I181:4931;181:4695;170:2548",
+            "reactions": [
+              {
+                "action": {
+                  "type": "CLOSE"
+                },
+                "actions": [
+                  {
+                    "type": "CLOSE"
+                  }
+                ],
+                "trigger": {
+                  "type": "ON_CLICK"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "panelControl": {
+    "count": 17,
+    "collectionId": "VariableCollectionId:246:9491",
+    "behavior": "우측 패널·손잡이 표시 전환 및 버튼 문구 변경. 접을 때 본문 FILL 확장"
+  },
+  "runtimeChecks": [
+    {
+      "name": "PC 우측 패널 접기·펼치기",
+      "result": "pass"
+    },
+    {
+      "name": "PC C01 변경안 검토 → C15",
+      "result": "pass"
+    },
+    {
+      "name": "모바일 전체 메뉴 열기",
+      "result": "pass"
+    },
+    {
+      "name": "모바일 전체 메뉴 결제 → C23",
+      "result": "pass"
+    },
+    {
+      "name": "모바일 영수증·증빙 탭 → C26",
+      "result": "pass"
+    },
+    {
+      "name": "모바일 로고 → C01",
+      "result": "pass"
+    },
+    {
+      "name": "모바일 C01 작업 dot 2 → 두 번째 카드",
+      "result": "pass"
+    },
+    {
+      "name": "전환된 작업 카드 반영 결과 → C19",
+      "result": "pass"
+    },
+    {
+      "name": "모바일 정보 안내 및 작업 허브 복귀",
+      "result": "pass"
+    },
+    {
+      "name": "모바일 보조 카드 드래그 → 최근 반영 카드",
+      "result": "pass"
+    }
+  ],
+  "limitations": [
+    "실제 텍스트 입력·필터·저장·외부 인증·결제·배포·첨부·다운로드는 시연 안내로 표현한다.",
+    "비활성 버튼은 활성화하지 않았다.",
+    "PC 패널 너비 드래그는 기존 디자인 표시를 유지하며 이번 연결에는 포함하지 않는다.",
+    "새로운 Light 화면이나 번호 박스 화면을 만들지 않았다.",
+    "원본 디자인과 원본 공통 컴포넌트는 유지하며 PC 시연 사본·기존 모바일 시연 사본을 연결했다.",
+    "최종 디자인이 수정되면 시연 사본 동기화가 필요하다."
+  ],
+  "git": {
+    "commit": false,
+    "push": false
+  },
+  "prototypeLinks": {
+    "pc": "https://www.figma.com/proto/VwuyN75CQK9Kn0ZyIVmF4S/LIVEPATCH?page-id=119%3A890&node-id=243-5505&starting-point-node-id=243%3A5505&scaling=scale-down",
+    "mobile": "https://www.figma.com/proto/VwuyN75CQK9Kn0ZyIVmF4S/LIVEPATCH?page-id=119%3A890&node-id=197-3161&starting-point-node-id=197%3A3161&scaling=scale-down"
+  }
+}
