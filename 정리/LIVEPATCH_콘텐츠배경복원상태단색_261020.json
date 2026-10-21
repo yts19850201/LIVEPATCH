@@ -1,0 +1,658 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "scope": "콘텐츠 박스의 의미색 배경을 기존 중립색으로 복원. 상태 배지·아이콘 배경은 밝은 단색과 어두운 글자로 변경.",
+  "content": {
+    "mutatedNodeIds": [
+      "119:1027",
+      "119:1269",
+      "119:1464",
+      "126:1084",
+      "126:1104",
+      "120:1395",
+      "120:1553",
+      "120:1664",
+      "120:1800",
+      "120:1974",
+      "120:2059"
+    ],
+    "changes": [
+      {
+        "id": "119:1027",
+        "name": "테스트 대기",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2078431397676468,
+              "g": 0.1725490242242813,
+              "b": 0.11372549086809158
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:973"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "119:1269",
+        "name": "변경 후",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09803921729326248,
+              "g": 0.16862745583057404,
+              "b": 0.2705882489681244
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:975"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "119:1464",
+        "name": "복원 가능",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09019608050584793,
+              "g": 0.1882352977991104,
+              "b": 0.15294118225574493
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:971"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "126:1084",
+        "name": "예약은 확정 차감이 아닙니다",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2078431397676468,
+              "g": 0.1725490242242813,
+              "b": 0.11372549086809158
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:973"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "126:1104",
+        "name": "카드 식별 정보",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09803921729326248,
+              "g": 0.16862745583057404,
+              "b": 0.2705882489681244
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:975"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09019608050584793,
+              "g": 0.09019608050584793,
+              "b": 0.09019608050584793
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:70:1834"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "120:1395",
+        "name": "표 행",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09803921729326248,
+              "g": 0.16862745583057404,
+              "b": 0.2705882489681244
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:975"
+              }
+            }
+          }
+        ],
+        "currentFill": [],
+        "linePreserved": true
+      },
+      {
+        "id": "120:1553",
+        "name": "해지 전 확인",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.21960784494876862,
+              "g": 0.13725490868091583,
+              "b": 0.16078431904315948
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:977"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "120:1664",
+        "name": "LIVEPATCH 지원 · 2026.10.20 10:35 KST",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09803921729326248,
+              "g": 0.16862745583057404,
+              "b": 0.2705882489681244
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:975"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "120:1800",
+        "name": "패스키 승인",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2078431397676468,
+              "g": 0.1725490242242813,
+              "b": 0.11372549086809158
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:973"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "120:1974",
+        "name": "보존 예외·취소",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2078431397676468,
+              "g": 0.1725490242242813,
+              "b": 0.11372549086809158
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:973"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      },
+      {
+        "id": "120:2059",
+        "name": "일부 기능 제한",
+        "previousFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2078431397676468,
+              "g": 0.1725490242242813,
+              "b": 0.11372549086809158
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:124:973"
+              }
+            }
+          }
+        ],
+        "currentFill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.13333334028720856,
+              "g": 0.14509804546833038,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:88:776"
+              }
+            }
+          }
+        ],
+        "linePreserved": true
+      }
+    ],
+    "allLinesPreserved": true,
+    "rows": [
+      10,
+      9
+    ]
+  },
+  "library": {
+    "createdNodeIds": [
+      "VariableID:131:1191",
+      "VariableID:131:1192",
+      "VariableID:131:1193",
+      "VariableID:131:1194",
+      "VariableID:131:1195",
+      "VariableID:131:1196",
+      "VariableID:131:1197",
+      "VariableID:131:1198",
+      "VariableID:131:1199",
+      "VariableID:131:1200"
+    ],
+    "mutatedNodeIds": [
+      "124:993",
+      "124:1002",
+      "124:1000",
+      "124:1001",
+      "124:994",
+      "124:1006",
+      "124:1004",
+      "124:1005",
+      "124:995",
+      "124:1010",
+      "124:1008",
+      "124:1009",
+      "124:996",
+      "124:1014",
+      "124:1012",
+      "124:1013",
+      "124:997",
+      "124:1018",
+      "124:1016",
+      "124:1017"
+    ],
+    "variants": [
+      {
+        "tone": "success",
+        "componentId": "124:993",
+        "background": {
+          "r": 0.2196078431372549,
+          "g": 0.7803921568627451,
+          "b": 0.5607843137254902,
+          "a": 1
+        },
+        "foreground": {
+          "r": 0.06274509803921569,
+          "g": 0.1411764705882353,
+          "b": 0.10588235294117647,
+          "a": 1
+        },
+        "variables": {
+          "solid": "VariableID:131:1191",
+          "on-solid": "VariableID:131:1192"
+        }
+      },
+      {
+        "tone": "warning",
+        "componentId": "124:994",
+        "background": {
+          "r": 0.9529411764705882,
+          "g": 0.7450980392156863,
+          "b": 0.33725490196078434,
+          "a": 1
+        },
+        "foreground": {
+          "r": 0.18823529411764706,
+          "g": 0.12549019607843137,
+          "b": 0.023529411764705882,
+          "a": 1
+        },
+        "variables": {
+          "solid": "VariableID:131:1193",
+          "on-solid": "VariableID:131:1194"
+        }
+      },
+      {
+        "tone": "info",
+        "componentId": "124:995",
+        "background": {
+          "r": 0.3333333333333333,
+          "g": 0.615686274509804,
+          "b": 0.9607843137254902,
+          "a": 1
+        },
+        "foreground": {
+          "r": 0.06274509803921569,
+          "g": 0.1411764705882353,
+          "b": 0.23921568627450981,
+          "a": 1
+        },
+        "variables": {
+          "solid": "VariableID:131:1195",
+          "on-solid": "VariableID:131:1196"
+        }
+      },
+      {
+        "tone": "danger",
+        "componentId": "124:996",
+        "background": {
+          "r": 0.9372549019607843,
+          "g": 0.5215686274509804,
+          "b": 0.5725490196078431,
+          "a": 1
+        },
+        "foreground": {
+          "r": 0.20784313725490197,
+          "g": 0.08235294117647059,
+          "b": 0.10588235294117647,
+          "a": 1
+        },
+        "variables": {
+          "solid": "VariableID:131:1197",
+          "on-solid": "VariableID:131:1198"
+        }
+      },
+      {
+        "tone": "neutral",
+        "componentId": "124:997",
+        "background": {
+          "r": 0.6666666666666666,
+          "g": 0.7215686274509804,
+          "b": 0.8,
+          "a": 1
+        },
+        "foreground": {
+          "r": 0.09411764705882353,
+          "g": 0.13333333333333333,
+          "b": 0.19215686274509805,
+          "a": 1
+        },
+        "variables": {
+          "solid": "VariableID:131:1199",
+          "on-solid": "VariableID:131:1200"
+        }
+      }
+    ],
+    "scope": "Night 상태 배지와 아이콘 배경. 외부 텍스트 색상·호버용 soft 토큰·라이트 표시 유지."
+  },
+  "validation": {
+    "allLeftColorLinesPreserved": true,
+    "outsideTextColorsAndHoverUnmodified": true,
+    "contrast": [
+      {
+        "tone": "success",
+        "contrast": 7.54
+      },
+      {
+        "tone": "warning",
+        "contrast": 9.22
+      },
+      {
+        "tone": "info",
+        "contrast": 5.61
+      },
+      {
+        "tone": "danger",
+        "contrast": 6.62
+      },
+      {
+        "tone": "neutral",
+        "contrast": 7.96
+      }
+    ],
+    "visualReview": [
+      "119:1332",
+      "120:1980",
+      "120:1570",
+      "124:1019"
+    ],
+    "rows": [
+      10,
+      9
+    ],
+    "dimensionsUnmodified": true
+  }
+}

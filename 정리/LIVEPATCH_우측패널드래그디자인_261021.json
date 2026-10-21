@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-21",
+  "type": "Figma 디자인 및 구현 기준",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "component": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"createdNodeIds\":[\"154:1080\",\"154:1081\",\"154:1082\",\"154:1083\",\"154:1084\",\"154:1085\",\"154:1086\",\"154:1087\",\"154:1088\",\"154:1089\"],\"componentSetId\":\"154:1089\",\"defaultId\":\"154:1080\",\"states\":[{\"id\":\"154:1080\",\"name\":\"상태=기본\"},{\"id\":\"154:1083\",\"name\":\"상태=호버\"},{\"id\":\"154:1086\",\"name\":\"상태=드래그\"}],\"bounds\":{\"x\":80,\"y\":4342,\"width\":160,\"height\":88}}"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "applied": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"createdNodeIds\":[\"154:1090\",\"I154:1090;154:1081\",\"I154:1090;154:1082\",\"154:1093\",\"I154:1093;154:1081\",\"I154:1093;154:1082\",\"154:1096\",\"I154:1096;154:1081\",\"I154:1096;154:1082\",\"154:1099\",\"I154:1099;154:1081\",\"I154:1099;154:1082\",\"154:1102\",\"I154:1102;154:1081\",\"I154:1102;154:1082\",\"154:1105\",\"I154:1105;154:1081\",\"I154:1105;154:1082\",\"154:1108\",\"I154:1108;154:1081\",\"I154:1108;154:1082\",\"154:1111\",\"I154:1111;154:1081\",\"I154:1111;154:1082\",\"154:1114\",\"I154:1114;154:1081\",\"I154:1114;154:1082\",\"154:1117\",\"I154:1117;154:1081\",\"I154:1117;154:1082\",\"154:1120\",\"I154:1120;154:1081\",\"I154:1120;154:1082\",\"154:1123\",\"I154:1123;154:1081\",\"I154:1123;154:1082\",\"154:1126\",\"I154:1126;154:1081\",\"I154:1126;154:1082\",\"154:1129\",\"I154:1129;154:1081\",\"I154:1129;154:1082\",\"154:1132\",\"I154:1132;154:1081\",\"I154:1132;154:1082\",\"154:1135\",\"I154:1135;154:1081\",\"I154:1135;154:1082\",\"154:1138\",\"I154:1138;154:1081\",\"I154:1138;154:1082\",\"154:1141\",\"I154:1141;96:823\"],\"mutatedNodeIds\":[\"119:1126\",\"I119:1126;96:818\"],\"screens\":[{\"screen\":\"70:1886\",\"panel\":\"70:2003\",\"handle\":\"154:1090\",\"width\":416,\"handleX\":1316,\"panelX\":1328,\"panelHeight\":1030,\"centered\":true},{\"screen\":\"70:2025\",\"panel\":\"100:982\",\"handle\":\"154:1093\",\"width\":416,\"handleX\":1316,\"panelX\":1328,\"panelHeight\":1036,\"centered\":true},{\"screen\":\"72:1314\",\"panel\":\"72:1394\",\"handle\":\"154:1096\",\"width\":416,\"handleX\":1316,\"panelX\":1328,\"panelHeight\":1092,\"centered\":true},{\"screen\":\"72:1450\",\"panel\":\"72:1530\",\"handle\":\"154:1099\",\"width\":416,\"handleX\":1316,\"panelX\":1328,\"panelHeight\":1092,\"centered\":true},{\"screen\":\"70:2164\",\"panel\":\"70:2289\",\"handle\":\"154:1102\",\"width\":416,\"handleX\":1316,\"panelX\":1328,\"panelHeight\":1012,\"centered\":true},{\"screen\":\"70:2317\",\"panel\":\"70:2442\",\"handle\":\"154:1105\",\"width\":416,\"handleX\":1316,\"panelX\":1328,\"panelHeight\":1012,\"centered\":true},{\"screen\":\"119:891\",\"panel\":\"119:965\",\"handle\":\"154:1108\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1156,\"centered\":true},{\"screen\":\"119:1035\",\"panel\":\"119:1110\",\"handle\":\"154:1111\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1501.13330078125,\"centered\":true},{\"screen\":\"119:1169\",\"panel\":\"119:1244\",\"handle\":\"154:1114\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1418,\"centered\":true},{\"screen\":\"119:1332\",\"panel\":\"119:1406\",\"handle\":\"154:1117\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1536,\"centered\":true},{\"screen\":\"119:1477\",\"panel\":\"119:1552\",\"handle\":\"154:1120\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1020,\"centered\":true},{\"screen\":\"119:1618\",\"panel\":\"119:1693\",\"handle\":\"154:1123\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1124,\"centered\":true},{\"screen\":\"120:1165\",\"panel\":\"120:1240\",\"handle\":\"154:1126\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1012,\"centered\":true},{\"screen\":\"120:1288\",\"panel\":\"120:1363\",\"handle\":\"154:1129\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1178,\"centered\":true},{\"screen\":\"120:1439\",\"panel\":\"120:1514\",\"handle\":\"154:1132\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1198,\"centered\":true},{\"screen\":\"120:1570\",\"panel\":\"120:1644\",\"handle\":\"154:1135\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1244,\"centered\":true},{\"screen\":\"120:1691\",\"panel\":\"120:1766\",\"handle\":\"154:1138\",\"width\":416,\"handleX\":1492,\"panelX\":1504,\"panelHeight\":1056,\"centered\":true}],\"newFullScreens\":0,\"rowCounts\":[10,9],\"preview\":{\"pcId\":\"119:1126\",\"mobileId\":\"154:1141\",\"toolbarWidth\":1272,\"childrenWidth\":841}}"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "componentPreview": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"createdNodeIds\":[\"154:1144\",\"154:1145\",\"154:1146\",\"154:1147\",\"I154:1147;154:1081\",\"I154:1147;154:1082\",\"154:1150\",\"154:1151\",\"154:1152\",\"I154:1152;154:1084\",\"I154:1152;154:1085\",\"154:1155\",\"154:1156\",\"154:1157\",\"I154:1157;154:1087\",\"I154:1157;154:1088\"],\"previewId\":\"154:1144\",\"componentSetId\":\"154:1089\"}"
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "behavior": {
+    "defaultRightWidth": 416,
+    "minRightWidth": 320,
+    "maxRightWidth": 640,
+    "minCenterWidth": 640,
+    "pointerCursor": "col-resize",
+    "handleHitArea": [
+      24,
+      48
+    ],
+    "visibleHandle": [
+      16,
+      40
+    ],
+    "position": "우측 패널 왼쪽 경계의 세로 중앙. Figma CENTER 제약 적용. 구현 시 화면에 보이는 패널 영역의 세로 중앙에 유지.",
+    "tooltip": "드래그하여 패널 너비 조절",
+    "keyboardStep": 16,
+    "doubleClick": "416px 기본 폭으로 복원",
+    "collapse": "상단 패널 접기와 독립. 접으면 손잡이 숨김, 재열기 시 마지막 폭 복원.",
+    "preview": {
+      "PC": "가용 콘텐츠 폭에 맞게 iframe viewport 자체를 변경해 반응형 결과 확인. transform 축소 금지.",
+      "mobile": "기본 390 CSS px 기기 viewport를 가운데 정렬. 작업 여백은 패널 너비에 따라 변동하며, 기기 폭 변경은 미리보기 설정으로 처리. 모바일 앱 전체 화면 신규 제작은 아님."
+    },
+    "implementation": "pointer capture 사용. 드래그 중 iframe 위 이벤트 보호막, 종료·취소 시 해제. 키보드 조절 가능한 separator, aria-orientation vertical 및 폭 값 제공. 패널 카드와 중앙 작업의 스크롤 유지."
+  },
+  "checks": {
+    "existingScreens": 17,
+    "newFullScreens": 0,
+    "rowCounts": [
+      10,
+      9
+    ],
+    "allHandlesCenteredOnBoundary": true,
+    "existingPanelWidthsPreserved": 416,
+    "visual": [
+      "C01 라이트 전체 화면",
+      "C13 나이트 전체 화면",
+      "기본·호버·드래그 컴포넌트 예시"
+    ],
+    "runtimeImplemented": false
+  }
+}
