@@ -1,0 +1,328 @@
+{
+  "date": "2026-10-21",
+  "scope": "후속 14개 카드·버튼·구분선 M01 기준 점검",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "standard": {
+    "outerCardRadius": 8,
+    "innerControlRadius": 4,
+    "borderWidth": 1,
+    "borderAlign": "INSIDE",
+    "cardBorder": "white 14%",
+    "buttonRadius": 4,
+    "dividerHeight": 1,
+    "dividerColor": "#333333",
+    "shadows": false
+  },
+  "changes": [
+    {
+      "id": "210:638",
+      "property": "strokes",
+      "before": "white14% 1px",
+      "after": "none"
+    },
+    {
+      "id": "210:831",
+      "property": "strokes",
+      "before": "white14% 1px",
+      "after": "none"
+    },
+    {
+      "id": "211:749",
+      "property": "strokes",
+      "before": "white14% 1px",
+      "after": "none"
+    },
+    {
+      "id": "212:688",
+      "property": "strokes",
+      "before": "white14% 1px",
+      "after": "none"
+    },
+    {
+      "id": "211:698",
+      "property": "cornerRadius",
+      "before": 8,
+      "after": 4
+    },
+    {
+      "id": "211:6081",
+      "property": "cornerRadius",
+      "before": 8,
+      "after": 4
+    }
+  ],
+  "audit": {
+    "protectedResults": [
+      {
+        "id": "158:2",
+        "unchanged": true
+      },
+      {
+        "id": "204:5498",
+        "unchanged": true
+      },
+      {
+        "id": "204:5499",
+        "unchanged": true
+      },
+      {
+        "id": "204:5500",
+        "unchanged": true
+      },
+      {
+        "id": "204:5501",
+        "unchanged": true
+      },
+      {
+        "id": "204:5502",
+        "unchanged": true
+      },
+      {
+        "id": "204:5503",
+        "unchanged": true
+      },
+      {
+        "id": "204:5504",
+        "unchanged": true
+      },
+      {
+        "id": "204:5505",
+        "unchanged": true
+      },
+      {
+        "id": "204:5506",
+        "unchanged": true
+      },
+      {
+        "id": "204:5507",
+        "unchanged": true
+      },
+      {
+        "id": "204:5508",
+        "unchanged": true
+      },
+      {
+        "id": "204:5509",
+        "unchanged": true
+      },
+      {
+        "id": "204:5510",
+        "unchanged": true
+      },
+      {
+        "id": "204:5511",
+        "unchanged": true
+      },
+      {
+        "id": "204:5512",
+        "unchanged": true
+      },
+      {
+        "id": "204:5513",
+        "unchanged": true
+      },
+      {
+        "id": "204:5514",
+        "unchanged": true
+      },
+      {
+        "id": "204:5515",
+        "unchanged": true
+      }
+    ],
+    "futureResults": [
+      {
+        "id": "209:503",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:504",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:505",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:506",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:507",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:508",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:509",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:510",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:511",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:512",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:513",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:514",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:515",
+        "geometryAndTextUnchanged": true
+      },
+      {
+        "id": "209:516",
+        "geometryAndTextUnchanged": true
+      }
+    ],
+    "surfaces": [
+      {
+        "code": "M05",
+        "counts": {
+          "cards": 3,
+          "buttons": 3,
+          "dividers": 8
+        },
+        "issues": []
+      },
+      {
+        "code": "M07",
+        "counts": {
+          "cards": 7,
+          "buttons": 1,
+          "dividers": 2
+        },
+        "issues": []
+      },
+      {
+        "code": "M08",
+        "counts": {
+          "cards": 2,
+          "buttons": 3,
+          "dividers": 6
+        },
+        "issues": []
+      },
+      {
+        "code": "M09",
+        "counts": {
+          "cards": 4,
+          "buttons": 1,
+          "dividers": 5
+        },
+        "issues": []
+      },
+      {
+        "code": "M10",
+        "counts": {
+          "cards": 2,
+          "buttons": 3,
+          "dividers": 8
+        },
+        "issues": []
+      },
+      {
+        "code": "M15",
+        "counts": {
+          "cards": 1,
+          "buttons": 3,
+          "dividers": 7
+        },
+        "issues": []
+      },
+      {
+        "code": "M16",
+        "counts": {
+          "cards": 1,
+          "buttons": 2,
+          "dividers": 2
+        },
+        "issues": []
+      },
+      {
+        "code": "M18",
+        "counts": {
+          "cards": 1,
+          "buttons": 1,
+          "dividers": 6
+        },
+        "issues": []
+      },
+      {
+        "code": "M19",
+        "counts": {
+          "cards": 0,
+          "buttons": 3,
+          "dividers": 5
+        },
+        "issues": []
+      },
+      {
+        "code": "M23",
+        "counts": {
+          "cards": 4,
+          "buttons": 3,
+          "dividers": 6
+        },
+        "issues": []
+      },
+      {
+        "code": "M29",
+        "counts": {
+          "cards": 1,
+          "buttons": 3,
+          "dividers": 2
+        },
+        "issues": []
+      },
+      {
+        "code": "M35",
+        "counts": {
+          "cards": 1,
+          "buttons": 3,
+          "dividers": 2
+        },
+        "issues": []
+      },
+      {
+        "code": "M36",
+        "counts": {
+          "cards": 7,
+          "buttons": 3,
+          "dividers": 2
+        },
+        "issues": []
+      },
+      {
+        "code": "M37",
+        "counts": {
+          "cards": 6,
+          "buttons": 3,
+          "dividers": 5
+        },
+        "issues": []
+      }
+    ]
+  },
+  "notes": [
+    "M07·M09·M18·M36 선택 탭의 테두리를 제거해 M01 파란 주요 버튼의 단색 면 처리와 맞춤.",
+    "M16·M35 카드 안 안내 박스는 모서리를8→4px로 조정. 바깥 카드8px와 구분.",
+    "나머지 카드·버튼·구분선은 M01 기준과 같아 유지. 입력·선택 표시·스위치의 의미에 따른 모서리 형태 유지.",
+    "기존 M01·출시18개 전체 속성 및 후속14개의 모든 노드 크기·위치·글자·문구·글자색 서명 동일.",
+    "공유 마스터 및 시연 사이트 내부를 수정하지 않음.",
+    "커밋·푸시하지 않음."
+  ]
+}

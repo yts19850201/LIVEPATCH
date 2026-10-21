@@ -1,0 +1,512 @@
+{
+  "revision": "2026-10-21",
+  "scope": "추가한 공식 웹 18개 화면의 색상·글자 스타일·여백·정렬 점검",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "156:1474",
+  "changes": {
+    "normalizedFields": 14,
+    "tableHeaders": 7,
+    "titleGroups": 9,
+    "centeredToolbars": [
+      "204:5535",
+      "204:6151"
+    ],
+    "fieldTypography": "Pretendard Regular 18px, line height 28px",
+    "fieldSurface": "4px radius, 1px border; previous dimensions retained",
+    "tableHeaderPadding": "100px head row -> 60px, same vertical padding as data rows",
+    "titleStackGap": "32px -> 24px"
+  },
+  "component": {
+    "createdNodeIds": [
+      "207:1202",
+      "207:1203",
+      "207:1204",
+      "207:1205",
+      "I207:1205;207:1203",
+      "207:1207",
+      "I207:1207;207:1203"
+    ],
+    "componentId": "207:1202",
+    "showcaseId": "207:1204",
+    "property": "문구#207:0",
+    "font": {
+      "size": 18,
+      "line": {
+        "unit": "PIXELS",
+        "value": 28
+      }
+    },
+    "radius": 6,
+    "bindings": {
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3:385"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3:384"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3:385"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3:384"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:21:62"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:21:62"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:21:62"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:21:62"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:38:169"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:38:175"
+        }
+      ]
+    }
+  },
+  "replacement": {
+    "createdNodeIds": [
+      "207:1210",
+      "I207:1210;207:1203",
+      "207:1212",
+      "I207:1212;207:1203",
+      "207:1214",
+      "I207:1214;207:1203",
+      "207:1216",
+      "I207:1216;207:1203",
+      "207:1218",
+      "I207:1218;207:1203",
+      "207:1220",
+      "I207:1220;207:1203",
+      "207:1222",
+      "I207:1222;207:1203",
+      "207:1224",
+      "I207:1224;207:1203",
+      "207:1226",
+      "I207:1226;207:1203",
+      "207:1228",
+      "I207:1228;207:1203",
+      "207:1230",
+      "I207:1230;207:1203",
+      "207:1232",
+      "I207:1232;207:1203",
+      "207:1234",
+      "I207:1234;207:1203",
+      "207:1236",
+      "I207:1236;207:1203"
+    ],
+    "removedNodeIds": [
+      "204:5604",
+      "I204:5604;97:979",
+      "204:5683",
+      "I204:5683;97:979",
+      "204:5687",
+      "I204:5687;97:979",
+      "204:5691",
+      "I204:5691;97:979",
+      "204:6060",
+      "I204:6060;97:979",
+      "204:6427",
+      "I204:6427;97:979",
+      "204:6431",
+      "I204:6431;97:979",
+      "204:6475",
+      "I204:6475;97:979",
+      "204:6479",
+      "I204:6479;97:979",
+      "204:6483",
+      "I204:6483;97:979",
+      "204:6575",
+      "I204:6575;97:979",
+      "204:6615",
+      "I204:6615;97:979",
+      "204:6619",
+      "I204:6619;97:979",
+      "204:6656",
+      "I204:6656;97:979"
+    ],
+    "mutatedNodeIds": [
+      "204:5602",
+      "204:5681",
+      "204:5685",
+      "204:5689",
+      "204:6058",
+      "204:6425",
+      "204:6429",
+      "204:6473",
+      "204:6477",
+      "204:6481",
+      "204:6573",
+      "204:6613",
+      "204:6617",
+      "204:6654"
+    ],
+    "mapping": [
+      {
+        "oldId": "204:5604",
+        "newId": "207:1210",
+        "textId": "I207:1210;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 328,
+        "h": 120,
+        "r": 4
+      },
+      {
+        "oldId": "204:5683",
+        "newId": "207:1212",
+        "textId": "I207:1212;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 656,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:5687",
+        "newId": "207:1214",
+        "textId": "I207:1214;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 368,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:5691",
+        "newId": "207:1216",
+        "textId": "I207:1216;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 368,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6060",
+        "newId": "207:1218",
+        "textId": "I207:1218;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 1440,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6427",
+        "newId": "207:1220",
+        "textId": "I207:1220;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6431",
+        "newId": "207:1222",
+        "textId": "I207:1222;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6475",
+        "newId": "207:1224",
+        "textId": "I207:1224;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6479",
+        "newId": "207:1226",
+        "textId": "I207:1226;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6483",
+        "newId": "207:1228",
+        "textId": "I207:1228;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6575",
+        "newId": "207:1230",
+        "textId": "I207:1230;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6615",
+        "newId": "207:1232",
+        "textId": "I207:1232;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6619",
+        "newId": "207:1234",
+        "textId": "I207:1234;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 544,
+        "h": 56,
+        "r": 4
+      },
+      {
+        "oldId": "204:6656",
+        "newId": "207:1236",
+        "textId": "I207:1236;207:1203",
+        "size": 18,
+        "line": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "w": 800,
+        "h": 56,
+        "r": 4
+      }
+    ]
+  },
+  "validation": {
+    "screens": [
+      {
+        "id": "204:5498",
+        "name": "M02 라이브 샘플 체험 PC 1920_261021",
+        "width": 1920,
+        "height": 2337.622314453125,
+        "issues": []
+      },
+      {
+        "id": "204:5499",
+        "name": "M06 호환성·지원 범위 PC 1920_261021",
+        "width": 1920,
+        "height": 1967,
+        "issues": []
+      },
+      {
+        "id": "204:5500",
+        "name": "M11 요금 안내 PC 1920_261021",
+        "width": 1920,
+        "height": 2308,
+        "issues": []
+      },
+      {
+        "id": "204:5501",
+        "name": "M13 보안·데이터 보호 PC 1920_261021",
+        "width": 1920,
+        "height": 2160,
+        "issues": []
+      },
+      {
+        "id": "204:5502",
+        "name": "M14 자주 묻는 질문 PC 1920_261021",
+        "width": 1920,
+        "height": 2283,
+        "issues": []
+      },
+      {
+        "id": "204:5503",
+        "name": "M20 이용약관 PC 1920_261021",
+        "width": 1920,
+        "height": 1791,
+        "issues": []
+      },
+      {
+        "id": "204:5504",
+        "name": "M21 개인정보 처리방침 PC 1920_261021",
+        "width": 1920,
+        "height": 1998,
+        "issues": []
+      },
+      {
+        "id": "204:5505",
+        "name": "M22 환불·해지 정책 PC 1920_261021",
+        "width": 1920,
+        "height": 1747,
+        "issues": []
+      },
+      {
+        "id": "204:5506",
+        "name": "M24 로그인 PC 1920_261021",
+        "width": 1920,
+        "height": 1147,
+        "issues": []
+      },
+      {
+        "id": "204:5507",
+        "name": "M25 회원가입 PC 1920_261021",
+        "width": 1920,
+        "height": 1231,
+        "issues": []
+      },
+      {
+        "id": "204:5508",
+        "name": "M26 이메일 인증 PC 1920_261021",
+        "width": 1920,
+        "height": 1080,
+        "issues": []
+      },
+      {
+        "id": "204:5509",
+        "name": "M27 비밀번호 재설정 신청 PC 1920_261021",
+        "width": 1920,
+        "height": 1080,
+        "issues": []
+      },
+      {
+        "id": "204:5510",
+        "name": "M28 새 비밀번호 설정 PC 1920_261021",
+        "width": 1920,
+        "height": 1080,
+        "issues": []
+      },
+      {
+        "id": "204:5511",
+        "name": "M30 결제 주문 확인 PC 1920_261021",
+        "width": 1920,
+        "height": 1763,
+        "issues": []
+      },
+      {
+        "id": "204:5512",
+        "name": "M31 결제 결과 확인 PC 1920_261021",
+        "width": 1920,
+        "height": 1080,
+        "issues": []
+      },
+      {
+        "id": "204:5513",
+        "name": "M32 페이지를 찾을 수 없음 PC 1920_261021",
+        "width": 1920,
+        "height": 1080,
+        "issues": []
+      },
+      {
+        "id": "204:5514",
+        "name": "M33 일시적 오류 PC 1920_261021",
+        "width": 1920,
+        "height": 1080,
+        "issues": []
+      },
+      {
+        "id": "204:5515",
+        "name": "M34 서비스 점검 안내 PC 1920_261021",
+        "width": 1920,
+        "height": 1080,
+        "issues": []
+      }
+    ],
+    "fieldCount": 14,
+    "master": {
+      "signature": "d2e0dd06",
+      "width": 1920,
+      "height": 9899.4228515625
+    },
+    "preview": {
+      "signature": "6bc566eb",
+      "width": 1016,
+      "height": 561.6222534179688
+    },
+    "componentId": "207:1202",
+    "radiusVariableId": "VariableID:207:1209"
+  },
+  "protectedComparison": {
+    "master": "d2e0dd06",
+    "preview": "6bc566eb",
+    "masterSize": [
+      1920,
+      9899.4228515625
+    ],
+    "previewSize": [
+      1016,
+      561.6222534179688
+    ]
+  },
+  "protectedUnchanged": true,
+  "notes": [
+    "색상 대비 점검에서 추가 보정이 필요한 랜딩 텍스트는 발견되지 않음.",
+    "시연 화면 안의 의도된 축소 텍스트는 스타일 점검에서 제외하고 크기·내용 유지.",
+    "M01 전체와 M02 시연 subtree의 전후 서명이 동일함.",
+    "상위 공유 컴포넌트는 수정하지 않고 웹 전용 입력 컴포넌트를 사용함.",
+    "커밋·푸시하지 않음."
+  ]
+}

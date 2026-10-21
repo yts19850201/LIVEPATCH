@@ -1,0 +1,1057 @@
+{
+  "date": "2026-10-21",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "156:1474",
+  "scope": {
+    "listScreens": 6,
+    "searchAndConditionInputs": 9,
+    "categoryTabs": 23,
+    "checkboxes": 9
+  },
+  "searchBehavior": "예시 검색어 선택 시연. 자유 입력·실제 서버 검색은 포함하지 않음.",
+  "preservation": {
+    "originalScreenCount": 33,
+    "unchangedVisualSignatures": 33,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "demoSizes": [
+      {
+        "id": "158:881",
+        "width": 1200,
+        "height": 696.5
+      },
+      {
+        "id": "158:1287",
+        "width": 986.4000244140625,
+        "height": 546.5867309570312
+      },
+      {
+        "id": "158:1405",
+        "width": 752,
+        "height": 414.3600158691406
+      },
+      {
+        "id": "158:1426",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "gitCommit": false,
+    "gitPush": false
+  },
+  "browser": "ChatGPT in-app browser (browser 3, tab 2)",
+  "manualChecks": [
+    {
+      "screen": "M06",
+      "checked": [
+        "WordPress 검색 결과 1건",
+        "검색과 지원 대상 조합 0건",
+        "전체 초기화 후 4개 항목 복원",
+        "별도 연결 선택 후 SFTP 1건"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M14",
+      "checked": [
+        "비용과 결제 탭에서 크레딧 질문 표시",
+        "사이트 검색과 비용 분류 조합 0건",
+        "전체 초기화로 원래 목록 복원"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M07",
+      "checked": [
+        "학원 분류 선택",
+        "에이전시 분류 선택",
+        "비어 있는 카드 행 제거",
+        "전체 목록 복원"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M09",
+      "checked": [
+        "시연 데모와 실제 검증 사례 구분",
+        "검색어 안내 문구 및 배너 선택",
+        "실제 검증 사례 체크 선택과 해제",
+        "유형 드롭다운에서 실제 검증 사례 선택",
+        "검색·분류·체크 조합 적용",
+        "체크 해제 후 검색 결과 카드 복원"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M18",
+      "checked": [
+        "서비스 안내 필터 2개 행과 2건 일치",
+        "지원 환경 검색 조합 1건",
+        "기능 변경 분류 0건",
+        "전체 초기화 3건"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M36",
+      "checked": [
+        "게시와 복원 분류 3개 카드",
+        "복원 검색 조합 1개 카드",
+        "업종 공통 가이드 선택 유지"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M24",
+      "checked": [
+        "로그인 상태 유지 선택",
+        "레이블 클릭으로 해제"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M25",
+      "checked": [
+        "필수 동의 3개 및 선택 동의 1개 개별 선택",
+        "4개 동의 개별 해제"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M30",
+      "checked": [
+        "상품 조건 및 약관 환불 체크 2개 선택",
+        "2개 해제",
+        "기존 주문 없는 상태의 결제 비활성 유지"
+      ],
+      "passed": true
+    },
+    {
+      "screen": "M16",
+      "checked": [
+        "파트너 개인정보 동의 선택",
+        "레이블 클릭으로 해제"
+      ],
+      "passed": true
+    }
+  ],
+  "fixes": [
+    "공지 결과 수 계산을 실제 항목 조합에 맞게 수정",
+    "검색 표시 문구와 결과 안내를 기존 글꼴의 정적 상태로 전환하여 시연 중 대체 글꼴 발생 방지"
+  ],
+  "connectionAudit": {
+    "nodes": 476,
+    "clickTargets": 190,
+    "destinationCount": 26,
+    "variableCount": 130,
+    "brokenDestinations": [],
+    "missingVariables": [],
+    "unresolvedInstanceDescendantIds": [
+      "I233:1602;21:78",
+      "I233:1691;21:78",
+      "I233:1758;21:78",
+      "I233:1804;21:78",
+      "I233:1880;21:78",
+      "I233:1953;21:78",
+      "I237:1487;207:1203",
+      "I237:1491;207:1203",
+      "I237:1495;207:1203",
+      "I237:1499;207:1203",
+      "I237:1505;207:1203",
+      "I237:1509;207:1203",
+      "I237:1513;207:1203",
+      "I237:1519;207:1203",
+      "I237:1523;207:1203",
+      "I237:1527;207:1203",
+      "I237:1550;207:1203",
+      "I237:1554;207:1203",
+      "I237:1558;207:1203",
+      "I237:1562;207:1203",
+      "I237:1598;207:1203",
+      "I237:1602;207:1203",
+      "I237:1606;207:1203",
+      "I237:1610;207:1203",
+      "I237:1616;207:1203",
+      "I237:1620;207:1203",
+      "I237:1645;207:1203",
+      "I237:1649;207:1203",
+      "I237:1653;207:1203",
+      "I237:1657;207:1203",
+      "I237:1689;207:1203",
+      "I237:1693;207:1203",
+      "I237:1697;207:1203",
+      "I237:1701;207:1203",
+      "I237:1707;207:1203"
+    ],
+    "note": "연결 대상과 변수는 모두 존재함. 일부 인스턴스 내부 텍스트 식별자는 API 개별 조회에서 노출되지 않으며 브라우저 렌더링과 클릭 동작으로 확인함."
+  },
+  "states": [
+    {
+      "key": "M06",
+      "viewportId": "218:2848",
+      "items": [
+        {
+          "id": "218:2886",
+          "variable": "VariableID:233:1594"
+        },
+        {
+          "id": "218:2896",
+          "variable": "VariableID:233:1595"
+        },
+        {
+          "id": "218:2906",
+          "variable": "VariableID:233:1596"
+        },
+        {
+          "id": "218:2916",
+          "variable": "VariableID:233:1597"
+        }
+      ],
+      "tabs": [],
+      "inputs": [
+        {
+          "id": "207:1212",
+          "copyId": "218:2868",
+          "index": "VariableID:233:1588",
+          "label": "VariableID:233:1589",
+          "popup": "233:1605"
+        },
+        {
+          "id": "207:1214",
+          "copyId": "218:2871",
+          "index": "VariableID:233:1590",
+          "label": "VariableID:233:1591",
+          "popup": "233:1631"
+        },
+        {
+          "id": "207:1216",
+          "copyId": "218:2874",
+          "index": "VariableID:233:1592",
+          "label": "VariableID:233:1593",
+          "popup": "233:1654"
+        }
+      ],
+      "groups": [],
+      "empty": "233:1598",
+      "category": "VariableID:233:1587"
+    },
+    {
+      "key": "M14",
+      "viewportId": "218:3232",
+      "items": [
+        {
+          "id": "218:3263",
+          "variable": "VariableID:233:1680"
+        },
+        {
+          "id": "218:3267",
+          "variable": "VariableID:233:1681"
+        },
+        {
+          "id": "218:3271",
+          "variable": "VariableID:233:1682"
+        },
+        {
+          "id": "218:3275",
+          "variable": "VariableID:233:1683"
+        },
+        {
+          "id": "218:3278",
+          "variable": "VariableID:233:1684"
+        },
+        {
+          "id": "218:3281",
+          "variable": "VariableID:233:1685"
+        },
+        {
+          "id": "218:3284",
+          "variable": "VariableID:233:1686"
+        }
+      ],
+      "tabs": [
+        {
+          "id": "218:3253",
+          "active": "233:1693",
+          "variable": "VariableID:233:1695"
+        },
+        {
+          "id": "218:3255",
+          "active": "233:1696",
+          "variable": "VariableID:233:1698"
+        },
+        {
+          "id": "218:3257",
+          "active": "233:1699",
+          "variable": "VariableID:233:1701"
+        },
+        {
+          "id": "218:3259",
+          "active": "233:1702",
+          "variable": "VariableID:233:1704"
+        },
+        {
+          "id": "218:3261",
+          "active": "233:1705",
+          "variable": "VariableID:233:1707"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "207:1218",
+          "copyId": "218:3251",
+          "index": "VariableID:233:1678",
+          "label": "VariableID:233:1679",
+          "popup": "233:1719"
+        }
+      ],
+      "groups": [],
+      "empty": "233:1687",
+      "category": "VariableID:233:1677"
+    },
+    {
+      "key": "M07",
+      "viewportId": "218:4222",
+      "items": [
+        {
+          "id": "218:4253",
+          "variable": "VariableID:233:1746"
+        },
+        {
+          "id": "218:4257",
+          "variable": "VariableID:233:1747"
+        },
+        {
+          "id": "218:4261",
+          "variable": "VariableID:233:1748"
+        },
+        {
+          "id": "218:4266",
+          "variable": "VariableID:233:1749"
+        },
+        {
+          "id": "218:4270",
+          "variable": "VariableID:233:1750"
+        },
+        {
+          "id": "218:4274",
+          "variable": "VariableID:233:1751"
+        }
+      ],
+      "tabs": [
+        {
+          "id": "218:4240",
+          "active": "233:1760",
+          "variable": "VariableID:233:1762"
+        },
+        {
+          "id": "218:4242",
+          "active": "233:1763",
+          "variable": "VariableID:233:1765"
+        },
+        {
+          "id": "218:4244",
+          "active": "233:1766",
+          "variable": "VariableID:233:1768"
+        },
+        {
+          "id": "218:4246",
+          "active": "233:1769",
+          "variable": "VariableID:233:1771"
+        },
+        {
+          "id": "218:4248",
+          "active": "233:1772",
+          "variable": "VariableID:233:1774"
+        },
+        {
+          "id": "218:4250",
+          "active": "233:1775",
+          "variable": "VariableID:233:1777"
+        }
+      ],
+      "inputs": [],
+      "groups": [
+        "218:4252",
+        "218:4265"
+      ],
+      "empty": "233:1754",
+      "category": "VariableID:233:1745"
+    },
+    {
+      "key": "M09",
+      "viewportId": "218:4410",
+      "items": [
+        {
+          "id": "218:4445",
+          "variable": "VariableID:233:1796"
+        },
+        {
+          "id": "218:4455",
+          "variable": "VariableID:233:1797"
+        },
+        {
+          "id": "218:4465",
+          "variable": "VariableID:233:1798"
+        }
+      ],
+      "tabs": [
+        {
+          "id": "218:4435",
+          "active": "233:1806",
+          "variable": "VariableID:233:1808"
+        },
+        {
+          "id": "218:4437",
+          "active": "233:1809",
+          "variable": "VariableID:233:1811"
+        },
+        {
+          "id": "218:4439",
+          "active": "233:1812",
+          "variable": "VariableID:233:1814"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "210:824",
+          "copyId": "218:4430",
+          "index": "VariableID:233:1792",
+          "label": "VariableID:233:1793",
+          "popup": "233:1824"
+        },
+        {
+          "id": "210:828",
+          "copyId": "218:4433",
+          "index": "VariableID:233:1794",
+          "label": "VariableID:233:1795",
+          "popup": "233:1850"
+        }
+      ],
+      "groups": [
+        "218:4444"
+      ],
+      "empty": "233:1800",
+      "category": "VariableID:233:1791"
+    },
+    {
+      "key": "M18",
+      "viewportId": "218:4907",
+      "items": [
+        {
+          "id": "218:4948",
+          "variable": "VariableID:233:1873"
+        },
+        {
+          "id": "218:4956",
+          "variable": "VariableID:233:1874"
+        },
+        {
+          "id": "218:4964",
+          "variable": "VariableID:233:1875"
+        }
+      ],
+      "tabs": [
+        {
+          "id": "218:4928",
+          "active": "233:1882",
+          "variable": "VariableID:233:1884"
+        },
+        {
+          "id": "218:4930",
+          "active": "233:1885",
+          "variable": "VariableID:233:1887"
+        },
+        {
+          "id": "218:4932",
+          "active": "233:1888",
+          "variable": "VariableID:233:1890"
+        },
+        {
+          "id": "218:4934",
+          "active": "233:1891",
+          "variable": "VariableID:233:1893"
+        },
+        {
+          "id": "218:4936",
+          "active": "233:1894",
+          "variable": "VariableID:233:1896"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "211:746",
+          "copyId": "218:4926",
+          "index": "VariableID:233:1871",
+          "label": "VariableID:233:1872",
+          "popup": "233:1910"
+        }
+      ],
+      "groups": [],
+      "empty": "233:1876",
+      "category": "VariableID:233:1870"
+    },
+    {
+      "key": "M36",
+      "viewportId": "218:5285",
+      "items": [
+        {
+          "id": "218:5319",
+          "variable": "VariableID:233:1941"
+        },
+        {
+          "id": "218:5324",
+          "variable": "VariableID:233:1942"
+        },
+        {
+          "id": "218:5329",
+          "variable": "VariableID:233:1943"
+        },
+        {
+          "id": "218:5335",
+          "variable": "VariableID:233:1944"
+        },
+        {
+          "id": "218:5340",
+          "variable": "VariableID:233:1945"
+        },
+        {
+          "id": "218:5345",
+          "variable": "VariableID:233:1946"
+        }
+      ],
+      "tabs": [
+        {
+          "id": "218:5310",
+          "active": "233:1955",
+          "variable": "VariableID:233:1957"
+        },
+        {
+          "id": "218:5312",
+          "active": "233:1958",
+          "variable": "VariableID:233:1960"
+        },
+        {
+          "id": "218:5314",
+          "active": "233:1961",
+          "variable": "VariableID:233:1963"
+        },
+        {
+          "id": "218:5316",
+          "active": "233:1964",
+          "variable": "VariableID:233:1966"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "212:681",
+          "copyId": "218:5305",
+          "index": "VariableID:233:1937",
+          "label": "VariableID:233:1938",
+          "popup": "233:1976"
+        },
+        {
+          "id": "212:685",
+          "copyId": "218:5308",
+          "index": "VariableID:233:1939",
+          "label": "VariableID:233:1940",
+          "popup": "233:2002"
+        }
+      ],
+      "groups": [
+        "218:5318",
+        "218:5334"
+      ],
+      "empty": "233:1949",
+      "category": "VariableID:233:1936"
+    }
+  ],
+  "checkboxStates": [
+    {
+      "key": "M24",
+      "variable": "VariableID:231:1429",
+      "overlay": "231:1430",
+      "copyRow": "218:3631"
+    },
+    {
+      "key": "M25",
+      "rect": "204:6488",
+      "row": "204:6487",
+      "copyRow": "218:3685",
+      "variable": "VariableID:233:1547",
+      "overlay": "233:1548"
+    },
+    {
+      "key": "M25",
+      "rect": "204:6491",
+      "row": "204:6490",
+      "copyRow": "218:3688",
+      "variable": "VariableID:233:1552",
+      "overlay": "233:1553"
+    },
+    {
+      "key": "M25",
+      "rect": "204:6494",
+      "row": "204:6493",
+      "copyRow": "218:3691",
+      "variable": "VariableID:233:1557",
+      "overlay": "233:1558"
+    },
+    {
+      "key": "M25",
+      "rect": "204:6497",
+      "row": "204:6496",
+      "copyRow": "218:3694",
+      "variable": "VariableID:233:1562",
+      "overlay": "233:1563"
+    },
+    {
+      "key": "M30",
+      "rect": "204:6670",
+      "row": "204:6669",
+      "copyRow": "218:3877",
+      "variable": "VariableID:233:1567",
+      "overlay": "233:1568"
+    },
+    {
+      "key": "M30",
+      "rect": "204:6673",
+      "row": "204:6672",
+      "copyRow": "218:3880",
+      "variable": "VariableID:233:1572",
+      "overlay": "233:1573"
+    },
+    {
+      "key": "M16",
+      "rect": "211:682",
+      "row": "211:681",
+      "copyRow": "218:4851",
+      "variable": "VariableID:233:1577",
+      "overlay": "233:1578"
+    },
+    {
+      "key": "M09",
+      "rect": "210:838",
+      "row": "210:837",
+      "copyRow": "218:4441",
+      "variable": "VariableID:233:1582",
+      "overlay": "233:1583"
+    }
+  ],
+  "staticVisualStates": [
+    {
+      "key": "M06",
+      "input": "207:1212",
+      "wrap": "237:1484",
+      "variants": [
+        {
+          "id": "218:2868",
+          "variable": "VariableID:237:1485",
+          "option": 0
+        },
+        {
+          "id": "237:1487",
+          "variable": "VariableID:237:1486",
+          "option": 1
+        },
+        {
+          "id": "237:1491",
+          "variable": "VariableID:237:1490",
+          "option": 2
+        },
+        {
+          "id": "237:1495",
+          "variable": "VariableID:237:1494",
+          "option": 3
+        },
+        {
+          "id": "237:1499",
+          "variable": "VariableID:237:1498",
+          "option": 4
+        }
+      ]
+    },
+    {
+      "key": "M06",
+      "input": "207:1214",
+      "wrap": "237:1502",
+      "variants": [
+        {
+          "id": "218:2871",
+          "variable": "VariableID:237:1503",
+          "option": 0
+        },
+        {
+          "id": "237:1505",
+          "variable": "VariableID:237:1504",
+          "option": 1
+        },
+        {
+          "id": "237:1509",
+          "variable": "VariableID:237:1508",
+          "option": 2
+        },
+        {
+          "id": "237:1513",
+          "variable": "VariableID:237:1512",
+          "option": 3
+        }
+      ]
+    },
+    {
+      "key": "M06",
+      "input": "207:1216",
+      "wrap": "237:1516",
+      "variants": [
+        {
+          "id": "218:2874",
+          "variable": "VariableID:237:1517",
+          "option": 0
+        },
+        {
+          "id": "237:1519",
+          "variable": "VariableID:237:1518",
+          "option": 1
+        },
+        {
+          "id": "237:1523",
+          "variable": "VariableID:237:1522",
+          "option": 2
+        },
+        {
+          "id": "237:1527",
+          "variable": "VariableID:237:1526",
+          "option": 3
+        }
+      ]
+    },
+    {
+      "key": "M14",
+      "input": "207:1218",
+      "wrap": "237:1547",
+      "variants": [
+        {
+          "id": "218:3251",
+          "variable": "VariableID:237:1548",
+          "option": 0
+        },
+        {
+          "id": "237:1550",
+          "variable": "VariableID:237:1549",
+          "option": 1
+        },
+        {
+          "id": "237:1554",
+          "variable": "VariableID:237:1553",
+          "option": 2
+        },
+        {
+          "id": "237:1558",
+          "variable": "VariableID:237:1557",
+          "option": 3
+        },
+        {
+          "id": "237:1562",
+          "variable": "VariableID:237:1561",
+          "option": 4
+        }
+      ]
+    },
+    {
+      "key": "M09",
+      "input": "210:824",
+      "wrap": "237:1595",
+      "variants": [
+        {
+          "id": "218:4430",
+          "variable": "VariableID:237:1596",
+          "option": 0
+        },
+        {
+          "id": "237:1598",
+          "variable": "VariableID:237:1597",
+          "option": 1
+        },
+        {
+          "id": "237:1602",
+          "variable": "VariableID:237:1601",
+          "option": 2
+        },
+        {
+          "id": "237:1606",
+          "variable": "VariableID:237:1605",
+          "option": 3
+        },
+        {
+          "id": "237:1610",
+          "variable": "VariableID:237:1609",
+          "option": 4
+        }
+      ]
+    },
+    {
+      "key": "M09",
+      "input": "210:828",
+      "wrap": "237:1613",
+      "variants": [
+        {
+          "id": "218:4433",
+          "variable": "VariableID:237:1614",
+          "option": 0
+        },
+        {
+          "id": "237:1616",
+          "variable": "VariableID:237:1615",
+          "option": 1
+        },
+        {
+          "id": "237:1620",
+          "variable": "VariableID:237:1619",
+          "option": 2
+        }
+      ]
+    },
+    {
+      "key": "M18",
+      "input": "211:746",
+      "wrap": "237:1642",
+      "variants": [
+        {
+          "id": "218:4926",
+          "variable": "VariableID:237:1643",
+          "option": 0
+        },
+        {
+          "id": "237:1645",
+          "variable": "VariableID:237:1644",
+          "option": 1
+        },
+        {
+          "id": "237:1649",
+          "variable": "VariableID:237:1648",
+          "option": 2
+        },
+        {
+          "id": "237:1653",
+          "variable": "VariableID:237:1652",
+          "option": 3
+        },
+        {
+          "id": "237:1657",
+          "variable": "VariableID:237:1656",
+          "option": 4
+        }
+      ]
+    },
+    {
+      "key": "M18",
+      "summary": [
+        {
+          "id": "237:1662",
+          "variable": "VariableID:237:1661",
+          "count": 0
+        },
+        {
+          "id": "237:1664",
+          "variable": "VariableID:237:1663",
+          "count": 1
+        },
+        {
+          "id": "237:1666",
+          "variable": "VariableID:237:1665",
+          "count": 2
+        },
+        {
+          "id": "237:1668",
+          "variable": "VariableID:237:1667",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "key": "M36",
+      "input": "212:681",
+      "wrap": "237:1686",
+      "variants": [
+        {
+          "id": "218:5305",
+          "variable": "VariableID:237:1687",
+          "option": 0
+        },
+        {
+          "id": "237:1689",
+          "variable": "VariableID:237:1688",
+          "option": 1
+        },
+        {
+          "id": "237:1693",
+          "variable": "VariableID:237:1692",
+          "option": 2
+        },
+        {
+          "id": "237:1697",
+          "variable": "VariableID:237:1696",
+          "option": 3
+        },
+        {
+          "id": "237:1701",
+          "variable": "VariableID:237:1700",
+          "option": 4
+        }
+      ]
+    },
+    {
+      "key": "M36",
+      "input": "212:685",
+      "wrap": "237:1704",
+      "variants": [
+        {
+          "id": "218:5308",
+          "variable": "VariableID:237:1705",
+          "option": 0
+        },
+        {
+          "id": "237:1707",
+          "variable": "VariableID:237:1706",
+          "option": 1
+        }
+      ]
+    }
+  ],
+  "originalVisualSignatures": [
+    {
+      "id": "158:2",
+      "signature": "7581907e"
+    },
+    {
+      "id": "204:5498",
+      "signature": "880f5068"
+    },
+    {
+      "id": "204:5499",
+      "signature": "74abf9c5"
+    },
+    {
+      "id": "204:5500",
+      "signature": "80bfd3bc"
+    },
+    {
+      "id": "204:5501",
+      "signature": "147544c3"
+    },
+    {
+      "id": "204:5502",
+      "signature": "3d41e1c0"
+    },
+    {
+      "id": "204:5503",
+      "signature": "ebe4c9d3"
+    },
+    {
+      "id": "204:5504",
+      "signature": "1a4c726d"
+    },
+    {
+      "id": "204:5505",
+      "signature": "8a4e38b9"
+    },
+    {
+      "id": "204:5506",
+      "signature": "180bad4c"
+    },
+    {
+      "id": "204:5507",
+      "signature": "aa29f674"
+    },
+    {
+      "id": "204:5508",
+      "signature": "79b51222"
+    },
+    {
+      "id": "204:5509",
+      "signature": "290ffe48"
+    },
+    {
+      "id": "204:5510",
+      "signature": "c0fb7dd9"
+    },
+    {
+      "id": "204:5511",
+      "signature": "71183b6"
+    },
+    {
+      "id": "204:5512",
+      "signature": "e448c536"
+    },
+    {
+      "id": "204:5513",
+      "signature": "73a7b4c2"
+    },
+    {
+      "id": "204:5514",
+      "signature": "9bfee58d"
+    },
+    {
+      "id": "204:5515",
+      "signature": "24b06d35"
+    },
+    {
+      "id": "209:503",
+      "signature": "e49618b5"
+    },
+    {
+      "id": "209:504",
+      "signature": "933874dd"
+    },
+    {
+      "id": "209:505",
+      "signature": "22d539c6"
+    },
+    {
+      "id": "209:506",
+      "signature": "8806f26a"
+    },
+    {
+      "id": "209:507",
+      "signature": "88a06319"
+    },
+    {
+      "id": "209:508",
+      "signature": "a4e589cb"
+    },
+    {
+      "id": "209:509",
+      "signature": "8a1e94a9"
+    },
+    {
+      "id": "209:510",
+      "signature": "76050517"
+    },
+    {
+      "id": "209:511",
+      "signature": "84775f9d"
+    },
+    {
+      "id": "209:512",
+      "signature": "9a19d2df"
+    },
+    {
+      "id": "209:513",
+      "signature": "643eaee3"
+    },
+    {
+      "id": "209:514",
+      "signature": "f054d6c4"
+    },
+    {
+      "id": "209:515",
+      "signature": "5670def3"
+    },
+    {
+      "id": "209:516",
+      "signature": "8d2f5d73"
+    }
+  ],
+  "proof": "LIVEPATCH_검색분류체크_시연검수_261021.png"
+}

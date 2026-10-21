@@ -7,7 +7,7 @@
 - `docs/design.md`: LIVEPATCH 목적·사용자·v5.7 MVP·콘셉트·한국어 문구·PC 기준·시각 토큰·AX 상태·검수·단계 승인 절차 반영.
 - `src/styles/design-tokens.css`: Primary를 #2563EB로 통일, 보조 글자를 #555C66로 조정, 상태 중립색 처리, 공식 웹 80px/Studio 56px 상단 분리, Studio 역할 치수 및 타입 행간 추가.
 - CSS 적용 경계를 `[data-livepatch-app]`으로 제한. 본문·제목·컨테이너 등 공통 규칙이 외부 문서에 직접 적용되지 않도록 정리.
-- 기존 파일은 `Foundations_수정전백업_261016`에 보존.
+- 기존 파일은 초기에는 `Foundations_수정전백업_261016`에 보존했다. 2026-10-21 폴더 정리 후에는 작업 폴더의 `../보관_261021/LIVEPATCH_이전작업보관_261021.zip`에서 복구할 수 있다.
 
 ## Figma 결과
 

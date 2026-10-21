@@ -1,0 +1,684 @@
+{
+  "date": "2026-10-21",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "156:1474",
+  "prototypeUrl": "https://www.figma.com/proto/VwuyN75CQK9Kn0ZyIVmF4S/LIVEPATCH?node-id=218-1686&starting-point-node-id=218%3A1686&scaling=scale-down&content-scaling=fixed",
+  "guide": {
+    "id": "222:1452",
+    "w": 1920,
+    "h": 746
+  },
+  "sourceScreens": 33,
+  "prototypeCopies": [
+    {
+      "sourceId": "158:2",
+      "viewportId": "218:1686",
+      "contentId": "218:1687",
+      "name": "M01 홈 랜딩 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5498",
+      "viewportId": "218:2699",
+      "contentId": "218:2700",
+      "name": "M02 라이브 샘플 체험 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5499",
+      "viewportId": "218:2848",
+      "contentId": "218:2849",
+      "name": "M06 호환성·지원 범위 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5500",
+      "viewportId": "218:2977",
+      "contentId": "218:2978",
+      "name": "M11 요금 안내 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5501",
+      "viewportId": "218:3095",
+      "contentId": "218:3096",
+      "name": "M13 보안·데이터 보호 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5502",
+      "viewportId": "218:3232",
+      "contentId": "218:3233",
+      "name": "M14 자주 묻는 질문 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5503",
+      "viewportId": "218:3325",
+      "contentId": "218:3326",
+      "name": "M20 이용약관 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5504",
+      "viewportId": "218:3403",
+      "contentId": "218:3404",
+      "name": "M21 개인정보 처리방침 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5505",
+      "viewportId": "218:3500",
+      "contentId": "218:3501",
+      "name": "M22 환불·해지 정책 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5506",
+      "viewportId": "218:3601",
+      "contentId": "218:3602",
+      "name": "M24 로그인 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5507",
+      "viewportId": "218:3652",
+      "contentId": "218:3653",
+      "name": "M25 회원가입 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5508",
+      "viewportId": "218:3712",
+      "contentId": "218:3713",
+      "name": "M26 이메일 인증 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5509",
+      "viewportId": "218:3755",
+      "contentId": "218:3756",
+      "name": "M27 비밀번호 재설정 신청 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5510",
+      "viewportId": "218:3796",
+      "contentId": "218:3797",
+      "name": "M28 새 비밀번호 설정 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5511",
+      "viewportId": "218:3842",
+      "contentId": "218:3843",
+      "name": "M30 결제 주문 확인 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5512",
+      "viewportId": "218:3928",
+      "contentId": "218:3929",
+      "name": "M31 결제 결과 확인 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5513",
+      "viewportId": "218:3974",
+      "contentId": "218:3975",
+      "name": "M32 페이지를 찾을 수 없음 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5514",
+      "viewportId": "218:4014",
+      "contentId": "218:4015",
+      "name": "M33 일시적 오류 PC 1920_261021"
+    },
+    {
+      "sourceId": "204:5515",
+      "viewportId": "218:4057",
+      "contentId": "218:4058",
+      "name": "M34 서비스 점검 안내 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:503",
+      "viewportId": "218:4103",
+      "contentId": "218:4104",
+      "name": "M05 기능 상세 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:504",
+      "viewportId": "218:4222",
+      "contentId": "218:4223",
+      "name": "M07 업종별 활용 목록 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:505",
+      "viewportId": "218:4309",
+      "contentId": "218:4310",
+      "name": "M08 업종별 활용 상세 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:506",
+      "viewportId": "218:4410",
+      "contentId": "218:4411",
+      "name": "M09 사례·데모 갤러리 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:507",
+      "viewportId": "218:4508",
+      "contentId": "218:4509",
+      "name": "M10 사례 상세 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:508",
+      "viewportId": "218:4711",
+      "contentId": "218:4712",
+      "name": "M15 파트너 프로그램 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:509",
+      "viewportId": "218:4805",
+      "contentId": "218:4806",
+      "name": "M16 파트너 신청 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:510",
+      "viewportId": "218:4907",
+      "contentId": "218:4908",
+      "name": "M18 공지사항 목록 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:511",
+      "viewportId": "218:5006",
+      "contentId": "218:5007",
+      "name": "M19 공지사항 상세 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:512",
+      "viewportId": "218:5079",
+      "contentId": "218:5080",
+      "name": "M23 쿠키·추적 설정 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:513",
+      "viewportId": "218:5191",
+      "contentId": "218:5192",
+      "name": "M29 인증 연동 결과 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:514",
+      "viewportId": "218:5237",
+      "contentId": "218:5238",
+      "name": "M35 팀 초대 수락 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:515",
+      "viewportId": "218:5285",
+      "contentId": "218:5286",
+      "name": "M36 가이드·리소스 PC 1920_261021"
+    },
+    {
+      "sourceId": "209:516",
+      "viewportId": "218:5388",
+      "contentId": "218:5389",
+      "name": "M37 가이드 상세 PC 1920_261021"
+    }
+  ],
+  "sampleAfterState": {
+    "viewportId": "219:1438",
+    "contentId": "219:1439",
+    "title": "11월 진료 안내",
+    "sourceId": "204:5498"
+  },
+  "helpers": {
+    "menuId": "219:1339",
+    "dialogs": {
+      "login": "219:1368",
+      "mail": "219:1375",
+      "resend": "219:1382",
+      "partner": "219:1389",
+      "settings": "219:1396",
+      "print": "219:1403",
+      "industry": "219:1410",
+      "guide": "219:1417",
+      "notice": "219:1424",
+      "payment": "219:1431"
+    }
+  },
+  "flowStarts": [
+    {
+      "nodeId": "218:1686",
+      "name": "01 전체 웹 탐색"
+    },
+    {
+      "nodeId": "218:3652",
+      "name": "02 가입·이메일 인증"
+    },
+    {
+      "nodeId": "218:3755",
+      "name": "03 비밀번호 재설정"
+    },
+    {
+      "nodeId": "218:3842",
+      "name": "04 주문 확인 · 결제 실행 없음"
+    },
+    {
+      "nodeId": "218:3928",
+      "name": "05 결제 결과 확인 중"
+    },
+    {
+      "nodeId": "218:4907",
+      "name": "06 공지·가이드 탐색"
+    },
+    {
+      "nodeId": "218:4711",
+      "name": "07 파트너 신청 · 후속"
+    },
+    {
+      "nodeId": "218:5237",
+      "name": "08 팀 초대 · 후속"
+    },
+    {
+      "nodeId": "218:5191",
+      "name": "09 외부 인증 취소 · 후속"
+    },
+    {
+      "nodeId": "218:3974",
+      "name": "10 찾을 수 없는 화면"
+    },
+    {
+      "nodeId": "218:4014",
+      "name": "11 일시적 오류"
+    },
+    {
+      "nodeId": "218:4057",
+      "name": "12 서비스 점검"
+    }
+  ],
+  "verification": {
+    "linkedPrototypeControls": 672,
+    "counts": {
+      "218:1686": 21,
+      "218:2699": 19,
+      "218:2848": 18,
+      "218:2977": 19,
+      "218:3095": 20,
+      "218:3232": 18,
+      "218:3325": 22,
+      "218:3403": 22,
+      "218:3500": 20,
+      "218:3601": 12,
+      "218:3652": 12,
+      "218:3712": 12,
+      "218:3755": 12,
+      "218:3796": 12,
+      "218:3842": 18,
+      "218:3928": 12,
+      "218:3974": 12,
+      "218:4014": 12,
+      "218:4057": 12,
+      "218:4103": 17,
+      "218:4222": 30,
+      "218:4309": 20,
+      "218:4410": 24,
+      "218:4508": 20,
+      "218:4711": 20,
+      "218:4805": 19,
+      "218:4907": 24,
+      "218:5006": 24,
+      "218:5079": 19,
+      "218:5191": 12,
+      "218:5237": 13,
+      "218:5285": 30,
+      "218:5388": 26,
+      "219:1438": 24,
+      "219:1339": 13,
+      "219:1368": 2,
+      "219:1375": 2,
+      "219:1382": 2,
+      "219:1389": 2,
+      "219:1396": 2,
+      "219:1403": 2,
+      "219:1410": 2,
+      "219:1417": 2,
+      "219:1424": 2,
+      "219:1431": 2,
+      "222:1452": 12
+    },
+    "missingOrInvalidDestinations": [],
+    "unreachableMainScreens": [],
+    "reachableFrames": 45,
+    "originalDesignPreservation": [
+      {
+        "id": "158:2",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5498",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5499",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5500",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5501",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5502",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5503",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5504",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5505",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5506",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5507",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5508",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5509",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5510",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5511",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5512",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5513",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5514",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "204:5515",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:503",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:504",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:505",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:506",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:507",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:508",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:509",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:510",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:511",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:512",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:513",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:514",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:515",
+        "unchanged": true,
+        "issues": []
+      },
+      {
+        "id": "209:516",
+        "unchanged": true,
+        "issues": []
+      }
+    ],
+    "copyDesignPreservation": [
+      {
+        "sourceId": "158:2",
+        "viewportId": "218:1686",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5498",
+        "viewportId": "218:2699",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5499",
+        "viewportId": "218:2848",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5500",
+        "viewportId": "218:2977",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5501",
+        "viewportId": "218:3095",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5502",
+        "viewportId": "218:3232",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5503",
+        "viewportId": "218:3325",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5504",
+        "viewportId": "218:3403",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5505",
+        "viewportId": "218:3500",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5506",
+        "viewportId": "218:3601",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5507",
+        "viewportId": "218:3652",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5508",
+        "viewportId": "218:3712",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5509",
+        "viewportId": "218:3755",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5510",
+        "viewportId": "218:3796",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5511",
+        "viewportId": "218:3842",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5512",
+        "viewportId": "218:3928",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5513",
+        "viewportId": "218:3974",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5514",
+        "viewportId": "218:4014",
+        "issues": []
+      },
+      {
+        "sourceId": "204:5515",
+        "viewportId": "218:4057",
+        "issues": []
+      },
+      {
+        "sourceId": "209:503",
+        "viewportId": "218:4103",
+        "issues": []
+      },
+      {
+        "sourceId": "209:504",
+        "viewportId": "218:4222",
+        "issues": []
+      },
+      {
+        "sourceId": "209:505",
+        "viewportId": "218:4309",
+        "issues": []
+      },
+      {
+        "sourceId": "209:506",
+        "viewportId": "218:4410",
+        "issues": []
+      },
+      {
+        "sourceId": "209:507",
+        "viewportId": "218:4508",
+        "issues": []
+      },
+      {
+        "sourceId": "209:508",
+        "viewportId": "218:4711",
+        "issues": []
+      },
+      {
+        "sourceId": "209:509",
+        "viewportId": "218:4805",
+        "issues": []
+      },
+      {
+        "sourceId": "209:510",
+        "viewportId": "218:4907",
+        "issues": []
+      },
+      {
+        "sourceId": "209:511",
+        "viewportId": "218:5006",
+        "issues": []
+      },
+      {
+        "sourceId": "209:512",
+        "viewportId": "218:5079",
+        "issues": []
+      },
+      {
+        "sourceId": "209:513",
+        "viewportId": "218:5191",
+        "issues": []
+      },
+      {
+        "sourceId": "209:514",
+        "viewportId": "218:5237",
+        "issues": []
+      },
+      {
+        "sourceId": "209:515",
+        "viewportId": "218:5285",
+        "issues": []
+      },
+      {
+        "sourceId": "209:516",
+        "viewportId": "218:5388",
+        "issues": []
+      }
+    ],
+    "browserPlayback": "브라우저 도구가 두 차례 시간 초과해 실제 클릭 재생은 검증하지 못했다. Figma API에서 저장된 연결·도달성·스크롤 대상·이미지·디자인 보존을 검수했다."
+  },
+  "behavior": [
+    "원본33개 및 사본의 공통 헤더·푸터·메뉴·주요 버튼을 연결했다. 기존 목차2개도 시연용 프레임으로 연결했다.",
+    "33개 사본은1920×1080 viewport 안에 원본과 같은 크기의 콘텐츠를 넣어 세로 스크롤한다. 원본형 디자인·시연 인스턴스 크기·글자 속성은 유지했다.",
+    "M02변경 전·후 및 미리보기 생성은 별도의 변경 후 사본으로 전환한다. 재시작은 원래 체험 화면으로 돌아간다.",
+    "가입→이메일 인증→로그인, 로그인→시연 안내→체험, 비밀번호 재설정 요청→시연 안내→새 비밀번호→로그인 흐름을 연결했다.",
+    "제품 메뉴·공지·가이드·업종·사례·파트너 탐색과 문서 목차 SCROLL_TO를 연결했다. 대표 본문이 없는 항목은 대표 화면임을 알리는 안내를 거친다.",
+    "메일·신청·설정·인쇄·결제 확인은 오버레이로 실제 실행이 없는 시연임을 안내한다. 입력 필드는 실제 텍스트 입력이나 검증을 수행하지 않는다.",
+    "판매 준비 중과 결제할 주문이 없는 버튼은 비활성 상태와 클릭 불가를 유지한다. 실제결제·발송·저장·인증·외부URL호출은없다.",
+    "현재 위치 메뉴의 상속된 잘못된 SCROLL_TO3개를 정리했다.",
+    "기존 Flow1을 유지하고12개 시작점을 추가했다. 원본을 바꾸면 시연 사본 동기화가 필요하다.",
+    "커밋·푸시하지 않았다."
+  ]
+}

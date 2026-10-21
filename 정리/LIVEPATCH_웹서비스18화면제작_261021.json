@@ -1,0 +1,502 @@
+{
+  "revision": "2026-10-21",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "156:1474",
+  "scope": "사용자가 선택한 M01 외 현재 출시 18개 PC 화면. 후속 화면은 미제작.",
+  "status": "Figma 기본 화면 디자인 및 시각·구조 검수 완료. 구현·실결제·출시 승인 아님.",
+  "sources": [
+    "LIVEPATCH_사업기획서.md 27장",
+    "LIVEPATCH_v5.6_운영화면_필드요소_상세명세.md M02–M34",
+    "docs/design.md 2026-10-21 결제 계약",
+    "정리/LIVEPATCH_사용자메뉴결제배포계약_261021.json"
+  ],
+  "preservedMaster": {
+    "id": "158:2",
+    "name": "M01 홈 랜딩 PC 1920_261021",
+    "width": 1920,
+    "height": 9899.4228515625,
+    "childCount": 13
+  },
+  "screenFrames": [
+    {
+      "code": "M02",
+      "id": "204:5498",
+      "name": "M02 라이브 샘플 체험 PC 1920_261021"
+    },
+    {
+      "code": "M06",
+      "id": "204:5499",
+      "name": "M06 호환성·지원 범위 PC 1920_261021"
+    },
+    {
+      "code": "M11",
+      "id": "204:5500",
+      "name": "M11 요금 안내 PC 1920_261021"
+    },
+    {
+      "code": "M13",
+      "id": "204:5501",
+      "name": "M13 보안·데이터 보호 PC 1920_261021"
+    },
+    {
+      "code": "M14",
+      "id": "204:5502",
+      "name": "M14 자주 묻는 질문 PC 1920_261021"
+    },
+    {
+      "code": "M20",
+      "id": "204:5503",
+      "name": "M20 이용약관 PC 1920_261021"
+    },
+    {
+      "code": "M21",
+      "id": "204:5504",
+      "name": "M21 개인정보 처리방침 PC 1920_261021"
+    },
+    {
+      "code": "M22",
+      "id": "204:5505",
+      "name": "M22 환불·해지 정책 PC 1920_261021"
+    },
+    {
+      "code": "M24",
+      "id": "204:5506",
+      "name": "M24 로그인 PC 1920_261021"
+    },
+    {
+      "code": "M25",
+      "id": "204:5507",
+      "name": "M25 회원가입 PC 1920_261021"
+    },
+    {
+      "code": "M26",
+      "id": "204:5508",
+      "name": "M26 이메일 인증 PC 1920_261021"
+    },
+    {
+      "code": "M27",
+      "id": "204:5509",
+      "name": "M27 비밀번호 재설정 신청 PC 1920_261021"
+    },
+    {
+      "code": "M28",
+      "id": "204:5510",
+      "name": "M28 새 비밀번호 설정 PC 1920_261021"
+    },
+    {
+      "code": "M30",
+      "id": "204:5511",
+      "name": "M30 결제 주문 확인 PC 1920_261021"
+    },
+    {
+      "code": "M31",
+      "id": "204:5512",
+      "name": "M31 결제 결과 확인 PC 1920_261021"
+    },
+    {
+      "code": "M32",
+      "id": "204:5513",
+      "name": "M32 페이지를 찾을 수 없음 PC 1920_261021"
+    },
+    {
+      "code": "M33",
+      "id": "204:5514",
+      "name": "M33 일시적 오류 PC 1920_261021"
+    },
+    {
+      "code": "M34",
+      "id": "204:5515",
+      "name": "M34 서비스 점검 안내 PC 1920_261021"
+    }
+  ],
+  "index": {
+    "code": "INDEX",
+    "id": "204:6884",
+    "name": "웹 서비스 화면 제작 목차_261021",
+    "width": 1920,
+    "height": 1120
+  },
+  "design": {
+    "canvasWidth": 1920,
+    "contentWidth": 1440,
+    "minViewportHeight": 1080,
+    "font": "Pretendard",
+    "sectionTitle": "56/64 SemiBold",
+    "body": "18/28 Regular",
+    "intro": "20/30 Regular",
+    "cta": "16/24 SemiBold · 52px height · 4px radius",
+    "card": "8px radius · 1px subtle inside outline · no shadow",
+    "composition": "편집 가능한 텍스트·컴포넌트·Auto Layout. M02의 사진 1개만 기존 시연 콘텐츠 이미지 재사용."
+  },
+  "integrated": {
+    "M03": "M02",
+    "M12": "M11",
+    "M04": "M01",
+    "M17": "M01"
+  },
+  "future": [
+    "M05",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M15",
+    "M16",
+    "M18",
+    "M19",
+    "M23",
+    "M29",
+    "M35",
+    "M36",
+    "M37"
+  ],
+  "unconfirmed": [
+    "유료 가격·제공 크레딧·상품 판매 준비",
+    "법무 승인 정책 원문·시행일·보존 기간·위탁 정보",
+    "실제 주문·금액·토스 PG 계약 정보·자동 갱신 여부"
+  ],
+  "validation": [
+    {
+      "id": "204:5498",
+      "name": "M02 라이브 샘플 체험 PC 1920_261021",
+      "width": 1920,
+      "height": 2393.622314453125,
+      "layout": "VERTICAL",
+      "descendants": 146,
+      "counts": {
+        "FRAME": 56,
+        "INSTANCE": 11,
+        "TEXT": 71,
+        "RECTANGLE": 8
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5499",
+      "name": "M06 호환성·지원 범위 PC 1920_261021",
+      "width": 1920,
+      "height": 2023,
+      "layout": "VERTICAL",
+      "descendants": 127,
+      "counts": {
+        "FRAME": 49,
+        "INSTANCE": 8,
+        "TEXT": 63,
+        "RECTANGLE": 7
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5500",
+      "name": "M11 요금 안내 PC 1920_261021",
+      "width": 1920,
+      "height": 2364,
+      "layout": "VERTICAL",
+      "descendants": 116,
+      "counts": {
+        "FRAME": 42,
+        "INSTANCE": 5,
+        "TEXT": 61,
+        "RECTANGLE": 8
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5501",
+      "name": "M13 보안·데이터 보호 PC 1920_261021",
+      "width": 1920,
+      "height": 2256,
+      "layout": "VERTICAL",
+      "descendants": 135,
+      "counts": {
+        "FRAME": 57,
+        "INSTANCE": 5,
+        "TEXT": 61,
+        "RECTANGLE": 12
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5502",
+      "name": "M14 자주 묻는 질문 PC 1920_261021",
+      "width": 1920,
+      "height": 2299,
+      "layout": "VERTICAL",
+      "descendants": 91,
+      "counts": {
+        "FRAME": 28,
+        "INSTANCE": 6,
+        "TEXT": 48,
+        "RECTANGLE": 9
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5503",
+      "name": "M20 이용약관 PC 1920_261021",
+      "width": 1920,
+      "height": 1807,
+      "layout": "VERTICAL",
+      "descendants": 76,
+      "counts": {
+        "FRAME": 22,
+        "INSTANCE": 4,
+        "TEXT": 45,
+        "RECTANGLE": 5
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5504",
+      "name": "M21 개인정보 처리방침 PC 1920_261021",
+      "width": 1920,
+      "height": 2054,
+      "layout": "VERTICAL",
+      "descendants": 95,
+      "counts": {
+        "FRAME": 33,
+        "INSTANCE": 4,
+        "TEXT": 50,
+        "RECTANGLE": 8
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5505",
+      "name": "M22 환불·해지 정책 PC 1920_261021",
+      "width": 1920,
+      "height": 1803,
+      "layout": "VERTICAL",
+      "descendants": 99,
+      "counts": {
+        "FRAME": 38,
+        "INSTANCE": 5,
+        "TEXT": 49,
+        "RECTANGLE": 7
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5506",
+      "name": "M24 로그인 PC 1920_261021",
+      "width": 1920,
+      "height": 1147,
+      "layout": "VERTICAL",
+      "descendants": 49,
+      "counts": {
+        "FRAME": 11,
+        "INSTANCE": 6,
+        "TEXT": 27,
+        "RECTANGLE": 5
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5507",
+      "name": "M25 회원가입 PC 1920_261021",
+      "width": 1920,
+      "height": 1231,
+      "layout": "VERTICAL",
+      "descendants": 58,
+      "counts": {
+        "FRAME": 15,
+        "INSTANCE": 6,
+        "TEXT": 29,
+        "RECTANGLE": 8
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5508",
+      "name": "M26 이메일 인증 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "layout": "VERTICAL",
+      "descendants": 41,
+      "counts": {
+        "FRAME": 10,
+        "INSTANCE": 4,
+        "TEXT": 24,
+        "RECTANGLE": 3
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5509",
+      "name": "M27 비밀번호 재설정 신청 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "layout": "VERTICAL",
+      "descendants": 39,
+      "counts": {
+        "FRAME": 10,
+        "INSTANCE": 4,
+        "TEXT": 22,
+        "RECTANGLE": 3
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5510",
+      "name": "M28 새 비밀번호 설정 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "layout": "VERTICAL",
+      "descendants": 44,
+      "counts": {
+        "FRAME": 11,
+        "INSTANCE": 5,
+        "TEXT": 24,
+        "RECTANGLE": 4
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5511",
+      "name": "M30 결제 주문 확인 PC 1920_261021",
+      "width": 1920,
+      "height": 1779,
+      "layout": "VERTICAL",
+      "descendants": 84,
+      "counts": {
+        "FRAME": 24,
+        "INSTANCE": 5,
+        "TEXT": 48,
+        "RECTANGLE": 7
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5512",
+      "name": "M31 결제 결과 확인 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "layout": "VERTICAL",
+      "descendants": 44,
+      "counts": {
+        "FRAME": 13,
+        "INSTANCE": 4,
+        "TEXT": 25,
+        "RECTANGLE": 2
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5513",
+      "name": "M32 페이지를 찾을 수 없음 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "layout": "VERTICAL",
+      "descendants": 38,
+      "counts": {
+        "FRAME": 11,
+        "INSTANCE": 4,
+        "TEXT": 21,
+        "RECTANGLE": 2
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5514",
+      "name": "M33 일시적 오류 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "layout": "VERTICAL",
+      "descendants": 41,
+      "counts": {
+        "FRAME": 12,
+        "INSTANCE": 4,
+        "TEXT": 23,
+        "RECTANGLE": 2
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:5515",
+      "name": "M34 서비스 점검 안내 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "layout": "VERTICAL",
+      "descendants": 44,
+      "counts": {
+        "FRAME": 13,
+        "INSTANCE": 4,
+        "TEXT": 25,
+        "RECTANGLE": 2
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    },
+    {
+      "id": "204:6884",
+      "name": "웹 서비스 화면 제작 목차_261021",
+      "width": 1920,
+      "height": 1120,
+      "layout": "VERTICAL",
+      "descendants": 35,
+      "counts": {
+        "TEXT": 29,
+        "RECTANGLE": 2,
+        "FRAME": 4
+      },
+      "badFonts": [],
+      "badNames": [],
+      "overflow": [],
+      "nonAuto": []
+    }
+  ],
+  "git": "커밋 및 푸시하지 않음"
+}

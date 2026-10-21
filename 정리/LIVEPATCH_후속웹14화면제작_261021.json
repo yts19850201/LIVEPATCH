@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-21",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "156:1474",
+  "status": "후속 PC 화면 14개 디자인 완료",
+  "index": {
+    "id": "212:866",
+    "name": "후속 웹 화면 제작 목차_261021",
+    "width": 1920,
+    "height": 868
+  },
+  "scope": {
+    "launch": 19,
+    "followup": 14,
+    "integrated": 4,
+    "independentFrames": 33,
+    "officialScreenIds": 37,
+    "mobileCreated": false,
+    "implementation": false
+  },
+  "frames": [
+    {
+      "code": "M05",
+      "id": "209:503",
+      "name": "M05 기능 상세 PC 1920_261021",
+      "width": 1920,
+      "height": 2650,
+      "descendants": 117,
+      "issues": []
+    },
+    {
+      "code": "M07",
+      "id": "209:504",
+      "name": "M07 업종별 활용 목록 PC 1920_261021",
+      "width": 1920,
+      "height": 1826,
+      "descendants": 85,
+      "issues": []
+    },
+    {
+      "code": "M08",
+      "id": "209:505",
+      "name": "M08 업종별 활용 상세 PC 1920_261021",
+      "width": 1920,
+      "height": 2090,
+      "descendants": 99,
+      "issues": []
+    },
+    {
+      "code": "M09",
+      "id": "209:506",
+      "name": "M09 사례·데모 갤러리 PC 1920_261021",
+      "width": 1920,
+      "height": 1851,
+      "descendants": 96,
+      "issues": []
+    },
+    {
+      "code": "M10",
+      "id": "209:507",
+      "name": "M10 사례 상세 PC 1920_261021",
+      "width": 1920,
+      "height": 2341.77783203125,
+      "descendants": 199,
+      "issues": [
+        {
+          "id": "I210:922;22:58",
+          "issue": "text-bounds"
+        },
+        {
+          "id": "I210:978;22:58",
+          "issue": "text-bounds"
+        }
+      ]
+    },
+    {
+      "code": "M15",
+      "id": "209:508",
+      "name": "M15 파트너 프로그램 PC 1920_261021",
+      "width": 1920,
+      "height": 1663,
+      "descendants": 92,
+      "issues": []
+    },
+    {
+      "code": "M16",
+      "id": "209:509",
+      "name": "M16 파트너 신청 PC 1920_261021",
+      "width": 1920,
+      "height": 1890,
+      "descendants": 100,
+      "issues": []
+    },
+    {
+      "code": "M18",
+      "id": "209:510",
+      "name": "M18 공지사항 목록 PC 1920_261021",
+      "width": 1920,
+      "height": 1684,
+      "descendants": 97,
+      "issues": []
+    },
+    {
+      "code": "M19",
+      "id": "209:511",
+      "name": "M19 공지사항 상세 PC 1920_261021",
+      "width": 1920,
+      "height": 1667,
+      "descendants": 71,
+      "issues": []
+    },
+    {
+      "code": "M23",
+      "id": "209:512",
+      "name": "M23 쿠키·추적 설정 PC 1920_261021",
+      "width": 1920,
+      "height": 2038,
+      "descendants": 110,
+      "issues": []
+    },
+    {
+      "code": "M29",
+      "id": "209:513",
+      "name": "M29 인증 연동 결과 PC 1920_261021",
+      "width": 1920,
+      "height": 1080,
+      "descendants": 44,
+      "issues": []
+    },
+    {
+      "code": "M35",
+      "id": "209:514",
+      "name": "M35 팀 초대 수락 PC 1920_261021",
+      "width": 1920,
+      "height": 1182,
+      "descendants": 46,
+      "issues": []
+    },
+    {
+      "code": "M36",
+      "id": "209:515",
+      "name": "M36 가이드·리소스 PC 1920_261021",
+      "width": 1920,
+      "height": 2074,
+      "descendants": 101,
+      "issues": []
+    },
+    {
+      "code": "M37",
+      "id": "209:516",
+      "name": "M37 가이드 상세 PC 1920_261021",
+      "width": 1920,
+      "height": 2947,
+      "descendants": 104,
+      "issues": []
+    }
+  ],
+  "visualReview": {
+    "all14FramesAndIndexReviewed": true,
+    "alignedCards": [
+      {
+        "id": "209:504",
+        "cards": [
+          {
+            "id": "210:651",
+            "bodyHeight": 56,
+            "linkY": 172
+          },
+          {
+            "id": "210:655",
+            "bodyHeight": 56,
+            "linkY": 172
+          },
+          {
+            "id": "210:659",
+            "bodyHeight": 56,
+            "linkY": 172
+          },
+          {
+            "id": "210:664",
+            "bodyHeight": 56,
+            "linkY": 172
+          },
+          {
+            "id": "210:668",
+            "bodyHeight": 56,
+            "linkY": 172
+          },
+          {
+            "id": "210:672",
+            "bodyHeight": 56,
+            "linkY": 172
+          }
+        ]
+      },
+      {
+        "id": "209:515",
+        "cards": [
+          {
+            "id": "212:697",
+            "bodyHeight": 56,
+            "linkY": 220
+          },
+          {
+            "id": "212:702",
+            "bodyHeight": 56,
+            "linkY": 220
+          },
+          {
+            "id": "212:707",
+            "bodyHeight": 56,
+            "linkY": 220
+          },
+          {
+            "id": "212:713",
+            "bodyHeight": 56,
+            "linkY": 220
+          },
+          {
+            "id": "212:718",
+            "bodyHeight": 56,
+            "linkY": 220
+          },
+          {
+            "id": "212:723",
+            "bodyHeight": 56,
+            "linkY": 220
+          }
+        ]
+      }
+    ],
+    "roundingNotes": [
+      {
+        "nodeIds": [
+          "I210:922;22:58",
+          "I210:978;22:58"
+        ],
+        "differencePx": 0.55555534362793,
+        "reason": "640px로 축소한 기존 시연 인스턴스의 텍스트 높이 반올림. 부모 clipsContent=false이며 1배 화면에서 잘림 없음."
+      }
+    ]
+  },
+  "protectedFrames": [
+    {
+      "id": "158:2",
+      "name": "M01 홈 랜딩 PC 1920_261021",
+      "signature": "fbde3108",
+      "current": "fbde3108",
+      "unchanged": true
+    },
+    {
+      "id": "204:5498",
+      "name": "M02 라이브 샘플 체험 PC 1920_261021",
+      "signature": "440ec8f1",
+      "current": "440ec8f1",
+      "unchanged": true
+    },
+    {
+      "id": "204:5499",
+      "name": "M06 호환성·지원 범위 PC 1920_261021",
+      "signature": "f973b304",
+      "current": "f973b304",
+      "unchanged": true
+    },
+    {
+      "id": "204:5500",
+      "name": "M11 요금 안내 PC 1920_261021",
+      "signature": "7f35b6da",
+      "current": "7f35b6da",
+      "unchanged": true
+    },
+    {
+      "id": "204:5501",
+      "name": "M13 보안·데이터 보호 PC 1920_261021",
+      "signature": "4b065fc0",
+      "current": "4b065fc0",
+      "unchanged": true
+    },
+    {
+      "id": "204:5502",
+      "name": "M14 자주 묻는 질문 PC 1920_261021",
+      "signature": "20a4be97",
+      "current": "20a4be97",
+      "unchanged": true
+    },
+    {
+      "id": "204:5503",
+      "name": "M20 이용약관 PC 1920_261021",
+      "signature": "23f20378",
+      "current": "23f20378",
+      "unchanged": true
+    },
+    {
+      "id": "204:5504",
+      "name": "M21 개인정보 처리방침 PC 1920_261021",
+      "signature": "ecddc40",
+      "current": "ecddc40",
+      "unchanged": true
+    },
+    {
+      "id": "204:5505",
+      "name": "M22 환불·해지 정책 PC 1920_261021",
+      "signature": "4d4e974a",
+      "current": "4d4e974a",
+      "unchanged": true
+    },
+    {
+      "id": "204:5506",
+      "name": "M24 로그인 PC 1920_261021",
+      "signature": "ffd0a407",
+      "current": "ffd0a407",
+      "unchanged": true
+    },
+    {
+      "id": "204:5507",
+      "name": "M25 회원가입 PC 1920_261021",
+      "signature": "92e10065",
+      "current": "92e10065",
+      "unchanged": true
+    },
+    {
+      "id": "204:5508",
+      "name": "M26 이메일 인증 PC 1920_261021",
+      "signature": "68b4bd5e",
+      "current": "68b4bd5e",
+      "unchanged": true
+    },
+    {
+      "id": "204:5509",
+      "name": "M27 비밀번호 재설정 신청 PC 1920_261021",
+      "signature": "7523fe2",
+      "current": "7523fe2",
+      "unchanged": true
+    },
+    {
+      "id": "204:5510",
+      "name": "M28 새 비밀번호 설정 PC 1920_261021",
+      "signature": "9ea6ca57",
+      "current": "9ea6ca57",
+      "unchanged": true
+    },
+    {
+      "id": "204:5511",
+      "name": "M30 결제 주문 확인 PC 1920_261021",
+      "signature": "2d82adc2",
+      "current": "2d82adc2",
+      "unchanged": true
+    },
+    {
+      "id": "204:5512",
+      "name": "M31 결제 결과 확인 PC 1920_261021",
+      "signature": "3d21a15d",
+      "current": "3d21a15d",
+      "unchanged": true
+    },
+    {
+      "id": "204:5513",
+      "name": "M32 페이지를 찾을 수 없음 PC 1920_261021",
+      "signature": "3c24ab55",
+      "current": "3c24ab55",
+      "unchanged": true
+    },
+    {
+      "id": "204:5514",
+      "name": "M33 일시적 오류 PC 1920_261021",
+      "signature": "fdde7a26",
+      "current": "fdde7a26",
+      "unchanged": true
+    },
+    {
+      "id": "204:5515",
+      "name": "M34 서비스 점검 안내 PC 1920_261021",
+      "signature": "d3bb94de",
+      "current": "d3bb94de",
+      "unchanged": true
+    }
+  ],
+  "notes": [
+    "M01의 색상·Pretendard·1440px 콘텐츠 폭·CTA52px·버튼 모서리4px·카드 모서리8px 기준을 재사용했다.",
+    "기존 M01 및 출시 18개 전체의 노드·크기·색상·문구·폰트 서명이 작업 전과 같다. 기존 시연 화면 크기를 유지했다.",
+    "모든 새 컨테이너는 Auto Layout이며 레이어 이름에 슬래시를 사용하지 않았다.",
+    "사례·공지·조직 정보는 예시로 표시했다. 파트너 수수료·계약 조건·추적 설정은 확정 정책과 구분했다.",
+    "후속 디자인 추가는 출시 범위 또는 기능 구현 확정을 뜻하지 않는다.",
+    "커밋·푸시하지 않았다."
+  ]
+}
