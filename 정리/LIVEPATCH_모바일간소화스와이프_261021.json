@@ -1,0 +1,740 @@
+{
+  "date": "2026-10-21",
+  "fileKey": "VwuyN75CQK9Kn0ZyIVmF4S",
+  "pageId": "119:890",
+  "scope": "기존 모바일 17개 간소화",
+  "c01JobSwiper": {
+    "scope": "C01 나이트 모바일 한 화면",
+    "rootId": "166:1688",
+    "setId": "184:3250",
+    "instanceId": "184:3255",
+    "states": [
+      {
+        "id": "184:3188",
+        "height": 242,
+        "cardHeight": 198,
+        "viewportId": "184:3189",
+        "dotsId": "184:3214"
+      },
+      {
+        "id": "184:3219",
+        "height": 242,
+        "cardHeight": 198,
+        "viewportId": "184:3220",
+        "dotsId": "184:3245"
+      }
+    ],
+    "filtersRemoved": true,
+    "height": 1455,
+    "interaction": "ON_DRAG 및 dot ON_CLICK → CHANGE_TO SMART_ANIMATE 250ms"
+  },
+  "decisions": [
+    "전역 계정·사용 가능 크레딧·테마는 전체 메뉴에만 표시. 크레딧 관리 화면의 잔액과 거래·작업 비용은 유지.",
+    "전체 메뉴는 390×844 오버레이. 계정과 크레딧 상단 고정, 메뉴 목록 독립 스크롤, 테마 하단 배치.",
+    "확인 및 도움말은 334px 카드와 12px 간격, 358px 뷰포트, 다음 카드 일부와 dot 노출.",
+    "카드별 자연 높이로 전환. dot 클릭과 ON_DRAG는 CHANGE_TO SMART_ANIMATE 250ms.",
+    "C13 운영 반영 전 카드와 C19 복원 카드 우선 노출. 필수 검증·승인·복원·결제 내용 보존.",
+    "C01 4개 화면 수정 과정 안내 기본 접힘. 클릭으로 네 단계 모두 펼침.",
+    "C01 연결 전 빈 미리보기와 C02 디자인 검토용 주석 숨김."
+  ],
+  "screens": [
+    {
+      "id": "166:1688",
+      "name": "C01 작업 허브 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2687,
+      "after": 1455,
+      "reductionPercent": 46,
+      "swiper": "181:3413",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:2253",
+      "name": "C01 작업 허브 라이트 모바일 390_261021",
+      "width": 390,
+      "before": 2697,
+      "after": 1695,
+      "reductionPercent": 37,
+      "swiper": "181:3445",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:2524",
+      "name": "C01 사이트 연결 전 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2299,
+      "after": 1159,
+      "reductionPercent": 50,
+      "swiper": "181:3477",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:2750",
+      "name": "C01 사이트 연결 전 라이트 모바일 390_261021",
+      "width": 390,
+      "before": 2311,
+      "after": 1165,
+      "reductionPercent": 50,
+      "swiper": "181:3499",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:2976",
+      "name": "C02 처음 시작 기본 정보 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2436,
+      "after": 1830,
+      "reductionPercent": 25,
+      "swiper": "181:3521",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:3214",
+      "name": "C02 처음 시작 기본 정보 라이트 모바일 390_261021",
+      "width": 390,
+      "before": 2444,
+      "after": 1836,
+      "reductionPercent": 25,
+      "swiper": "181:3555",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:3452",
+      "name": "C07 연결 인증·설정 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2575,
+      "after": 2139,
+      "reductionPercent": 17,
+      "swiper": "181:3589",
+      "cardCount": 3,
+      "overflow": []
+    },
+    {
+      "id": "166:1959",
+      "name": "C13 Visual Patch Studio 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 3102,
+      "after": 2446,
+      "reductionPercent": 21,
+      "swiper": "181:3611",
+      "cardCount": 4,
+      "overflow": []
+    },
+    {
+      "id": "168:3676",
+      "name": "C15 작업 상세·증빙 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 3241,
+      "after": 2715,
+      "reductionPercent": 16,
+      "swiper": "181:3639",
+      "cardCount": 3,
+      "overflow": []
+    },
+    {
+      "id": "166:2278",
+      "name": "C19 반영 상세·복원 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 3285,
+      "after": 2829,
+      "reductionPercent": 14,
+      "swiper": "181:3665",
+      "cardCount": 3,
+      "overflow": []
+    },
+    {
+      "id": "168:3954",
+      "name": "C20 크레딧 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2753,
+      "after": 2323,
+      "reductionPercent": 16,
+      "swiper": "181:3690",
+      "cardCount": 3,
+      "overflow": []
+    },
+    {
+      "id": "168:4186",
+      "name": "C23 결제·이용 현황 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2241,
+      "after": 1927,
+      "reductionPercent": 14,
+      "swiper": "181:3708",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:4394",
+      "name": "C25 토스페이먼츠 결제 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2049,
+      "after": 1593,
+      "reductionPercent": 22,
+      "swiper": "181:3724",
+      "cardCount": 3,
+      "overflow": []
+    },
+    {
+      "id": "168:4590",
+      "name": "C26 청구·영수증·증빙 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 3039,
+      "after": 2777,
+      "reductionPercent": 9,
+      "swiper": "181:3740",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:4847",
+      "name": "C27 구독 해지·정지 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2203,
+      "after": 1915,
+      "reductionPercent": 13,
+      "swiper": "181:3756",
+      "cardCount": 2,
+      "overflow": []
+    },
+    {
+      "id": "168:5051",
+      "name": "C33 문의 상세·대화 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2223,
+      "after": 1831,
+      "reductionPercent": 18,
+      "swiper": "181:3772",
+      "cardCount": 3,
+      "overflow": []
+    },
+    {
+      "id": "168:5255",
+      "name": "C36 프로필·보안 나이트 모바일 390_261021",
+      "width": 390,
+      "before": 2205,
+      "after": 1891,
+      "reductionPercent": 14,
+      "swiper": "181:3788",
+      "cardCount": 2,
+      "overflow": []
+    }
+  ],
+  "swiperFamilies": [
+    {
+      "rootId": "166:1688",
+      "setId": "181:658",
+      "defaultId": "181:586",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:586",
+          "height": 268,
+          "cardHeight": 224
+        },
+        {
+          "index": 2,
+          "id": "181:627",
+          "height": 342,
+          "cardHeight": 298
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:2253",
+      "setId": "181:731",
+      "defaultId": "181:659",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:659",
+          "height": 270,
+          "cardHeight": 226
+        },
+        {
+          "index": 2,
+          "id": "181:700",
+          "height": 344,
+          "cardHeight": 300
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:2524",
+      "setId": "181:776",
+      "defaultId": "181:732",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:732",
+          "height": 254,
+          "cardHeight": 210
+        },
+        {
+          "index": 2,
+          "id": "181:755",
+          "height": 344,
+          "cardHeight": 300
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:2750",
+      "setId": "181:821",
+      "defaultId": "181:777",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:777",
+          "height": 256,
+          "cardHeight": 212
+        },
+        {
+          "index": 2,
+          "id": "181:800",
+          "height": 346,
+          "cardHeight": 302
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:2976",
+      "setId": "181:888",
+      "defaultId": "181:822",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:822",
+          "height": 358,
+          "cardHeight": 314
+        },
+        {
+          "index": 2,
+          "id": "181:855",
+          "height": 454,
+          "cardHeight": 410
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:3214",
+      "setId": "181:955",
+      "defaultId": "181:889",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:889",
+          "height": 360,
+          "cardHeight": 316
+        },
+        {
+          "index": 2,
+          "id": "181:922",
+          "height": 456,
+          "cardHeight": 412
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:3452",
+      "setId": "181:1022",
+      "defaultId": "181:956",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:956",
+          "height": 196,
+          "cardHeight": 152
+        },
+        {
+          "index": 2,
+          "id": "181:981",
+          "height": 176,
+          "cardHeight": 132
+        },
+        {
+          "index": 3,
+          "id": "181:1005",
+          "height": 234,
+          "cardHeight": 190
+        }
+      ],
+      "cardCount": 3
+    },
+    {
+      "rootId": "166:1959",
+      "setId": "181:1122",
+      "defaultId": "181:1023",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1023",
+          "height": 298,
+          "cardHeight": 254
+        },
+        {
+          "index": 2,
+          "id": "181:1056",
+          "height": 228,
+          "cardHeight": 184
+        },
+        {
+          "index": 3,
+          "id": "181:1079",
+          "height": 196,
+          "cardHeight": 152
+        },
+        {
+          "index": 4,
+          "id": "181:1099",
+          "height": 234,
+          "cardHeight": 190
+        }
+      ],
+      "cardCount": 4
+    },
+    {
+      "rootId": "168:3676",
+      "setId": "181:1199",
+      "defaultId": "181:1123",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1123",
+          "height": 234,
+          "cardHeight": 190
+        },
+        {
+          "index": 2,
+          "id": "181:1154",
+          "height": 266,
+          "cardHeight": 222
+        },
+        {
+          "index": 3,
+          "id": "181:1180",
+          "height": 234,
+          "cardHeight": 190
+        }
+      ],
+      "cardCount": 3
+    },
+    {
+      "rootId": "166:2278",
+      "setId": "181:1273",
+      "defaultId": "181:1200",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1200",
+          "height": 274,
+          "cardHeight": 230
+        },
+        {
+          "index": 2,
+          "id": "181:1229",
+          "height": 170,
+          "cardHeight": 126
+        },
+        {
+          "index": 3,
+          "id": "181:1247",
+          "height": 234,
+          "cardHeight": 190
+        }
+      ],
+      "cardCount": 3
+    },
+    {
+      "rootId": "168:3954",
+      "setId": "181:1324",
+      "defaultId": "181:1274",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1274",
+          "height": 196,
+          "cardHeight": 152
+        },
+        {
+          "index": 2,
+          "id": "181:1292",
+          "height": 234,
+          "cardHeight": 190
+        },
+        {
+          "index": 3,
+          "id": "181:1309",
+          "height": 170,
+          "cardHeight": 126
+        }
+      ],
+      "cardCount": 3
+    },
+    {
+      "rootId": "168:4186",
+      "setId": "181:1356",
+      "defaultId": "181:1325",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1325",
+          "height": 170,
+          "cardHeight": 126
+        },
+        {
+          "index": 2,
+          "id": "181:1341",
+          "height": 234,
+          "cardHeight": 190
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:4394",
+      "setId": "181:1407",
+      "defaultId": "181:1357",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1357",
+          "height": 170,
+          "cardHeight": 126
+        },
+        {
+          "index": 2,
+          "id": "181:1372",
+          "height": 196,
+          "cardHeight": 152
+        },
+        {
+          "index": 3,
+          "id": "181:1390",
+          "height": 208,
+          "cardHeight": 164
+        }
+      ],
+      "cardCount": 3
+    },
+    {
+      "rootId": "168:4590",
+      "setId": "181:1439",
+      "defaultId": "181:1408",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1408",
+          "height": 196,
+          "cardHeight": 152
+        },
+        {
+          "index": 2,
+          "id": "181:1424",
+          "height": 234,
+          "cardHeight": 190
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:4847",
+      "setId": "181:1471",
+      "defaultId": "181:1440",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1440",
+          "height": 170,
+          "cardHeight": 126
+        },
+        {
+          "index": 2,
+          "id": "181:1456",
+          "height": 234,
+          "cardHeight": 190
+        }
+      ],
+      "cardCount": 2
+    },
+    {
+      "rootId": "168:5051",
+      "setId": "181:1517",
+      "defaultId": "181:1472",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1472",
+          "height": 170,
+          "cardHeight": 126
+        },
+        {
+          "index": 2,
+          "id": "181:1487",
+          "height": 170,
+          "cardHeight": 126
+        },
+        {
+          "index": 3,
+          "id": "181:1502",
+          "height": 170,
+          "cardHeight": 126
+        }
+      ],
+      "cardCount": 3
+    },
+    {
+      "rootId": "168:5255",
+      "setId": "181:1549",
+      "defaultId": "181:1518",
+      "states": [
+        {
+          "index": 1,
+          "id": "181:1518",
+          "height": 170,
+          "cardHeight": 126
+        },
+        {
+          "index": 2,
+          "id": "181:1534",
+          "height": 260,
+          "cardHeight": 216
+        }
+      ],
+      "cardCount": 2
+    }
+  ],
+  "menu": {
+    "setId": "181:4758",
+    "variants": [
+      {
+        "id": "181:4502",
+        "light": false,
+        "available": "98",
+        "height": 844
+      },
+      {
+        "id": "181:4566",
+        "light": true,
+        "available": "98",
+        "height": 844
+      },
+      {
+        "id": "181:4630",
+        "light": false,
+        "available": "100",
+        "height": 844
+      },
+      {
+        "id": "181:4694",
+        "light": true,
+        "available": "100",
+        "height": 844
+      }
+    ],
+    "overlays": [
+      {
+        "light": false,
+        "available": "98",
+        "frameId": "181:4759",
+        "instanceId": "181:4760"
+      },
+      {
+        "light": true,
+        "available": "98",
+        "frameId": "181:4816",
+        "instanceId": "181:4817"
+      },
+      {
+        "light": false,
+        "available": "100",
+        "frameId": "181:4873",
+        "instanceId": "181:4874"
+      },
+      {
+        "light": true,
+        "available": "100",
+        "frameId": "181:4930",
+        "instanceId": "181:4931"
+      }
+    ],
+    "wiredScreens": 17
+  },
+  "disclosure": {
+    "guideSetId": "181:3923",
+    "variants": [
+      {
+        "id": "181:3803",
+        "open": false,
+        "light": false,
+        "h": 76
+      },
+      {
+        "id": "181:3833",
+        "open": true,
+        "light": false,
+        "h": 390
+      },
+      {
+        "id": "181:3863",
+        "open": false,
+        "light": true,
+        "h": 78
+      },
+      {
+        "id": "181:3893",
+        "open": true,
+        "light": true,
+        "h": 392
+      }
+    ],
+    "installed": [
+      {
+        "rootId": "166:1688",
+        "id": "181:3928"
+      },
+      {
+        "rootId": "168:2253",
+        "id": "181:3934"
+      },
+      {
+        "rootId": "168:2524",
+        "id": "181:3940"
+      },
+      {
+        "rootId": "168:2750",
+        "id": "181:3946"
+      }
+    ]
+  },
+  "qa": {
+    "screens": 17,
+    "slideStates": 42,
+    "unexpectedHorizontalOverflow": 0,
+    "cardViewportHeightMismatch": 0,
+    "bodyCreditDuplicate": 0,
+    "bodyCreditException": "C20 크레딧 관리 본문",
+    "visualReviewed": [
+      "C01 나이트",
+      "C01 라이트",
+      "C01 연결 전",
+      "C02 나이트",
+      "C13 나이트",
+      "C19 나이트",
+      "전체 메뉴 나이트"
+    ],
+    "note": "Figma 디자인 및 프로토타입 연결. 실제 웹 Swiper 라이브러리와 앱 메뉴 구현은 수행하지 않음."
+  }
+}
